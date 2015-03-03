@@ -1,0 +1,89 @@
+---
+layout: page
+description: "Hello, my Name is LucasGatsas. I'm a UI/UX Designer & Front-End Engineer based in the City of Saint Gallen, Switzerland."
+feature: abstract-1.jpg
+header-img: 
+
+---
+
+<div class="content">
+  {% for post in paginator.posts %}
+    <article>
+			<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;">  
+				{% if post.image.header-img %}
+				<div class="intro-header">
+					<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }}"></a>
+				</div>
+				{% endif %}
+				<div class="post-meta">
+					<span class="entry-date date published updated">
+						<time datetime="{{ post.date | date_to_xmlschema }}">
+							<a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
+						</time>
+					</span>
+					<span class="author vcard">
+						<span class="fn">
+							<a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
+						</span>
+					</span>
+						{% if site.reading_time %}
+						<span class="entry-reading-time">
+							<i class="fa fa-clock-o"></i>
+							{% assign readtime = post.content | number_of_words | divided_by:site.words_per_minute %}
+							Reading time ~{% if readtime <= 1 %}1 minute{% else %}{{ readtime }} minutes{% endif %}
+						</span>
+						{% endif %}
+				</div>
+		
+				{% if post.link %}
+				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+				{% else %}
+				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+								<h1 class="post-title-readmore"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url" id="readmore-link"> ReadMore</a></h1>
+
+				{% endif %}
+			</header>
+
+
+    </article>
+	<article class="container hentry">
+		<div class="entry-content">
+			{{ post.content }}
+		</div>
+	</article>
+
+  {% endfor %}
+
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a href="{{ site.siteurl }}/">&laquo; Prev</a>
+      {% else %}
+        <a href="{{ site.siteurl }}/page{{ paginator.previous_page }}/">&laquo; Prev</a>
+      {% endif %}    
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class='next' href="{{ site.siteurl }}/page{{ paginator.next_page }}/">Next &raquo;</a>
+    {% else %}
+      <span class='next'>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+
+
+<script src="{{ site.siteurl }}/js/jquery-1.11.1.js"></script>
+<script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
+
+<script type="text/javascript">
+// content selector is used to extract the additional items 
+$('.content').jscroll({
+    contentSelector: ".content",
+    nextSelector: '.next'
+});
+</script>

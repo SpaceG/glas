@@ -1,0 +1,55 @@
+---
+layout:     post
+title:      "WCAG 2.0 on Color Contrast - Ratio"
+subtitle:   "hsla(200,0%,0%,.7) - Ratio"
+date:       2015-01-14 14:00:44
+author:     "Lucas Gatsas"
+header-img: "img/lucas-gatsas-17.jpg"
+---
+<h2 class="section-heading">WCAG 2.0 on Color Contrast - Guideline 1.4 Distinguishable: Make it easier for users to see and hear content including separating foreground from background.</h2>
+
+
+A Good Friend of me gave me a good Tip yesterday about the Failure in White Font Colors on Ratio Contrast. There are some Colors which give you a failure output, but the strange thing is, the most web dev don't know it about. You can read here some Introductions and Details about the right Color Contrast Ration Effect. Go See [Lea Verou](http://lea.verou.me/) Awesome Doc about Ratio: 
+[WCAG 2.0 on Color Contrast - Ratio](http://leaverou.github.io/contrast-ratio/)
+
+There is a nice Docs too on W3 [W3.org Docs - WCAG 2.0 on Color Contrast - Ratio](http://www.w3.org/TR/WCAG/#visual-audio-contrast) 
+
+<!--
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/static.squarespace.jpg" alt="Post Sample Image">
+</a>
+-->
+
+
+<!--
+<a href="#">
+    <img src="{{ site.baseurl }}/img/gitlist.io.png" alt="Post Sample Image">
+</a> -->
+
+<h2 class="section-heading">WCAG 2.0 on Color Contrast</h2>
+
+
+
+
+
+
+
+<blockquote>UNIX was not designed to stop its users from doing stupid things, as that would also stop them from doing clever things.
+
+        — Doug Gwyn
+
+</blockquote>
+
+
+<!-- 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/jekyllthemewhite.png" alt="Post Sample Image">
+</a> 
+
+
+
+ -->
+
+
+

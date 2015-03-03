@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>l.g</title>
+    <description>Hello, my Name is @LucasGatsas. I&#39;m a Designer &amp; Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!</description>
+    <link>https://spaceg.github.io/</link>
+    <atom:link href="https://spaceg.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 02 Mar 2015 13:49:02 +0100</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 13:49:02 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>My Playlist</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;My Playlist&lt;/h2&gt;
+
+&lt;p&gt;I hear a lot of Music. Here is a Playlist from January - March. &lt;/p&gt;
+
+&lt;p&gt;Artist: &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Kryptic Minds&lt;/strong&gt; - Can’t Sleep&lt;/p&gt;
+
+&lt;p&gt;Tracks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=7Z_4w-34uA0&quot;&gt;Kryptic Minds - Can’t Sleep&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=N_tI6sy860U&quot;&gt;Kryptic Minds - Just After Sunset&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=3ENNbC_UmEM&amp;amp;list=RD3ENNbC_UmEM&quot;&gt;Kryptic Minds - Six Degrees&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Artist: &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Burial&lt;/strong&gt;  &amp;amp; Kode9 &lt;/p&gt;
+
+&lt;p&gt;Tracks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=T1NHN_ZH3wc&quot;&gt;Burial - Loner&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=xXEPPpLMONk&quot;&gt;Burial - Fostercare&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_MigURCQQA0&quot;&gt;Burial - Ghost Hardware&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=hBlKpshuIA8&quot;&gt;Burial - Distant Lights&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Artist: &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Solar Fields&lt;/strong&gt; - The Sight is White&lt;/p&gt;
+
+&lt;p&gt;Tracks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=K77vHPno2pU&quot;&gt;Solar Fields - The Sight is White&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=OXzeOLGXJeo&quot;&gt;Solar Fields - Discovering&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2OLGyHRJMlw&quot;&gt;Solar Fields - Magic Eye&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Artist: &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;H.U.V.A Network&lt;/strong&gt; - Tokio&lt;/p&gt;
+
+&lt;p&gt;Tracks:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JNUHSchOszs&quot;&gt;H.U.V.A. Network - Dissolving Time&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JezJJbz0LXg&quot;&gt;H.U.V.A. Network - Indigo Room&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=--DhQ-cfls4&quot;&gt;H.U.V.A. Network - Overload&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=U97mOXEppqI&quot;&gt;H.U.V.A Network live at Les Dominicains 2/6-07&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+And my Favorite Radio Chanel !
+&lt;a href=&quot;http://hbr1.com/&quot;&gt;hbr1.com the best Psychedelic do you can get it. -&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;blockquote&gt;
+“Without Music, Life would be a Mistake.” 
+― Friedrich Nietzsche &lt;/blockquote&gt;
+</description>
+        <pubDate>Sun, 01 Mar 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/03/01/my-playlist-january-march/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/03/01/my-playlist-january-march/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Worktime Tracking App from Havest App</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Tracking your Worktime &lt;/h2&gt;
+
+&lt;p&gt;I have discovered a good App to track the Work Time. Go See &lt;a href=&quot;https://harvestapp.com/&quot;&gt;harvestapp.com&lt;/a&gt;. So far I have used a small Script. I need a clean Time Counter and Harvest App is perfect for. Now i decide to sign up to &lt;a href=&quot;https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime&quot;&gt;spaceggithubio.harvestapp.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Links 
+&lt;a href=&quot;https://spaceggithubio.harvestapp.com/account/login?return_to=%2Ftime&quot;&gt;spaceggithubio.harvestapp.com&lt;/a&gt; &lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Links 
+&lt;a href=&quot;https://harvestapp.com/&quot;&gt;harvestapp.com&lt;/a&gt; &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Tracking &lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/wf1.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
+&lt;a href=&quot;http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html&quot;&gt;Count Lines of Code in Mac OS X&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; find . -type f -name &#39;*.php&#39; -exec awk &#39;END {print NR}&#39; &#39;{}&#39; + 2&amp;gt;/dev/null | awk &#39;{ total+=$1 }END{print total}&#39; &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I have found another Terminal Command &lt;a href=&quot;http://cloc.sourceforge.net/&quot;&gt;CLOC&lt;/a&gt; Count Lines of Code! You can download it directly @ Sourceforge 
+&lt;a href=&quot;http://sourceforge.net/projects/cloc/files/&quot;&gt;sourceforge.net&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;It’s easy to install on OS X:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ brew install cloc &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And on Debian-based Linuxes:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ aptitude install cloc &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;To use it, simply cd into the root directory and run:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ cloc .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/cloc-redacted.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can, of course, customize the poop out of it as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cloc --help&lt;/code&gt; to nerd out.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quick and easy way to show the current Git branch on your command prompt&lt;/p&gt;
+
+&lt;p&gt;If you work with lots of branches in Git it is nice to be able to see at a glance which branch you are on instead of typing git branch each time. Here are 4 quick lines you can add to your bash prompt that will show the current branch. You will need to edit your user bash config which can be in different locations depending on your operating system.&lt;/p&gt;
+
+&lt;p&gt;OS X: &lt;code&gt; ~/.profile &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Linux General:  &lt;code&gt; ~/.bash_profile &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;~ represents the path to your user home directory. For my  &lt;code&gt;user, spaceodyssey, &lt;/code&gt; on OS X the path is &lt;code&gt; /Users/home/spaceodyssey. &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Add in the file the following lines:
+&lt;code&gt;
+parse_git_branch() {
+       git branch 2&amp;gt; /dev/null | sed -e &#39;/^[^*]/d&#39; -e &#39;s/* \(.*\)/ (\1)/&#39;
+}
+export PS1=&quot;\u@\h \W\[\033[31m\]\$(parse_git_branch)\[\033[00m\] $ &quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Restart your terminal and change directories to your repository and you should now see the branch in parenthesis at the end of your prompt.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;And Today i hit the 1000 K of contribrutions on Github! &lt;a href=&quot;https://github.com/spaceg&quot;&gt;github.com/spaceg&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/1001k.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;8 Club Mate&#39;s&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;188 Coffees&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;231 Hours&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;7198 Lines of Code&lt;/h2&gt;
+
+&lt;blockquote&gt;
+“Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 27 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/27/worktime-tracking-harvest-app/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/27/worktime-tracking-harvest-app/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Virtual Servers Set Up on Digital Ocean</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Watching for Virtual Servers &lt;/h2&gt;
+
+&lt;p&gt;Last Week we were in search of Virtual Servers for our new Start Up. There are many good Host - Providers. In the End we decide it for Digital Ocean a (Digital Company from New York City U.S.A.)
+They have good Virtual Servers up for Web Developers etc. Over 400,000 developers have deployed to Digital Ocean Cloud.  &lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Oceans&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;They Say : 
+SSD-Only Cloud
+We’ve created the fastest and most convenient cloud technology to help you easily and more efficiently manage your infrastructure so you can get back to coding. We provide all of our users with high-performance SSD Hard Drives, a flexible API, and the ability to select the nearest data center location.&lt;/p&gt;
+
+&lt;p&gt;We Started with $ 10 / mo - 1GBMemory - 1 CoreProcessor - 30GBSSD Disk - 2TBTransfer&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Links 
+&lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;Digital Oceans&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/digital_ocean.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+I know it’s stressful being a CEO, but you have to celebrate with your team. Set goals earlier on that you can hit to build the team’s confidence in their ability to achieve them and your ability to properly set them.”
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 26 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/26/virtual-servers-for-start-ups-digital-ocean/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Work Static from our Start Up</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Static&lt;/h2&gt;
+
+&lt;p&gt; Since exact from the 1. of January till now we have spend alot of Time in our Start Up. We have worked every Day on our Start Up. Now we are in the middle of our Code. Glad to have the strong Part behind us. I have done the most Front-End Work and Javascript details. I&#39;m going to start with the Design, the Hardwork of the Design which takes a lot of Time. I needed 10 hours for Design and Layout, later I chose the main Colors, the Fonts which I have changed many Times. A good Layout and Design needs a lot of Times!&lt;/p&gt;
+
+&lt;p&gt;
+My Days looks like at the Moment, Wake Up in The Morning most Time (07:00), if I slept, because in the last Days, I work during the Day and at Night. My Sleeprhythm are exactly 6 - 8 hours per Day. Nothing more.. i can&#39;t even sleep more than 6 -8 Hours per Day. Then I speak a few details with Giancarlo. Then Write some New Code and do re-design of the current Layout.
+
+
+	&lt;/p&gt;
+
+&lt;p&gt; 
+Between Start Up and Study. 
+Some People ask me how do you do that? how do you can work so long..? My Answer is, I love what I do, this is the most secret. Find anything  what do you Love and make it big. starts small. everyone is beginning difficult. - this is definitely a good motivation necessary for the start. - sometimes I wish I could make other details! But everything has a Sense. Also to be alone all the Time? - I am athlete and have simply by nature much more energy in me. I love create things which one are never done before. - And you must be also too very concentrated, flexible, bouncy, discipline, well-disciplined, self-disciplined to do that and there are some Rules too, to be a good Front-End Web Weveloper/ Ui/Ux Interface Developer. 
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;p&gt;
+
+	&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;8 Club Mate&#39;s&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;188 Coffees&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;231 Hours&lt;/h2&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;7198  Lines of Code&lt;/h2&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+“Be really picky with your hiring, and hire the absolute best people you possibly can. People are the most important component of almost every business, and attracting the best talent possible is going to make a huge difference.”
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 23 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/23/work-static/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/23/work-static/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Subdomain Name for Github</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Setting up a custom domain with GitHub Pages&lt;/h2&gt;
+
+&lt;p&gt;Get Read with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the NextDays or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - &lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
+&lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+We strongly recommend that you use a custom subdomain for these reasons:&lt;/p&gt;
+
+&lt;p&gt;It gives your GitHub Pages site the benefit of our Content Delivery Network.&lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network. -Wikipedia&lt;/a&gt;
+It will not be affected by changes in the underlying IP addresses of GitHub’s servers.
+Pages will load significantly faster because &lt;a href=&quot;http://en.wikipedia.org/wiki/Denial-of-service_attack&quot;&gt;Denial-of-service Attack&lt;/a&gt; protection can be implemented more efficiently.&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt;Apex Domains&lt;/h2&gt;
+&lt;p&gt;An apex domain is usually configured with an &lt;code&gt;A&lt;/code&gt;, &lt;code&gt;ALIAS&lt;/code&gt;, or &lt;code&gt;ANAME&lt;/code&gt; record through your DNS provider and is often assigned to one or more IP addresses.&lt;/p&gt;
+
+&lt;p&gt;I will set up my  Apex Domain @ Github, because i do host my Stuff and Website on Github. - There also some Points to set up one to your  Repositories. So far i have create a &lt;a href=&quot;https://help.github.com/articles/user-organization-and-project-pages/&quot;&gt;User, Organization, and Project Pages&lt;/a&gt;. Which one can do everybody, if you have a Github account. You need also One to get Set Up your &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;About custom domains for GitHub Pages sites&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re using a &lt;a href=&quot;https://help.github.com/articles/about-custom-domains-for-github-pages-sites/&quot;&gt;Custom Domain&lt;/a&gt; to redirect your GitHub Pages site, you must create and commit a CNAME file to your GitHub Pages repository that contains the custom domain.
+&lt;a href=&quot;https://help.github.com/articles/adding-a-cname-file-to-your-repository/&quot;&gt;Adding a CNAME file to your Repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. - &lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;blockquote&gt;
+Hackers are breaking the systems for profit. Before, it was about intellectual curiosity and pursuit of knowledge and thrill, and now hacking is big business. - Kevin Mitnick 
+
+	
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sun, 22 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/22/subdomain-github/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/22/subdomain-github/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Design Workflow UI/UX</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Design UI/UX Interface &lt;/h2&gt;
+
+&lt;p&gt;
+Update Post Soon. Stay in Space. 
+
+	&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/uiux-design-diagram.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+	&quot;I Closely Follow Everthing about User Interface Or Human-Computer Interface:
+	Technology That Makes Computers Closer to the Way Human Being Actually Functions&quot; - Francois -Henri Pinault Lifehack Quotes
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 21 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/21/design-work-flow-ui-ux/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>.io - Domains</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;.io Domains @ Namecheap.com&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m decide to Set Up our Domian Names @ Namecheap.com &lt;a href=&quot;https://www.namecheap.com/&quot;&gt;Namecheap.com&lt;/a&gt;. A good Company from Los Angeles U.S.A. &lt;/p&gt;
+
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;
+
+&lt;p&gt;Get Amazing Fast Support and Like Namecheap really. - &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/startup_docu_4.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/domian_name_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;!--
+Nice Conversation with Giancarlo :) - 
+
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/startup_docu.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/.io&quot;&gt;.io Article @ Wikipedia&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+
+	&quot;IO is also commonly used in IT as an abbreviation for input/output, which makes the .io domain useful for domain hacks and services wanting to be associated with technology.[14]&quot;
+
+	As with most domains, many .io domains are bought by third parties who do not intend to use them for websites. There is no exact figure of how many of the .io-domains that have been bought that are actually in use, but there have been multiple cases in which .io-domains have been sold for substantial amounts of money.
+
+	.io domains may not be used &quot;for any purpose that is sexual or pornographic or that is against the statutory laws of any Nation&quot;. Breaching this requirement &quot;NIC.IO reserves the right to immediately deactivate the offending registration&quot;.[11]
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Sat, 14 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/14/io-domians/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/14/io-domians/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How many Hours do you sleep?</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;Work Easy and Strong on your Project.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/punsh_card.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This is my Punsh- Card at GitHub, i got a Culture Shock about myself :)! Okey, i think this Statitic say everything. 
+I believe in good Work and good Learning everyday Code and write everyday code till your fingers are blue. ;) ! More to come soon.&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;How many hours sleep you at Night or @ Day? Tell Me &amp;gt;&amp;gt; &lt;a href=&quot;https://twitter.com/hashtag/webdevelopment?src=hash&quot;&gt;#webdevelopment&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/frontend?src=hash&quot;&gt;#frontend&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/webdev?src=hash&quot;&gt;#webdev&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/startuo?src=hash&quot;&gt;#startuo&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/developer?src=hash&quot;&gt;#developer&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/programmers?src=hash&quot;&gt;#programmers&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564961794427736064&quot;&gt;10. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/googleanalstic.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Tue, 10 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/10/github-punsh/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/10/github-punsh/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>y-combinator Hacker News</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;My CleanMagic Theme @ Hacker News&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/y-hacker-news-lg-001.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+--&gt;
+
+&lt;p&gt;My Article @ Hacker News Y Combinator - Silicon Valley. 
+&lt;a href=&quot;https://news.ycombinator.com/item?id=9019283&quot;&gt;news.ycombinator.com&lt;/a&gt; and 
+&lt;a href=&quot;https://news.ycombinator.com/newest&quot;&gt;Hacker News List&lt;/a&gt; &lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://t.co/2cM3esdQ0i&quot;&gt;https://t.co/2cM3esdQ0i&lt;/a&gt; :) &lt;a href=&quot;https://twitter.com/hashtag/jekyll?src=hash&quot;&gt;#jekyll&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/theme?src=hash&quot;&gt;#theme&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/github?src=hash&quot;&gt;#github&lt;/a&gt; &lt;a href=&quot;https://twitter.com/LucasGatsas&quot;&gt;@LucasGatsas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/GSoverini&quot;&gt;@GSoverini&lt;/a&gt; &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; &lt;a href=&quot;https://twitter.com/Blueberrydigi1&quot;&gt;@Blueberrydigi1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564572577608519681&quot;&gt;8. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&quot;twitter-tweet tw-align-center&quot; data-link-color=&quot;#666&quot; lang=&quot;de&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; thanks &lt;a href=&quot;https://twitter.com/_agtlucas&quot;&gt;@_agtlucas&lt;/a&gt; :) ! download it :D and do what do you want. :)&lt;/p&gt;&amp;mdash; Lucas Gatsas (@LucasGatsas) &lt;a href=&quot;https://twitter.com/LucasGatsas/status/564575255684190208&quot;&gt;9. Februar 2015&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;If you want you can downlaod my (Clean Magic) Theme for Jekyll. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/CleanMagic&quot;&gt;Download&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spaceg.github.io/&quot;&gt;See Demo Theme&lt;/a&gt; &lt;/p&gt;
+
+&lt;!--
+&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/y-hacker-news-lg-002.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot;&gt;
+&lt;/a&gt;
+
+--&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Mon, 09 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/09/ycombinator-hacker-news/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Our New Start Up</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;We currently working on it.&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;!--
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/9k=.jpg&quot; alt=&quot;&quot;&gt;  &lt;h3&gt;Helen V. Holmes
+                    &lt;small&gt;Designer and Front-End Web Developer @Capital One - U.S.A&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/project_01.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/project_02.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/a&gt; &lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/Snapshot_20120128_4.jpg&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Giancarlo
+                    &lt;small&gt;&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-lg-4 col-sm-12 text-center&quot;&gt;&lt;img class=&quot;img-circle img-responsive img-center&quot; src=&quot;/img/lucas-gatsas.png&quot; alt=&quot;&quot; style=&quot;width:190px;text-align:center;&quot; /&gt;  &lt;h3&gt;- Gatsas
+                    &lt;small&gt;&lt;/small&gt;
+                &lt;/h3&gt;&lt;/div&gt;
+        &lt;div class=&quot;col-md-4&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+
+&lt;p&gt;First Pictures from our Private Repositorie, the Introduction from our New Start Up {Web Application}. Giancarlo and Me goes Crazy. - :) Specially, we are set up &lt;a href=&quot;http://backbonejs.org/&quot;&gt;Backbone.js&lt;/a&gt; right now.
+So, we can see our daily Workflow till now, but i think it will be alot more in the next Days.&lt;/p&gt;
+
+&lt;blockquote&gt;&quot;You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It&#39;s Logic -Based Creativity&quot;
+
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Thu, 05 Feb 2015 15:00:44 +0100</pubDate>
+        <link>https://spaceg.github.io/2015/02/05/my-start-up/</link>
+        <guid isPermaLink="true">https://spaceg.github.io/2015/02/05/my-start-up/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

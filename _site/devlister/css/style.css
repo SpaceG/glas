@@ -1,0 +1,36 @@
+body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+display: table;
+width: 100%;
+height: 100%;
+
+
+}
+
+
+.intro {
+height: 100%;
+padding: 0;
+}
+.intro {
+display: table;
+width: 100%;
+height: auto;
+padding: 100px 0;
+text-align: center;
+color: #fff;
+background: url(../img/trianglify-background.svg) no-repeat bottom center scroll;
+background-color: #000;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+}
+
+.intro .intro-body {
+display: table-cell;
+vertical-align: middle;
+}
