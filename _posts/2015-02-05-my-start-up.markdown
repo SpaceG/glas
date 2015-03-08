@@ -57,10 +57,10 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 
 
-First Pictures from our Private Repositorie, the Introduction from our New Start Up {Web Application}. Giancarlo and Me goes Crazy. - :) Specially, we are set up [Backbone.js](http://backbonejs.org/) right now.
-So, we can see our daily Workflow till now, but i think it will be alot more in the next Days.
+First Pictures from our Private Repositorie, the Introduction from our New Start Up. Giancarlo and Me goes Crazy. Specially, we are set up [Backbone.js](http://backbonejs.org/) right now.
+We can see our Way of working, but it will be several Days and Nights.
 
-
+<br>
 
 <blockquote>"You Might Not Think That Programmers Are Artist, But Programmers Is An Extremely Creative Profession. It's Logic -Based Creativity"
 

@@ -4,7 +4,7 @@ title:      "Worktime Tracking App from Havest App"
 subtitle:   "Track your Worktime"
 date:       2015-02-27 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/adam.jpg"
+header-img: "img/game_of_thrones_daenerys_targaryen-1548001.jpg"
 ---
 <h2 class="section-heading">Tracking your Worktime </h2>
 
@@ -115,15 +115,16 @@ And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](http
 
 <br><br>
 
-<h2 class="section-heading">8 Club Mate's</h2>
+<h2 class="section-heading">11 Club Mate's</h2>
 
-<h2 class="section-heading">190 Coffees</h2>
+<h2 class="section-heading">192 Coffees</h2>
 
-<h2 class="section-heading">238 Hours</h2>
+<h2 class="section-heading">254 Hours</h2>
 
-<h2 class="section-heading">7324 Lines of Code</h2>
+<h2 class="section-heading">7479 Lines of Code</h2>
 
 
+<br><br>
 
 <blockquote>
 “Make every detail perfect and limit the number of details to perfect.” -Jack Dorsey, Twitter co-founder

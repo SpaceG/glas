@@ -14,7 +14,7 @@ header-img: "img/lucas-gatsas-18.jpg"
 
 <br>
 
-I'm decide to Set Up our Domian Names @ Namecheap.com [Namecheap.com](https://www.namecheap.com/). A good Company from Los Angeles U.S.A. 
+We have registered our Domian Names @ Namecheap.com [Namecheap.com](https://www.namecheap.com/). A good Company from Los Angeles U.S.A. 
 
 
 

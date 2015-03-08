@@ -4,7 +4,7 @@ title:      "My Playlist"
 subtitle:   "Music"
 date:       2015-03-01 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/adam.jpg"
+header-img: "img/lucasgatsas-18.jpg"
 ---
 <h2 class="section-heading">My Playlist</h2>
 

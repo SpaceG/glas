@@ -10,8 +10,7 @@ header-img: "img/img_3182.jpg"
 
 
 This is a Article about my Fonts Experiments. I Work alot with Fonts in the Front-End Work and Design. 
-I can spend of hours with these Fonts. Sometimes i don't like it to purchase a Font?! - Why i should Purchase one?
-This is the Way, i decide to use Google Fonts with their Library of Fonts. - 
+I can spend of hours with these Fonts. I mostly use the fonts from google with their Library and Collections of Fonts. - 
 Please Have take alook. [Google Fonts](https://www.google.com/fonts)  
 
 This Blog are use the Style Fonts 
