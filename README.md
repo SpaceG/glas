@@ -11,12 +11,18 @@ Blogware : Jekyll <br>
 
 [Demo](https://spaceg.github.io/) 
 
+
+[Download Theme](https://github.com/SpaceG/iceandfire/) 
+
+
 ![alt tag](https://spaceg.github.io/img/lucas-gatsas-clean-magic-jekyll-theme.png)
 
 
-CleanMagic Theme by Lucas Gatsas Di. 3.Feb. 2014, Switzerland, TimeGrade 01:33:28 
+Ice and Fire Theme by Lucas Gatsas Di. 1. March. 2015, Switzerland, TimeGrade 02:48:33
 Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
 Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
+
+<strong> Downlaod the Jekyll Source </strong> 
 
 [Jekyll](http://jekyllrb.com/) 
 

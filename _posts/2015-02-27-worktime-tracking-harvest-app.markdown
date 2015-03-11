@@ -35,6 +35,22 @@ I have discovered a good App to track the Work Time. Go See [harvestapp.com](htt
 </a>
 
 
+<a href="#">
+    <img src="{{ site.baseurl }}/img/week1.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/week3.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+<a href="#">
+    <img src="{{ site.baseurl }}/img/week2.png" alt="Post Sample Image" style="width:100%">
+</a>
+
+
+
 I got this Script to Count Lines of Code of our Start Up. We write alot of Code and Lines.
 [Count Lines of Code in Mac OS X](http://www.experimentgarden.com/2010/06/count-lines-of-code-in-mac-os-x.html) 
 
@@ -115,11 +131,11 @@ And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](http
 
 <br><br>
 
-<h2 class="section-heading">11 Club Mate's</h2>
+<h2 class="section-heading">12 Club Mate's</h2>
 
-<h2 class="section-heading">192 Coffees</h2>
+<h2 class="section-heading">196 Coffees</h2>
 
-<h2 class="section-heading">254 Hours</h2>
+<h2 class="section-heading">261 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
 
