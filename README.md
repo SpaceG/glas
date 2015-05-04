@@ -7,6 +7,11 @@ Created: 01.03.2015 <br>
 Version: V.0.0.2 <br>
 Blogware : Jekyll <br>
 
+Download it <code> git clone https://github.com/SpaceG/iceandfire.git</code>
+
+Download it, open it with Terminal and run <code> jekyll serve </code> 
+Have Fun! Please Star it and Fork it! 
+Cheers with Club Mate!
 
 
 
