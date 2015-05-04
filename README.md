@@ -4,12 +4,10 @@ Ice&amp;Fire - Jekyll Theme
 My New Jekyll Theme <br>
 ICE&FIRE <br>
 Created: 01.03.2015 <br>
-Version: V.0.0.1 <br>
+Version: V.0.0.2 <br>
 Blogware : Jekyll <br>
 
 
-
-[Demo](https://spaceg.github.io/) 
 
 
 [Download Theme](https://github.com/SpaceG/iceandfire/) 
@@ -27,6 +25,10 @@ Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting
 [Jekyll](http://jekyllrb.com/) 
 
 [OpenSource Jekyll](https://github.com/jekyll/jekyll) 
+
+
+
+Last Update: Mo. 4. Mai . 2015 
 
 
 
