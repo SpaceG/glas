@@ -1,22 +1,14 @@
 {
-       "name": "clean-blog-science-medium",
-    "title": "clean blog science medium",
-    "version": "1.0.0",
+       "name": "ice and fire",
+    "title": "ice and fire jekyll theme",
+    "version": "0.0.2",
     "homepage": "http://spaceg.github.io",
     "author": "Lucas Gatsas",
     "license": {
         "type": "Apache 2.0",
         "url": "https://github.com/spaceg"
     },
-    "name": "clean-blog",
-    "title": "Clean Blog",
-    "version": "1.0.0",
-    "homepage": "http://startbootstrap.com",
-    "author": "Start Bootstrap",
-    "license": {
-        "type": "Apache 2.0",
-        "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
-    },
+   
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
@@ -26,6 +18,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+        "url": "https://github.com/SpaceG/iceandfire.git"
     }
 }
