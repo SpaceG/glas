@@ -15,7 +15,7 @@ Blogware : Jekyll <br>
 [Download Theme](https://github.com/SpaceG/iceandfire/) 
 
 
-![alt tag](https://spaceg.github.io/img/lucas-gatsas-clean-magic-jekyll-theme.png)
+![alt tag](https://spaceg.github.io/img/iceandfire.png)
 
 
 Ice and Fire Theme by Lucas Gatsas Di. 1. March. 2015, Switzerland, TimeGrade 02:48:33
