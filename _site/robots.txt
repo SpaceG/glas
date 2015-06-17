@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+
+Sitemap: http://lucasgatsas.ch/sitemap.xml
+Sitemap: http://lucasgatsas.ch/image-sitemap.xml
