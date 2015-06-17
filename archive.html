@@ -27,7 +27,7 @@ padding-top: 100px;
                       <ul class="past">
                       {% endif %}
                       {% endunless %}
-                      <li><time>{{ post.date | date:"%d %b" }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
+                      <li><time>{{ post.date | date:"%d %b" }}</time> <a href="{{ post.url }}" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">{{ post.title }}</a></li>
                       {% endfor %}
                       </ul>
                       <!--    <hr class="small"> -->
