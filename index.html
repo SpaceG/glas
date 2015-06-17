@@ -9,10 +9,10 @@ header-img:
 <div class="content">
   {% for post in paginator.posts %}
     <article>
-			<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;">  
+			<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ post.header-img }}')" style="margin-bottom:-40px;" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas">  
 				{% if post.image.header-img %}
 				<div class="intro-header">
-					<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }}"></a>
+					<a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.baseurl }}/img/{{ post.image.header-img }}" alt="{{ post.title }} Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"></a>
 				</div>
 				{% endif %}
 				<div class="post-meta">
@@ -36,20 +36,61 @@ header-img:
 				</div>
 		
 				{% if post.link %}
-				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
+				<h1 class="post-title" id="post-title-h1"><a href="{{ site.url }}{{ post.url }}" class="permalink" rel="bookmark" title="{{ post.title }}"><i class="fa fa-bookmark"></i></a> <a href="{{ post.link }}">{{ post.title }}</a></h1>
 				{% else %}
-				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
+				<h1 class="post-title"><a href="{{ site.url }}{{ post.url }}" id="post-title-h1" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h1>
 								<h1 class="post-title-readmore"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url" id="readmore-link"> ReadMore</a></h1>
 
 				{% endif %}
 			</header>
-
 
     </article>
 	<article class="container hentry">
 		<div class="entry-content">
 			{{ post.content }}
 		</div>
+
+
+		
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'lucasgatsas2015';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+		<br>
+
+
+
+ <div class="[ col-xs-12 ] meine-visitenkarte"
+ style="  background-color: #F7F7F7;
+padding-left: 20px;
+padding-bottom: 20px;
+border-radius: 4px;
+padding-top: 20px;
+text-align: -webkit-center;
+line-height: 30px;
+border: 1px solid rgba(0, 0, 0, 0.09);
+  ">
+	<td colspan="999">
+	    <a href="">Lucas Gatsas  </a> 
+	    <a href=""><strong>UI/UX Designer & Front-End Engineer</strong> </a> 
+		<a class="no-border" href=""><img src="{{ site.baseurl }}/img/zLAW5YPs_400x400.jpg" width="50" height="50" style="border:2px solid #fff;border-radius:5em;margin:0;"></a> 
+		<a href="">follow:</a>
+		<a href="https://www.github.com/spaceg" target="_blank"><i class="fa fa-github"></i></a> 
+		<a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter"></i></a> 
+		<a href="https://plus.google.com/101826267816845608605/posts" target="_blank"><i class="fa fa-google-plus"></i></a>
+		<a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram"></i></a>
+	</td>
+</div>
+
 	</article>
 
   {% endfor %}
@@ -81,7 +122,6 @@ header-img:
 <script src="{{ site.siteurl }}/js/jscroll/jquery.jscroll.js"></script>
 
 <script type="text/javascript">
-// content selector is used to extract the additional items 
 $('.content').jscroll({
     contentSelector: ".content",
     nextSelector: '.next'
