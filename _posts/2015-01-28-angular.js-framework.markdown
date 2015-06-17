@@ -20,7 +20,7 @@ The <code>angular.js</code> file is the only one we need for a running AngularJS
 
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/9k=.jpg" alt="">  <h3>Helen V. Holmes
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/9k=.jpg" alt="Lucas Gatsas lucas gatsas - Helen V Holmes">  <h3>Helen V. Holmes
                     <small>Designer and Front-End Web Developer @Capital One - U.S.A</small>
                 </h3></div>
         <div class="col-md-4"></div>
@@ -31,7 +31,7 @@ The <code>angular.js</code> file is the only one we need for a running AngularJS
 By the attribute ng app in HTML tag AngularJS recognizes our side now than AngularJS application. AngularJS searched by the page for specific tags and attributes that belong to the framework. The Directives are in angular.js.
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/concepts-startup.png" alt="Post Sample Image" style="width:50%">
+    <img src="{{ site.baseurl }}/img/concepts-startup.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:50%">
 </a> 
 
 

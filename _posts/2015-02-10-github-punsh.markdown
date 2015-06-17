@@ -25,7 +25,7 @@ header-img: "img/space-sheep.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/punsh_card.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/punsh_card.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 

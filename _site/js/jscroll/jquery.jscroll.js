@@ -14,7 +14,6 @@
  */
 (function($) {
 
-    // Define the jscroll namespace and default settings
     $.jscroll = {
         defaults: {
             debug: false,
@@ -29,10 +28,8 @@
         }
     };
 
-    // Constructor
     var jScroll = function($e, options) {
 
-        // Private vars
         var _data = $e.data('jscroll'),
             _userOptions = (typeof options === 'function') ? { callback: options } : options,
             _options = $.extend({}, $.jscroll.defaults, _userOptions, _data || {}),
@@ -43,15 +40,14 @@
             _$scroll = _isWindow ? _$window : $e,
             _nextHref = $.trim(_$next.attr('href') + ' ' + _options.contentSelector);
 
-        // Initialization
+      
         $e.data('jscroll', $.extend({}, _data, {initialized: true, waiting: false, nextHref: _nextHref}));
         _wrapInnerContent();
         _preloadImage();
         _setBindings();
 
-        // Private methods
 
-        // Check if a loading image is defined and preload
+     
         function _preloadImage() {
             var src = $(_options.loadingHtml).filter('img').attr('src');
             if (src) {
@@ -60,14 +56,14 @@
             }
         }
 
-        // Wrapper inner content, if it isn't already
+   
         function _wrapInnerContent() {
             if (!$e.find('.jscroll-inner').length) {
                 $e.contents().wrapAll('<div class="jscroll-inner" />');
             }
         }
 
-        // Find the next link's parent, or add one, and hide it
+        
         function _nextWrap($next) {
             if (_options.pagingSelector) {
                 var $parent = $next.closest(_options.pagingSelector).hide();
@@ -79,7 +75,7 @@
             }
         }
 
-        // Remove the jscroll behavior and data from an element
+     
         function _destroy() {
             return _$scroll.unbind('.jscroll')
                 .removeData('jscroll')
@@ -87,7 +83,7 @@
                 .filter('.jscroll-added').children().unwrap();
         }
 
-        // Observe the scroll event for when to trigger the next load
+        
         function _observe() {
             _wrapInnerContent();
             var $inner = $e.find('div.jscroll-inner').first(),
@@ -100,13 +96,13 @@
                 iTotalHeight = Math.ceil(iTopHeight - innerTop + _$scroll.height() + iContainerTop);
 
             if (!data.waiting && iTotalHeight + _options.padding >= $inner.outerHeight()) {
-                //data.nextHref = $.trim(data.nextHref + ' ' + _options.contentSelector);
+             
                 _debug('info', 'jScroll:', $inner.outerHeight() - iTotalHeight, 'from bottom. Loading next request...');
                 return _load();
             }
         }
 
-        // Check if the href for the next set of content has been set
+        
         function _checkNextHref(data) {
             data = data || $e.data('jscroll');
             if (!data || !data.nextHref) {
@@ -144,7 +140,7 @@
             }
         }
 
-        // Load the next set of content, if available
+      
         function _load() {
             var $inner = $e.find('div.jscroll-inner').first(),
                 data = $e.data('jscroll');
@@ -162,7 +158,7 @@
                     var $next = $(this).find(_options.nextSelector).first();
                     data.waiting = false;
                     data.nextHref = $next.attr('href') ? $.trim($next.attr('href') + ' ' + _options.contentSelector) : false;
-                    $('.jscroll-next-parent', $e).remove(); // Remove the previous next link now that we have a new one
+                    $('.jscroll-next-parent', $e).remove(); 
                     _checkNextHref();
                     if (_options.callback) {
                         _options.callback.call(this);
@@ -172,7 +168,7 @@
             });
         }
 
-        // Safe console debug - http://klauzinski.com/javascript/safe-firebug-console-in-javascript
+       
         function _debug(m) {
             if (_options.debug && typeof console === 'object' && (typeof m === 'object' || typeof console[m] === 'function')) {
                 if (typeof m === 'object') {
@@ -191,19 +187,19 @@
             }
         }
 
-        // Expose API methods via the jQuery.jscroll namespace, e.g. $('sel').jscroll.method()
+        
         $.extend($e.jscroll, {
             destroy: _destroy
         });
         return $e;
     };
 
-    // Define the jscroll plugin method and loop
+    
     $.fn.jscroll = function(m) {
         return this.each(function() {
             var $this = $(this),
                 data = $this.data('jscroll');
-            // Instantiate jScroll on this element if it hasn't been already
+           
             if (data && data.initialized) return;
             var jscroll = new jScroll($this, m);
         });

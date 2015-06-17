@@ -1,0 +1,38 @@
+---
+layout:     post
+title:      "100 Days Online - Non Stop"
+subtitle:   "www.space.lucasgatsas.ch "
+date:       2015-05-30 14:00:44
+author:     "Lucas Gatsas"
+header-img: "img/Lucas_Gatsas_lucas_gatsas_0266.jpeg"
+---
+<h2 class="section-heading">Hello World</h2>
+<h2 class="section-heading">"space.lucasgatsas.ch"</h2>
+
+Update my Main WebSpace on <a href="http://space.lucasgatsas.ch">space.lucasgatsas.ch</a> have a take a look! 
+Best View in Google Chrome, Safari and Opera! In Firefox is the default Theme of space.lucasgatsas.ch ! 
+<br> 
+
+<a href="http://space.lucasgatsas.ch">space.lucasgatsas.ch</a>
+
+<br><br>
+
+<!--
+<div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/uccnFS0T-1.jpg" alt="Lucas Gatsas - Sebastian Senf">  <h3>Sebastian Senf aka. Mustardamus<br>
+                    <small> Full Stack Web Developer @ Akrasia - Germany</small><br>
+                    <small><a href="http://akrasia.me/#/about" class="text-center">www.akrasia.me</a></small>
+
+                </h3></div>
+        <div class="col-md-4"></div>
+      </div>
+-->
+
+
+
+<br>
+<blockquote>
+“Den Intelligenzgrad eines Menschen erkennst du am leichtesten daran, wie genau er das sagt, was du denkst.” 
+</blockquote>
+

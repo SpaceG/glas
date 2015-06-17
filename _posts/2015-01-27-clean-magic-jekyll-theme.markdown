@@ -12,14 +12,14 @@ header-img: "img/lucas-gatsas-07.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-clean-magic-jekyll-theme.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-clean-magic-jekyll-theme.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/lucas-gatsas-13.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/lucas-gatsas-13.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 

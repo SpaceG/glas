@@ -4,7 +4,7 @@ title:      ".io - Domains"
 subtitle:   "Set Up Domains"
 date:       2015-02-14 14:00:44
 author:     "Lucas Gatsas"
-header-img: "img/lucas-gatsas-18.jpg"
+header-img: "img/picjumbo.com_Milford-Sound-New-Zeland.jpg"
 ---
 <h2 class="section-heading">.io Domains @ Namecheap.com</h2>
 
@@ -31,14 +31,14 @@ We have registered our Domian Names @ Namecheap.com [Namecheap.com](https://www.
 Get Amazing Fast Support and Like Namecheap really. - 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/startup_docu_4.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/startup_docu_4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/domian_name_docu.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 

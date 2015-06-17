@@ -26,30 +26,31 @@ header-img: "img/St.Gallen-Winter-Stadt.jpg"
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/project_01.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/project_01.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a> 
 
 
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/project_02.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/project_02.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a> 
 
 
 
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/Snapshot_20120128_4.jpg" alt="" style="width:190px;text-align:center;">  <h3>- Giancarlo
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/Snapshot_20120128_4.jpg" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:190px;text-align:center;">  <h3>- Giancarlo
                     <small></small>
                 </h3></div>
         <div class="col-md-4"></div>
       </div>
 
 
+
 <div class="row">
         <div class="col-md-4"></div>
-        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/lucas-gatsas.png" alt="" style="width:190px;text-align:center;">  <h3 >- Gatsas
+        <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle img-responsive img-center" src="{{ site.baseurl }}/img/lucas-gatsas.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:190px;text-align:center;">  <h3 >- Gatsas
                     <small></small>
                 </h3></div>
         <div class="col-md-4"></div>

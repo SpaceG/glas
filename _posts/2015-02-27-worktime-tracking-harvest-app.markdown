@@ -83,7 +83,7 @@ To use it, simply cd into the root directory and run:
 
 The default output will show you a breakdown by language. Here’s an example of what it’ll look like:
 <a href="#">
-    <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/cloc-redacted.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 You can, of course, customize the poop out of it as well.
@@ -124,21 +124,19 @@ Restart your terminal and change directories to your repository and you should n
 And Today i hit the 1000 K of contribrutions on Github! [github.com/spaceg](https://github.com/spaceg) 
 
 
-<a href="#">
-    <img src="{{ site.baseurl }}/img/1001k.png" alt="Post Sample Image" style="width:100%">
-</a>
 
 
 <br><br>
 
-<h2 class="section-heading">12 Club Mate's</h2>
+<h2 class="section-heading"><strong>Work Streak</strong></h2>
 
-<h2 class="section-heading">196 Coffees</h2>
+<h2 class="section-heading">21 Club Mate's</h2>
 
-<h2 class="section-heading">261 Hours</h2>
+<h2 class="section-heading">247 Coffees</h2>
+
+<h2 class="section-heading">363 Hours</h2>
 
 <h2 class="section-heading">7479 Lines of Code</h2>
-
 
 <br><br>
 

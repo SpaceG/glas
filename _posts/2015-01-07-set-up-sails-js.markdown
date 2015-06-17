@@ -58,7 +58,7 @@ info: To shut down Sails, press <CTRL> + C at any time.
 
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Post Sample Image" style="width:100%">
+    <img src="{{ site.baseurl }}/img/Screenshot-2014-09-09-07.23.05.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas" style="width:100%">
 </a>
 
 

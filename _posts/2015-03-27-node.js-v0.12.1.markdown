@@ -1,0 +1,99 @@
+---
+layout:     post
+title:      "Node.js - New Javascript"
+subtitle:   "Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
+date:       2015-03-27 14:00:44
+author:     "Lucas Gatsas"
+header-img: "img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg"
+---
+<h2 class="section-heading"><strong> Node.js on OSX 10.9 Mavericks</strong> </h2>
+
+
+
+(1.)<strong> Xcode.</strong> Apple’s XCode development software is used to build Mac and iOS apps, but it also includes the tools you need to compile software for use on your Mac. XCode is free and you can find it in the Apple App Store.
+
+
+
+(2.) <strong> Homebrew </strong>. Homebrew is a package manager for the Mac — it makes installing most open source sofware (like Node) as simple as writing brew install node. You can learn more about <strong> [Homebrew](http://brew.sh/ )  </strong>
+at the Homebrew website. To install Homebrew just open Terminal and type <code>ruby -e "$(curl -fsSL https://raw.githubusercontent.com/
+Homebrew/install/master/install)" </code>. You’ll see messages in the Terminal explaining what you need to do to complete the installation process.
+
+<h2 class="section-heading"><strong>Installation</strong> </h2>
+
+
+(1.)  <strong> Open the Terminal app </strong> and type <code> brew install node. </code>
+
+
+(2.) <strong> Sit back and wait. </strong> Homebrew downloads some files and installs them. And that’s it.
+
+
+To make sure you have Node and NPM installed, run two simple commands to see what version of each is installed:
+
+To see if Node is installed, type <code> node -v </code> in Terminal. This should print the version number so you’ll see something like this <code> V0.12.1 </code>
+To see if NPM is installed, type <code> npm -v </code> in Terminal. This should print the version number so you’ll see something like this <code>  V0.12.1 </code> 
+
+
+
+<h2 class="section-heading"><strong>How to Update Node and NPM</strong> </h2>
+
+New versions of Node and NPM come out frequently. You can use Homebrew to update the software it installs.
+
+
+
+(1.) Make sure Homebrew has the latest version of the Node package. In Terminal type <code> brew update </code>
+
+(2.) Upgrade Node: <code> brew upgrade node </code>
+
+<h2 class="section-heading"><strong>How to Uninstall Node and NPM</strong> </h2>
+
+
+You can use Homebrew to uninstall packages that it installed: <code> brew uninstall node </code>
+
+
+<h2 class="section-heading"><strong>Clone it From GitHub</strong> </h2>
+
+
+
+<strong> Mac </strong>
+
+If you're using the excellent homebrew package manager, you can install node with one command: brew install node.
+
+Otherwise, follow the below steps:
+
+(1.) Install Xcode.
+
+(2.) Install git.
+
+Run the following commands:
+
+<code> git clone git://github.com/joyent/node.git </code>
+
+
+<strong> [https://github.com/joyent/node](https://github.com/joyent/node) </strong>
+
+
+<code>cd node</code>
+
+
+<code> ./configure </code>
+
+
+<code> make </code>
+
+
+<code> sudo make install </code>
+
+
+Download: node.js ! 
+
+[Download node.js](https://nodejs.org/download/)  
+
+
+
+
+
+<blockquote>
+
+
+"Node.js is an open source, cross-platform runtime environment for server-side and networking applications."
+</blockquote>
