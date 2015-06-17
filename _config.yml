@@ -1,12 +1,14 @@
-# Site settings
+# Site settings Update for my Blog : spaceg.github.io Do.9.April 15.49:24 2015 
 title: l.g
-email: l.gatsas33@gmail.com
-description: "Hello, my Name is LucasGatsas. I'm a Designer & Front-End Engineer based in the City of Saint Gall, Switzerland. And this is my GitHub Contributions - Repositories - Public Activity Site!"
+email: lucasgatsas@gmail.com
+description: "Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"
 baseurl: ""
-url: "https://spaceg.github.io"
+url: "http://lucasgatsas.ch"
 twitter_username: LucasGatsas
 github_username:  spaceg
 google_username:  https://plus.google.com/101826267816845608605/posts
+instagram_username:  lucasgatsas
+
 
 # Build settings
 markdown: kramdown
@@ -16,3 +18,4 @@ paginate:
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 5 #posts per page
+

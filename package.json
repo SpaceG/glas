@@ -1,14 +1,13 @@
 {
-       "name": "ice and fire",
-    "title": "ice and fire jekyll theme",
-    "version": "0.0.2",
+       "name": "ICE&FIRE",
+    "title": "ICE&FIRE - Jekyll Theme",
+    "version": "1.0.0",
     "homepage": "http://spaceg.github.io",
     "author": "Lucas Gatsas",
     "license": {
         "type": "Apache 2.0",
         "url": "https://github.com/spaceg"
     },
-   
     "devDependencies": {
         "grunt": "~0.4.5",
         "grunt-contrib-less": "~0.11.4",
@@ -18,6 +17,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SpaceG/iceandfire.git"
+        "url": "https://github.com/SpaceG/spaceg.github.io.git"
     }
 }

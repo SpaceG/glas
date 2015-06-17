@@ -1,6 +1,6 @@
-siteurl: https://spaceg.github.io/
-url: "https://spaceg.github.io"
-baseurl: "https://spaceg.github.io"
+siteurl: http://lucasgatsas.ch/
+url: "http://lucasgatsas.ch"
+baseurl: "http://lucasgatsas.ch"
 markdown: maruku
 pygments: false
 paginate: 

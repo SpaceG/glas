@@ -1,39 +1,29 @@
-# iceandfire
-Ice&amp;Fire - Jekyll Theme 
+#My Jekyll Theme for GitHub Pages. 
 
-My New Jekyll Theme <br>
-ICE&FIRE <br>
-Created: 01.03.2015 <br>
-Version: V.0.0.2 <br>
-Blogware : Jekyll <br>
 
-Download it <code> git clone https://github.com/SpaceG/iceandfire.git</code>
+Write in Jekyll  [Jekyll Release for the Holidays! v2.5.3 Out ](https://github.com/jekyll/jekyll).
+
+
+
+CleanMagicMedium V.0.0.2
+Download it <code> git clone https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0.git</code>
 
 Download it, open it with Terminal and run <code> jekyll serve </code> 
 Have Fun! Please Star it and Fork it! 
 Cheers with Club Mate!
 
 
-
-[Download Theme](https://github.com/SpaceG/iceandfire/) 
-
-
-![alt tag](https://spaceg.github.io/img/iceandfire.png)
+Twitter
+[@LucasGatsas](https://twitter.com/LucasGatsas) 
 
 
-Ice and Fire Theme by Lucas Gatsas Di. 1. March. 2015, Switzerland, TimeGrade 02:48:33
-Try  https://github.com/jekyll/jekyll Jekyll a New Blogging System using node.js 
-Notice: Be Sure that your Host provide node.js on Standart Host ( Shared Hosting - Standart WebHost or WebSpace)! you need always a Virtual Server ask your Provider about more Details for http://jekyllrb.com/ and Install node.js on your Host!
-
-<strong> Downlaod the Jekyll Source </strong> 
-
-[Jekyll](http://jekyllrb.com/) 
-
-[OpenSource Jekyll](https://github.com/jekyll/jekyll) 
+Download: 
+[CleanMagicMedium V.0.0.2](https://github.com/SpaceG/CleanMagicMedium-Jekyll-V.0.2.0) 
 
 
 
-Last Update: Mo. 4. Mai . 2015 
+![alt tag](https://spaceg.github.io/img/intro-theme-1.png)
+
 
 
 
