@@ -121,19 +121,12 @@ list-style: none;
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-
-
-
-
 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
-
-
                 <!--
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapses-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -150,11 +143,13 @@ list-style: none;
         <a href="#portfolioModal2" data-toggle="modal"><i class="fa fa-random" id="icon-top"></i></a>
             <ul class="dropdown-menu"></ul>
             </li>
-                                <li><a href="http://space.lucasgatsas.ch">Space</a></li>
+                                            <li><a href="https://instagram.com/lucasgatsas/" target="_blank"><i class="fa fa-instagram" id="icon-top"></i></a></li>
+
+                                <li><a href="http://space.lucasgatsas.ch" target="_blank">Space</a></li>
                                 <li><a href="http://lucasgatsas.ch/archive/">Archive</a></li>
 
              <!--   <li><a class="navbar-brand portfolio-link" href="#portfolioModal1" data-toggle="modal"><img src="/img/93TyTG3x.png" id="small-img-nav" width="40" height="40" class="img-circle" alt="newspace"></a></li> -->
-                    <li><a href="https://www.twitter.com/LucasGatsas" id="roundbutton"><i class="fa fa-twitter"></i>LucasGatsas</a></li>
+                    <li><a href="https://www.twitter.com/LucasGatsas" id="roundbutton" target="_blank"><i class="fa fa-twitter"></i>LucasGatsas</a></li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -180,10 +175,10 @@ list-style: none;
                             <p class="font-style-inline-small">
                                 Hello, my name is Lucas Gatsas, I'm a Front End Engineer <br>
                                 and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon!  <br>
-                                <a href="https://www.twitter.com/LucasGatsas">follow me</a>. <br> 
-                                <a href="https://www.github.com/spaceg">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
-                                <a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>    
-                                <a href="https://plus.google.com/101826267816845608605/posts"> <i class="fa fa-google-plus" id="spaceg-social-modal"></i></a> 
+                                <a href="https://www.twitter.com/LucasGatsas" target="_blank">follow me</a>. <br> 
+                                <a href="https://www.github.com/spaceg" target="_blank">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
+                                <a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>    
+                                <a href="https://plus.google.com/101826267816845608605/posts" target="_blank"> <i class="fa fa-google-plus" id="spaceg-social-modal"></i></a> 
                             </p>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -209,10 +204,10 @@ list-style: none;
                             <hr class="star-primary">
                        <!--     <img src="https://pbs.twimg.com/profile_images/598639420363923456/zLAW5YPs_400x400.jpg" class="img-responsive img-centered" alt=""> -->
                             <p class="font-style-inline-small">
-                        <a href="https://www.twitter.com/LucasGatsas">follow</a>. <br> 
-                                <a href="https://www.github.com/spaceg">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
-                                <a href="https://www.twitter.com/LucasGatsas"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>    
-                                <a href="https://plus.google.com/101826267816845608605/posts"> <i class="fa fa-google-plus" id="spaceg-social-modal"></i></a>  <br>
+                        <a href="https://www.twitter.com/LucasGatsas" target="_blank">follow</a>. <br> 
+                                <a href="https://www.github.com/spaceg" target="_blank">    <i class="fa fa-github" id="spaceg-social-modal"></i> </a> 
+                                <a href="https://www.twitter.com/LucasGatsas" target="_blank"><i class="fa fa-twitter" id="spaceg-social-modal"></i> </a>    
+                                <a href="https://plus.google.com/101826267816845608605/posts" target="_blank"> <i class="fa fa-google-plus" id="spaceg-social-modal"></i></a>  <br>
                     <li><a href="/">Home</a></li>
                     <li><a href="https://spaceg.github.io/about">About Me</a></li>
                     <li><a href="https://spaceg.github.io/archive/">Archive</a></li>
@@ -254,19 +249,19 @@ list-style: none;
 				<h2 class="section-heading">How To Create a SSL Certificate on nginx for Ubuntu 12.04</h2>
 <h2 class="section-heading">Install Transport Layer Security - Secure Sockets Layer (SSL)</h2>
 
-<p><strong> Set Up </strong> </p>
+<p><strong> Set Up </strong></p>
 
 <p><code> $ sudo apt-get install nginx </code></p>
 
-<p><strong> Step One—Create a Directory for the Certificate </strong> </p>
+<p><strong> Step One—Create a Directory for the Certificate </strong></p>
 
 <p><code>sudo mkdir /etc/nginx/ssl</code></p>
 
 <p>We will perform the next few steps within the directory:</p>
 
-<p><code>  cd /etc/nginx/ssl </code> </p>
+<p><code>  cd /etc/nginx/ssl </code></p>
 
-<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong> </p>
+<p><strong>Step Two—Create the Server Key and Certificate Signing Request</strong></p>
 
 <p><code> sudo openssl genrsa -des3 -out server.key 2048 </code></p>
 
@@ -288,18 +283,18 @@ Organizational Unit Name (eg, section) []:Dept of Engineering - IT NERDS
 Common Name (e.g. server FQDN or YOUR name) []:lucasgatsas@gmail.com                <br />
 Email Address []:lucasgatsas@example.com</p>
 
-<p><strong> Step Three—Remove the Passphrase </strong> </p>
+<p><strong> Step Three—Remove the Passphrase </strong></p>
 
 <p><code> sudo cp server.key server.key.org </code> 
 <code> sudo openssl rsa -in server.key.org 
-	-out server.key </code> </p>
+	-out server.key </code></p>
 
-<p><strong> Step Four— Sign your SSL Certificate </strong> </p>
+<p><strong> Step Four— Sign your SSL Certificate </strong></p>
 
 <p><code>  sudo openssl x509 -req -days 365 -in server.csr 
 	-signkey server.key -out server.crt </code></p>
 
-<p><strong> Step Five—Set Up the Certificate </strong> </p>
+<p><strong> Step Five—Set Up the Certificate </strong></p>
 
 <p><code>sudo cp /etc/nginx/sites-available/default
  /etc/nginx/sites-available/example</code></p>
@@ -333,7 +328,7 @@ server {
 # server_name localhost;
 </code></pre>
 
-<p><strong> Step Six—Activate the Virtual Host </strong> </p>
+<p><strong> Step Six—Activate the Virtual Host </strong></p>
 
 <p>The last step is to activate the host by creating a symbolic link between the sites-available directory and the sites-enabled directory.</p>
 
@@ -346,7 +341,7 @@ server {
 
 <p>Visit https://youraddress</p>
 
-<p>Cheers! </p>
+<p>Cheers!</p>
 
 <p>Link: <a href="https://github.com/openssl/openssl">OpenSSL</a> Link: <a href="http://www.openssl.org/source/">OpenSSL Website</a></p>
 
@@ -396,7 +391,7 @@ server {
                     </li>
                     
                     <li>
-                        <a href="https://twitter.com/LucasGatsas" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
+                        <a href="https://twitter.com/LucasGatsas" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -406,7 +401,7 @@ server {
                     
                     
                     <li>
-                        <a href="https://plus.google.com/101826267816845608605/posts" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme">
+                        <a href="https://plus.google.com/101826267816845608605/posts" data-datatype="json" data-type="GET" data-target="#frame" class="reload" id="clickme" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
@@ -416,7 +411,7 @@ server {
                     
                     
                     <li>
-                        <a href="https://github.com/spaceg">
+                        <a href="https://github.com/spaceg" target="_blank">
                             <span class="fa-stack fa-lg">
 
                               <i class="fa fa-arrow-circle-o-down"></i>
@@ -426,6 +421,18 @@ server {
                         </a>
                     </li>
                     
+                      
+                    <li>
+                        <a href="https://instagram.com/lucasgatsas" target="_blank">
+                            <span class="fa-stack fa-lg">
+
+                              <i class="fa fa-arrow-circle-o-down"></i>
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                  
                 </ul>
                 <p class="copyright text-muted">Copyright &copy; l.g 2015 - 2016. <br> 2014, 2015 <br> 
                 </p>

@@ -1,10 +1,10 @@
 /*!
 Top spaceg.stylesheets.css
  spaceg.github.io by Lucas Gatsas. 
+ www.lucasgatsas.ch 
 
- ///lucasgatsas.ch///
-
-/// https://www.twitter.com/LucasGatsas //// 
+http://lucasgatsas.ch
+https://www.twitter.com/LucasGatsas
 
  */
  /* New Update Mo. 2 Feb. 2015 -02:33:45*/
@@ -16,6 +16,8 @@ Top spaceg.stylesheets.css
 /* New Update Sa. 25. April. 2015 -16:47:32ƒ*/
 /* New Update Sa. 26. April. 2015 -00:26:13ƒ*/
 /* New Update Di. 05. May. 2015 -22:26:13ƒ*/
+/* New Update Fr. 12. May. 2015 -00:20:24ƒ*/
+/* New Update Mi. 17. Juni. 2015 - 01:13:24*/
 
 	.pagination{
 		display:inline-block;padding-left:40px;margin:20px 0;border-radius:4px;text-align:center}
@@ -48,7 +50,7 @@ Top spaceg.stylesheets.css
     hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#fff}
     .navbar-custom{background:#fff;position:fixed;top:0;left:0;width:100%;z-index:2;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}
     .navbar-custom .navbar-brand{font-weight:800}
-    .navbar-custom .nav li a{text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{background:rgba(255,255,255,0.05);border-bottom:1px solid transparent}
+    .navbar-custom .nav li a{font-family:'Open Sans';text-transform:uppercase;font-size:12px;font-weight:400;letter-spacing:1px}@media only screen and (min-width: 768px){.navbar-custom{background:rgba(255,255,255,0.05);border-bottom:1px solid transparent}
     .navbar-custom .navbar-brand{color:rgba(255,255,255,0.9);padding:20px}
     .navbar-custom .navbar-brand:hover,.navbar-custom .navbar-brand:focus{color:rgba(255,255,255,0.8)}
     .navbar-custom .nav li a{padding:20px}.navbar-custom .nav li a:hover,.navbar-custom .nav li a:focus{color:rgba(0,0,0,0.59)}}@media only screen and (min-width: 1170px){.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}
@@ -132,6 +134,10 @@ Top spaceg.stylesheets.css
   color: rgba(15, 14, 14, 0.95);
 
 		}
+
+/* The Colors  for the Social Icons */ 
+
+
 i.fa.fa-rss.fa-stack-1x.fa-inverse {
 background: white;
 color: gray;
@@ -148,6 +154,13 @@ i.fa.fa-github.fa-stack-1x.fa-inverse {
 background: white;
 color: gray;
 }
+i.fa.fa-instagram.fa-stack-1x.fa-inverse {
+  background: white;
+  color: gray;
+}
+
+/* The Hovers for the Social Icons */ 
+
 
 i.fa.fa-rss.fa-stack-1x.fa-inverse:hover {
 background: white;
@@ -165,17 +178,23 @@ i.fa.fa-github.fa-stack-1x.fa-inverse:hover {
 background: white;
 color: rgb(194, 194, 194);
 }
+i.fa.fa-instagram.fa-stack-1x.fa-inverse:hover {
+  background: white;
+  color: gray;
+}
+
+
 
 /* Modal Css for Social Buttons */
 
 i#spaceg-social-modal {
-font-size: 30px;
+font-size: 19px;
 padding-top: 30px;
 color: rgb(197, 197, 197);
 }
 
 i#spaceg-social-modal:hover {
-font-size: 30px;
+font-size: 19px;
 padding-top: 30px;
 color: rgb(174, 174, 174);
 }
@@ -275,7 +294,7 @@ a#readmore-link {
 color: white;
 }
 i#icon-top {
-font-size: 20px;
+font-size: 13px;
 }
  
 
