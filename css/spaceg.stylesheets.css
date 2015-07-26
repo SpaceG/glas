@@ -114,7 +114,7 @@ https://www.twitter.com/LucasGatsas
     nav.navbar.navbar-inverse.navbar-fixed-bottom{background-color:#FFF;border-color:#E2E2E2}
     .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus{color:#222;background-color:transparent}
     img#small-img-nav{margin-bottom:40px;margin-top:-10px}.navbar-inverse .navbar-toggle .icon-bar{background-color:#717171}
-    .navbar-nav{float:left;margin:0;font-family:'Mohave',serif;font-size:14px;font-weight:300px}
+    .navbar-nav{float:left;margin:0;font-family:Mohave;font-size:14px;font-weight:300px}
     ul.nav.navbar-nav{font-weight:400}.pager li > a,.pager li > span{font-size:14px;padding:15px 25px;border-radius:90px}
     a#roundbutton{border:1px solid rgba(200,200,200,0.83);border-radius:90px;padding:7px;margin-top:7px;padding-right:13px;padding-left:13px;color:#d3d3d3;font-weight:700;font-family:'Open Sans'}
     a#roundbutton:hover{border:1px solid #000;border-radius:90px;padding:7px;margin-top:7px;padding-right:13px;padding-left:13px;color:#fff;background:#000}
