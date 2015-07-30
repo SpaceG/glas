@@ -1,13 +1,13 @@
 # Site settings Update for my Blog : spaceg.github.io Do.9.April 15.49:24 2015 
-title: l.g
-email: lucasgatsas@gmail.com
-description: "Hello, My Name is Lucas Gatsas, I'm a Front End Engineer and Web Developer from Switzerland. This is my Personal Notice and Archive Work Experience Work Blog. My Official Website will be Up soon! Code and Space!"
-baseurl: ""
-url: "http://lucasgatsas.ch"
-twitter_username: LucasGatsas
+title: PRANAV MITAL
+email: pranavmital27@gmail.com 
+description: "Hello Earthlings! My name is Pranav Mital, I'm a student and I love playing football and everything technology. You can follow me on several social media from the links in the nav-bar at the top of the page. I would love to hear from you!"
+baseurl: “www.pranavmital.com”
+url: “www.pranavmital.com”
+twitter_username: realpranavmital
 github_username:  spaceg
-google_username:  https://plus.google.com/101826267816845608605/posts
-instagram_username:  lucasgatsas
+google_username:  
+instagram_username:  pranavmital
 
 
 # Build settings
@@ -18,4 +18,3 @@ paginate:
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 paginate: 5 #posts per page
-

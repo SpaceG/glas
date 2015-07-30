@@ -33,7 +33,7 @@ https://www.twitter.com/LucasGatsas
     .navbar-inverse{background-color:#FFF;border-color:#FFF}header
 		.intro-header{background:#6f5499;background-color:gray;background:no-repeat center center;background-attachment:scroll;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover}
     .container.front-end{width:100%}
-    article.container.hentry{max-width:770px;text-align:justify;margin-bottom:180px}
+    article.container.hentry{max-width:1500px;text-align:justify;margin-bottom:180px}
 		h1.post-title{text-align:center;color:#fff;font-weight:700;}h1
     .post-title a{text-align:center;color:#fff}
     .post-meta{text-align:center;padding-top:280px}
@@ -45,7 +45,7 @@ https://www.twitter.com/LucasGatsas
   color: rgba(6,6,6,0.83);
   font-size: 16px;
   line-height: 28px;}p{margin:30px 0}
-		h1,h2,h3,h4,h5,h6{font-family:'Georgia',serif;font-weight:600}a{color:#A8A8A8}
+		h1,h2,h3,h4,h5,h6{font-family:'Geneva',serif;font-weight:600}a{color:#A8A8A8}
     a:hover,a:focus{color:#B6B6B6}blockquote{color:#B6B6B6;font-style:italic}
     hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#fff}
     .navbar-custom{background:#fff;position:fixed;top:0;left:0;width:100%;z-index:2;font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}
@@ -114,22 +114,22 @@ https://www.twitter.com/LucasGatsas
     nav.navbar.navbar-inverse.navbar-fixed-bottom{background-color:#FFF;border-color:#E2E2E2}
     .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>li>a:focus{color:#222;background-color:transparent}
     img#small-img-nav{margin-bottom:40px;margin-top:-10px}.navbar-inverse .navbar-toggle .icon-bar{background-color:#717171}
-    .navbar-nav{float:left;margin:0;font-family:'Playfair Display',serif;font-size:14px;font-weight:300px}
+    .navbar-nav{float:left;margin:0;font-family:Mohave;font-size:14px;font-weight:300px}
     ul.nav.navbar-nav{font-weight:400}.pager li > a,.pager li > span{font-size:14px;padding:15px 25px;border-radius:90px}
-    a#roundbutton{border:1px solid rgba(200,200,200,0.83);border-radius:90px;padding:7px;margin-top:13px;padding-right:13px;padding-left:13px;color:#d3d3d3;font-weight:700;font-family:'Open Sans'}
-    a#roundbutton:hover{border:1px solid #000;border-radius:90px;padding:7px;margin-top:13px;padding-right:13px;padding-left:13px;color:#fff;background:#000}
+    a#roundbutton{border:1px solid rgba(200,200,200,0.83);border-radius:90px;padding:7px;margin-top:7px;padding-right:13px;padding-left:13px;color:#d3d3d3;font-weight:700;font-family:'Open Sans'}
+    a#roundbutton:hover{border:1px solid #000;border-radius:90px;padding:7px;margin-top:7px;padding-right:13px;padding-left:13px;color:#fff;background:#000}
     a#post-title-h1 {color: white;}
 		h1#top-title-font-weight-bold{
 	
 
-	font-family: "Georgia"; */
+	font-family: "Geneva"; */
   /* font-weight: 800; */
   /* text-shadow: rgba(0,0,0,0.4) 0 1px 1px; */
   /* letter-spacing: -3px; */
   /* color: rgba(15, 14, 14, 0.8); */
   font-family: Georgia,times,arial;
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 900;
   margin-top: -5px;
   color: rgba(15, 14, 14, 0.95);
 
@@ -198,7 +198,7 @@ font-size: 19px;
 padding-top: 30px;
 color: rgb(174, 174, 174);
 }
-a#blog-title-left-top{font-family:Georgia,times,arial;font-size:36px;font-weight:300;margin-top:-5px;color: rgba(15, 14, 14, 0.8);}@media (max-width: 768px){button#toggle-bottom-fadeout{display:none}.navbar-inverse .navbar-nav>li>a{color:#000;color:#282828}section#archive{padding-top:100px}ul,ol{margin-top:0;margin-bottom:10px;list-style:none}pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:none;word-break:break-all;word-wrap:break-word;background-color:none;border:0 solid #ccc;border-radius:4px}.infinite-spinner{display:block;width:40px;height:40px;border-radius:40px;background-color:#333;margin:60px auto;-webkit-animation:scaleout 1s infinite ease-in-out;animation:scaleout 1s infinite ease-in-out}}@-webkit-keyframes scaleout{0%{-webkit-transform:scale(0.0)}100%{-webkit-transform:scale(1.0);opacity:0}}@keyframes scaleout{0%{transform:scale(0.0);-webkit-transform:scale(0.0)}100%{transform:scale(1.0);-webkit-transform:scale(1.0);opacity:0}}
+a#blog-title-left-top{font-family:Mohave,times,arial;font-size:36px;font-weight:900;margin-top:2px;color: rgba(4, 150, 202, 0.8);}@media (max-width: 768px){button#toggle-bottom-fadeout{display:none}.navbar-inverse .navbar-nav>li>a{color:#000;color:#282828}section#archive{padding-top:100px}ul,ol{margin-top:0;margin-bottom:10px;list-style:none}pre{display:block;padding:9.5px;margin:0 0 10px;font-size:13px;line-height:1.42857143;color:none;word-break:break-all;word-wrap:break-word;background-color:none;border:0 solid #ccc;border-radius:4px}.infinite-spinner{display:block;width:40px;height:40px;border-radius:40px;background-color:#333;margin:60px auto;-webkit-animation:scaleout 1s infinite ease-in-out;animation:scaleout 1s infinite ease-in-out}}@-webkit-keyframes scaleout{0%{-webkit-transform:scale(0.0)}100%{-webkit-transform:scale(1.0);opacity:0}}@keyframes scaleout{0%{transform:scale(0.0);-webkit-transform:scale(0.0)}100%{transform:scale(1.0);-webkit-transform:scale(1.0);opacity:0}}
 
 
 
@@ -294,7 +294,7 @@ a#readmore-link {
 color: white;
 }
 i#icon-top {
-font-size: 13px;
+font-size: 20px;
 }
  
 
