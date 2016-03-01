@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE"
+xmlns:og="http://opengraphprotocol.org/schema/"
+xmlns:fb="http://www.facebook.com/2008/fbml">
+
+  <head>
+
+	<!-- Hello World. 
+		My Name is Lucas Gatsas
+		
+		Theme: blog/lucasgatsas.ch
+		Theme: by Lucas Gatsas
+		copy: by Lucas Gatsas
+		Web: www.lucasgatsas.ch
+		Fr. 26. Feb. 2016 06:15:13
+
+	-->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Implement Passportjs authentication with Sailsjs</title>
+  <meta name="description" content="Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+">
+  <link rel="canonical" href="http://blog.lucasgatsas.ch/restpost/2016-01-18-Implement%20Passport.js%20authentication%20with%20Sails.js">
+  <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
+  <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+      <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
+    <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
+    <!-- Facebook Meta Data -->
+<meta property="og:image" content="http://spaceg.github.io/img/Pi2ModB1GB_-comp.jpg"/>
+<meta property="og:locality" content="St. Gallen"/>
+<meta property="og:country-name" content="Switzerland"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Lucas Gatsas, Front -End Engineer, SYS-Admin & UI/UX Designer from St. Gallen, Switzerland"/>
+<meta property="og:url" content="http://spaceg.github.io/"/>
+<meta property="og:site_name" content="www.lucasgatsas.ch"/>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="all">
+</head>
+
+
+<body class="home-template">
+  <div id="page" class="site">
+
+
+    
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--Lucas Gatsas--></a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+        
+
+<div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+
+
+<!--
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+   
+    <h2 class="post-date"><time datetime="2016-02-28T00:00:00+01:00" itemprop="datePublished">February 28, 2016</time></h2>
+    <h3 class="post-time">From 10:00 to 17:00</h3>
+  </header>
+
+
+
+ 
+</article> --> 
+        
+
+
+        <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">            
+            <header class="cover post-header">
+
+
+             
+                <div class="post-bg" style="background-image:url(/img/779699537035500360-1.jpg);"></div>
+
+                <div class="cover-content">
+                    <div class="inner">
+                     <!--   <div class="tag-links">
+                            <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
+                        </div>--> <!-- .tag-links -->
+                        <h1 class="post-title">Implement Passportjs authentication with Sailsjs</h1>
+                        <div class="post-meta">
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2016-02-28T00:00:00+01:00" itemprop="datePublished" >February 28, 2016</time> <span class="reading-time"> <span class="eta"></span></span>
+                        </div><!-- .post-meta -->
+                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+                    </div><!-- .inner -->
+                </div><!-- .cover-content -->
+            </header><!-- .cover -->
+            <div class="post-content inner">
+                <p></p>
+
+<p>
+
+
+   <h2 class="section-heading">sailsjs, passportjs, nodejss</h2>
+
+<p>Step 1: dependencies
+Add these dependencies to the yourproject/package.json file:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  <span class="token string">"dependencies"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    <span class="token string">"bcrypt"</span><span class="token punctuation">:</span> <span class="token string">"~0.8.0"</span><span class="token punctuation">,</span>
+    <span class="token string">"passport"</span><span class="token punctuation">:</span> <span class="token string">"~0.2.1"</span><span class="token punctuation">,</span>
+    <span class="token string">"passport-local"</span><span class="token punctuation">:</span> <span class="token string">"~1.0.0"</span><span class="token punctuation">,</span>
+    <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+   <span class="token punctuation">}</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> 
+</code>
+</pre>
+<p>Open the terminal, go to your project folder and run:</p>
+
+<p>[sudo] npm install</p>
+
+<p>Step 2: create user model
+To create a user model run the following command:</p>
+
+<p>sails generate api user</p>
+
+<p>This will automatically create a model and a controller. You can find the model at yourproject/api/models/User.js. Let’s make that file look like this:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">var</span> bcrypt <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'bcrypt'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+    attributes<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        email<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            type<span class="token punctuation">:</span> <span class="token string">'email'</span><span class="token punctuation">,</span>
+            required<span class="token punctuation">:</span> <span class="token keyword">true</span><span class="token punctuation">,</span>
+            unique<span class="token punctuation">:</span> <span class="token keyword">true</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        password<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+            type<span class="token punctuation">:</span> <span class="token string">'string'</span><span class="token punctuation">,</span>
+            minLength<span class="token punctuation">:</span> <span class="token number">6</span><span class="token punctuation">,</span>
+            required<span class="token punctuation">:</span> <span class="token keyword">true</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        toJSON<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">var</span> obj <span class="token operator">=</span> <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">toObject</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token keyword">delete</span> obj<span class="token punctuation">.</span>password<span class="token punctuation">;</span>
+            <span class="token keyword">return</span> obj<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    beforeCreate<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> cb<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        bcrypt<span class="token punctuation">.</span><span class="token function">genSalt</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> salt<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            bcrypt<span class="token punctuation">.</span><span class="token function">hash</span><span class="token punctuation">(</span>user<span class="token punctuation">.</span>password<span class="token punctuation">,</span> salt<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> hash<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                    <span class="token function">cb</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+                    user<span class="token punctuation">.</span>password <span class="token operator">=</span> hash<span class="token punctuation">;</span>
+                    <span class="token function">cb</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Step 3: create AuthController
+Run this command from your terminal: 
+sails generate controller auth</p>
+
+<p>Then go to yourproject/api/controllers/AuthController.js and alter it in this way:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">var</span> passport <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+
+    _config<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        actions<span class="token punctuation">:</span> <span class="token keyword">false</span><span class="token punctuation">,</span>
+        shortcuts<span class="token punctuation">:</span> <span class="token keyword">false</span><span class="token punctuation">,</span>
+        rest<span class="token punctuation">:</span> <span class="token keyword">false</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    login<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+        passport<span class="token punctuation">.</span><span class="token function">authenticate</span><span class="token punctuation">(</span><span class="token string">'local'</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> user<span class="token punctuation">,</span> info<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token punctuation">(</span><span class="token operator">!</span>user<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                    message<span class="token punctuation">:</span> info<span class="token punctuation">.</span>message<span class="token punctuation">,</span>
+                    user<span class="token punctuation">:</span> user
+                <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+            req<span class="token punctuation">.</span><span class="token function">logIn</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span>
+                <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+                    message<span class="token punctuation">:</span> info<span class="token punctuation">.</span>message<span class="token punctuation">,</span>
+                    user<span class="token punctuation">:</span> user
+                <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+    logout<span class="token punctuation">:</span> <span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        req<span class="token punctuation">.</span><span class="token function">logout</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        res<span class="token punctuation">.</span><span class="token function">redirect</span><span class="token punctuation">(</span><span class="token string">'/'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Step 4: create login and signup views
+Create this file yourproject/views/signup.ejs:</p>
+
+<pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Signup<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>POST<span class="token punctuation">"</span></span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/user<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+</code>
+</pre>
+
+<p>And then this yourproject/views/login.ejs:</p>
+
+<pre class=" language-markup"><code class=" language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Login<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>form</span> <span class="token attr-name">method</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>POST<span class="token punctuation">"</span></span> <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>/login<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>email<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>password<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span> <span class="token attr-name">value</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>submit<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>form</span><span class="token punctuation">&gt;</span></span>
+</code>
+</pre>
+
+<p>These forms look the same, besides the action.</p>
+
+<p>Step 5: configuring the routes
+Let’s set up our routes in yourproject/config/routes.js like this:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>routes <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token string">'/'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    view<span class="token punctuation">:</span> <span class="token string">'homepage'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token string">'get /login'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+       view<span class="token punctuation">:</span> <span class="token string">'login'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+  <span class="token string">'post /login'</span><span class="token punctuation">:</span> <span class="token string">'AuthController.login'</span><span class="token punctuation">,</span>
+
+  <span class="token string">'/logout'</span><span class="token punctuation">:</span> <span class="token string">'AuthController.logout'</span><span class="token punctuation">,</span>
+
+  <span class="token string">'get /signup'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    view<span class="token punctuation">:</span> <span class="token string">'signup'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>If you notice we are leveraging HTTP verbs, we have two login actions but different routes.</p>
+
+<p>Step 6: configuring Express Middleware
+Since we are using Passport we have to customize our middleware in yourproject/config/http.js:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>http <span class="token operator">=</span> <span class="token punctuation">{</span>
+   middleware<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+
+    passportInit    <span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">initialize</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+    passportSession <span class="token punctuation">:</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">session</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+
+     order<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+            <span class="token string">'startRequestTimer'</span><span class="token punctuation">,</span>
+            <span class="token string">'cookieParser'</span><span class="token punctuation">,</span>
+            <span class="token string">'session'</span><span class="token punctuation">,</span>
+            <span class="token string">'passportInit'</span><span class="token punctuation">,</span>     
+            <span class="token string">'passportSession'</span><span class="token punctuation">,</span> 
+            <span class="token string">'myRequestLogger'</span><span class="token punctuation">,</span>
+            <span class="token string">'bodyParser'</span><span class="token punctuation">,</span>
+            <span class="token string">'handleBodyParserError'</span><span class="token punctuation">,</span>
+            <span class="token string">'compress'</span><span class="token punctuation">,</span>
+            <span class="token string">'methodOverride'</span><span class="token punctuation">,</span>
+            <span class="token string">'poweredBy'</span><span class="token punctuation">,</span>
+            <span class="token string">'router'</span><span class="token punctuation">,</span>
+            <span class="token string">'www'</span><span class="token punctuation">,</span>
+            <span class="token string">'favicon'</span><span class="token punctuation">,</span>
+            <span class="token string">'404'</span><span class="token punctuation">,</span>
+            <span class="token string">'500'</span>
+          <span class="token punctuation">]</span><span class="token punctuation">,</span>
+     <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Into the order array we added passportInit and passportSession after the session element. The name of this array is quite self-explanatory, the elements must be ordered this way.</p>
+
+<p>Step 7: define Passport local strategy for authentication
+Into yourproject/config/ folder let’s create a new file called passport.js:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript"><span class="token keyword">var</span> passport <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+LocalStrategy <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'passport-local'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>Strategy<span class="token punctuation">,</span>
+bcrypt <span class="token operator">=</span> <span class="token function">require</span><span class="token punctuation">(</span><span class="token string">'bcrypt'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+passport<span class="token punctuation">.</span><span class="token function">serializeUser</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>user<span class="token punctuation">,</span> done<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> user<span class="token punctuation">.</span>id<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+passport<span class="token punctuation">.</span><span class="token function">deserializeUser</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span>id<span class="token punctuation">,</span> done<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    User<span class="token punctuation">.</span><span class="token function">findOne</span><span class="token punctuation">(</span><span class="token punctuation">{</span> id<span class="token punctuation">:</span> id <span class="token punctuation">}</span> <span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token function">done</span><span class="token punctuation">(</span>err<span class="token punctuation">,</span> user<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+passport<span class="token punctuation">.</span><span class="token function">use</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">LocalStrategy</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    usernameField<span class="token punctuation">:</span> <span class="token string">'email'</span><span class="token punctuation">,</span>
+    passwordField<span class="token punctuation">:</span> <span class="token string">'password'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">function</span><span class="token punctuation">(</span>email<span class="token punctuation">,</span> password<span class="token punctuation">,</span> done<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+    User<span class="token punctuation">.</span><span class="token function">findOne</span><span class="token punctuation">(</span><span class="token punctuation">{</span> email<span class="token punctuation">:</span> email <span class="token punctuation">}</span><span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>err<span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span>err<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>user<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token keyword">false</span><span class="token punctuation">,</span> <span class="token punctuation">{</span> message<span class="token punctuation">:</span> <span class="token string">'Incorrect email.'</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+
+      bcrypt<span class="token punctuation">.</span><span class="token function">compare</span><span class="token punctuation">(</span>password<span class="token punctuation">,</span> user<span class="token punctuation">.</span>password<span class="token punctuation">,</span> <span class="token keyword">function</span> <span class="token punctuation">(</span>err<span class="token punctuation">,</span> res<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>res<span class="token punctuation">)</span>
+            <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> <span class="token keyword">false</span><span class="token punctuation">,</span> <span class="token punctuation">{</span>
+              message<span class="token punctuation">:</span> <span class="token string">'Invalid Password'</span>
+            <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+          <span class="token keyword">var</span> returnUser <span class="token operator">=</span> <span class="token punctuation">{</span>
+            email<span class="token punctuation">:</span> user<span class="token punctuation">.</span>email<span class="token punctuation">,</span>
+            createdAt<span class="token punctuation">:</span> user<span class="token punctuation">.</span>createdAt<span class="token punctuation">,</span>
+            id<span class="token punctuation">:</span> user<span class="token punctuation">.</span>id
+          <span class="token punctuation">}</span><span class="token punctuation">;</span>
+          <span class="token keyword">return</span> <span class="token function">done</span><span class="token punctuation">(</span><span class="token keyword">null</span><span class="token punctuation">,</span> returnUser<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+            message<span class="token punctuation">:</span> <span class="token string">'Logged In Successfully'</span>
+          <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Step 8: add a new policy
+Let’s create a new policy isAuthenticated.js into the yourproject/api/policies/ folder:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>req<span class="token punctuation">,</span> res<span class="token punctuation">,</span> next<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+   <span class="token keyword">if</span> <span class="token punctuation">(</span>req<span class="token punctuation">.</span><span class="token function">isAuthenticated</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token keyword">else</span><span class="token punctuation">{</span>
+        <span class="token keyword">return</span> res<span class="token punctuation">.</span><span class="token function">redirect</span><span class="token punctuation">(</span><span class="token string">'/login'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Briefly, we are telling Sails what to do if a user is not authenticated, then we can bind this policy to any of the controllers in the app.</p>
+
+<p>Step 9: bind the policy to a controller
+Let’s create a controller and a model just for testing what we have done. I am going to call this api post.</p>
+
+<p>sails generate api post</p>
+
+<p>Then let’s bind the policy to the PostController by updating yourproject/config/policies.js:</p>
+
+<pre class=" language-javascript"><code class=" language-javascript">module<span class="token punctuation">.</span>exports<span class="token punctuation">.</span>policies <span class="token operator">=</span> <span class="token punctuation">{</span>
+
+   <span class="token string">'*'</span><span class="token punctuation">:</span> <span class="token keyword">true</span><span class="token punctuation">,</span>
+
+  <span class="token string">'PostController'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">'*'</span><span class="token punctuation">:</span> <span class="token string">'isAuthenticated'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code>
+</pre>
+
+<p>Now the ‘GET /post’ route (and all the other routes automatically generated for this controller ) is available only to authenticated users.</p>
+
+<p>Step 10: run a test
+Lift your application 
+sails lift 
+And then go and play with these routes:</p>
+
+<p>http://localhost:1337/post - the very first time it should redirect you to the login page</p>
+
+<p>go to http://localhost:1337/signup for signing up</p>
+
+<p>go to http://localhost:1337/login for logging in</p>
+
+<p>now you should be able to access this page http://localhost:1337/post, even though it’s going to show you just an empty array (there aren’t any posts yet)</p>
+
+<p>go to http://localhost:1337/logout for logging out</p>
+
+<p><a href="https://github.com/iliketomatoes/passport_with_sails">→ Get the repository on Github</a> </p>
+
+<p>I would very much appreciate your comments, especially if you find an error or you need a further explanation.
+References:</p>
+
+<p><a href="http://sailsjs.org/#/documentation/concepts">→ Sails.js</a> 
+<a href="http://passportjs.org/">→ Passport.js</a> 
+<a href="hhttps://github.com/balderdashy/waterline">→ Waterline</a> </p>
+
+<blockquote>When in doubt, use brute force.
+
+        — Ken Thompson
+
+</blockquote>
+
+
+</p>
+
+
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-3.jpg" alt="" />
+</p>
+-->
+
+<!--
+<blockquote>
+  <p>“ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
+  <cite>― Haruki Murakami</cite></p>
+</blockquote>
+--> 
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-1-1.jpg" alt="" />
+</p>
+--> 
+
+
+<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
+
+
+
+        <div>
+            <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for Implement Passportjs authentication with Sailsjs on February 28, 2016&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
+        </div>
+
+            </div><!-- .post-content -->
+            <footer class="post-footer inner">
+                <div class="share-post">
+                    <span>Share</span>
+                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text=&url="><span class="screen-reader-text">Twitter</span></a>
+                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
+                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
+                </div>
+                <div class="author-box">
+
+  
+
+
+                    <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+
+
+
+  
+
+
+ 
+
+                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+
+                     
+                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                    <p class="author-links">
+
+                        <span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> Switzerland</span>
+
+                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a></span> 
+                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a></span> 
+                        
+                    </p>
+                </div>                  
+            </footer><!-- .post-footer -->
+        </article><!-- .post -->
+
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+
+      </div>
+    </div>
+
+    
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="inner-wide">
+      <div class="offsite-links">
+        <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
+        <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+        <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+        <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
+        <a href="http://blog.lucasgatsas.ch/feed.xml" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
+      </div><!-- .offsite-links -->
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+    </div><!-- .inner -->
+  </div><!-- .footer-top -->
+  <div class="site-info inner-wide">
+    <p>&copy;. 2014 - 2016 by <a href="index.html">   Lucas Gatsas <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>   
+  </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+
+
+
+<!-- jQuery -->
+
+
+
+
+
+  <script src="/assets/js/plugins-v=cba79c2df0.js"></script> 
+  <script src="/assets/js/custom-v=cba79c2df0.js "></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins-v=cba79c2df0.js"></script>
+  <script type="text/javascript" src="assets/js/custom-v=cba79c2df0.js"></script>
+
+
+
+
+
+
+            <div class="overlay"></div>
+  </div><!-- #page -->  
+
+
+
+  </body>
+
+</html>

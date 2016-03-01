@@ -1,0 +1,67 @@
+
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="{{ site.baseurl }}/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--{{ site.title }}--></a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+         {% for my_page in site.pages %}
+          {% if my_page.navigation_title %}
+            {% if my_page.button %}
+            {% else %}
+                <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.navigation_title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+        
+
+<div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->

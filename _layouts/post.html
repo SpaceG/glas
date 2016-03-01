@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+
+
+{% assign organiser = site.data.organisers.[page.organiser] %}
+
+
+<!--
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+   
+    <h2 class="post-date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</h2>
+    <h3 class="post-time">From {{ page.start_time}} to {{page.end_time }}</h3>
+  </header>
+
+
+
+ 
+</article> --> 
+        
+
+
+        <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">            
+            <header class="cover post-header">
+
+
+             
+                <div class="post-bg" style="background-image:url({{ site.baseurl }}/{{ page.cover }});"></div>
+
+                <div class="cover-content">
+                    <div class="inner">
+                     <!--   <div class="tag-links">
+                            <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
+                        </div>--> <!-- .tag-links -->
+                        <h1 class="post-title">{{ page.title }}</h1>
+                        <div class="post-meta">
+                            by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> on <time class="published" datetime="2015-10-05" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >{{ page.date | date: "%B %-d, %Y" }}</time> <span class="reading-time"> <span class="eta"></span></span>
+                        </div><!-- .post-meta -->
+                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+                    </div><!-- .inner -->
+                </div><!-- .cover-content -->
+            </header><!-- .cover -->
+            <div class="post-content inner">
+                <p></p>
+
+<p>
+
+
+   {{ content }}
+</p>
+
+
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-3.jpg" alt="" />
+</p>
+-->
+
+<!--
+<blockquote>
+  <p>“ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
+  <cite>― Haruki Murakami</cite></p>
+</blockquote>
+--> 
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-1-1.jpg" alt="" />
+</p>
+--> 
+
+
+<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
+
+
+
+        <div>
+            <a href='mailto:{{organiser.email}}?subject=Register interest for {{page.title}} on {{ page.date | date: "%B %-d, %Y" }}&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
+        </div>
+
+            </div><!-- .post-content -->
+            <footer class="post-footer inner">
+                <div class="share-post">
+                    <span>Share</span>
+                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text={{ post.url | prepend: site.baseurl }}&url="><span class="screen-reader-text">Twitter</span></a>
+                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
+                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
+                </div>
+                <div class="author-box">
+
+  {% if organiser.photo %}
+
+
+                    <img src="{{organiser.photo}}" alt="Jane Doe" class="author-avatar" />
+
+
+
+  {% endif %}
+
+
+ {% if organiser.photo %}
+
+                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By {{organiser.name}}</a></h4>
+
+                     {% endif %}
+                    <p class="author-description">{{ site.description }}</p>
+                    <p class="author-links">
+
+                        <span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> {{organiser.country}}</span>
+
+                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a></span> 
+                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">{{ organiser.email }}</a></span> 
+                        
+                    </p>
+                </div>                  
+            </footer><!-- .post-footer -->
+        </article><!-- .post -->
+
+
+                <ul class="pager">
+                    {% if page.previous.url %}
+                    <li class="previous">
+                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+                    </li>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <li class="next">
+                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+

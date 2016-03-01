@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="de-DE"
+xmlns:og="http://opengraphprotocol.org/schema/"
+xmlns:fb="http://www.facebook.com/2008/fbml">
+
+  <head>
+
+	<!-- Hello World. 
+		My Name is Lucas Gatsas
+		
+		Theme: blog/lucasgatsas.ch
+		Theme: by Lucas Gatsas
+		copy: by Lucas Gatsas
+		Web: www.lucasgatsas.ch
+		Fr. 26. Feb. 2016 06:15:13
+
+	-->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sudo Sails Lift port80</title>
+  <meta name="description" content="Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+">
+  <link rel="canonical" href="http://blog.lucasgatsas.ch/restpost/2016-01-18-sails.js-sudo-sails-lfit-via-port-80-local.js">
+  <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
+  <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+      <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
+    <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
+    <!-- Facebook Meta Data -->
+<meta property="og:image" content="http://spaceg.github.io/img/Pi2ModB1GB_-comp.jpg"/>
+<meta property="og:locality" content="St. Gallen"/>
+<meta property="og:country-name" content="Switzerland"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Lucas Gatsas, Front -End Engineer, SYS-Admin & UI/UX Designer from St. Gallen, Switzerland"/>
+<meta property="og:url" content="http://spaceg.github.io/"/>
+<meta property="og:site_name" content="www.lucasgatsas.ch"/>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="all">
+</head>
+
+
+<body class="home-template">
+  <div id="page" class="site">
+
+
+    
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--Lucas Gatsas--></a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+        
+
+<div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+
+
+<!--
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+   
+    <h2 class="post-date"><time datetime="2015-10-06T00:00:00+02:00" itemprop="datePublished">October 6, 2015</time></h2>
+    <h3 class="post-time">From 10:00 to 17:00</h3>
+  </header>
+
+
+
+ 
+</article> --> 
+        
+
+
+        <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">            
+            <header class="cover post-header">
+
+
+             
+                <div class="post-bg" style="background-image:url(/img/landscape_2-1.jpg);"></div>
+
+                <div class="cover-content">
+                    <div class="inner">
+                     <!--   <div class="tag-links">
+                            <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
+                        </div>--> <!-- .tag-links -->
+                        <h1 class="post-title">Sudo Sails Lift port80</h1>
+                        <div class="post-meta">
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2015-10-06T00:00:00+02:00" itemprop="datePublished" >October 6, 2015</time> <span class="reading-time"> <span class="eta"></span></span>
+                        </div><!-- .post-meta -->
+                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+                    </div><!-- .inner -->
+                </div><!-- .cover-content -->
+            </header><!-- .cover -->
+            <div class="post-content inner">
+                <p></p>
+
+<p>
+
+
+   <h2 class="section-heading">奋力拼搏</h2>
+
+<h2 class="section-heading">Run Your Web App via port 80 - Sails.js</h2>
+
+<p>The Error was to sails lift the App via only <code> sails lift </code><br />
+Get many Times this error back, tried everything to lift the Web App. but Error. 
+To fix this Issue, do you can change some files inside your App. After Run your 
+App with <code> $ sudo sails lift </code>. 
+<br /></p>
+
+<p>I have included a <code> local.js </code> file to the App. 
+Here is my Code to Run the WebApp via <code> port 80 </code>  without <code> 1337 </code>.
+The very Important thing is to take your port with this small code <code>  port: process.env.PORT || 80, </code> 
+<br /></p>
+
+<p>Now a was go ahead with the <code> local.js </code> like in the description in the sails.js document! 
+first i have inculded this in the <code> development.js </code> file. and saved this. </p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">info: </span><span class="no">To</span> <span class="n">see</span> <span class="n">your</span> <span class="n">app</span><span class="p">,</span> <span class="n">visit</span> <span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">localhost</span>
+<span class="ss">info: </span><span class="no">To</span> <span class="n">shut</span> <span class="n">down</span> <span class="no">Sails</span><span class="p">,</span> <span class="n">press</span> <span class="o">&lt;</span><span class="no">CTRL</span><span class="o">&gt;</span> <span class="o">+</span> <span class="no">C</span> <span class="n">at</span> <span class="n">any</span> <span class="n">time</span><span class="p">.</span>
+
+<span class="nf">debug</span><span class="p">:</span> <span class="o">--------------------------------------------------------</span>
+<span class="ss">debug: </span><span class="o">::</span> <span class="no">Tue</span> <span class="no">Oct</span> <span class="mo">06</span> <span class="mi">2015</span> <span class="mi">22</span><span class="p">:</span><span class="mi">18</span><span class="p">:</span><span class="mi">40</span> <span class="no">GMT</span><span class="o">+</span><span class="mo">0200</span> <span class="p">(</span><span class="no">CEST</span><span class="p">)</span>
+
+<span class="ss">debug: </span><span class="no">Environment</span> <span class="p">:</span> <span class="n">development</span>
+<span class="ss">debug: </span><span class="no">Port</span>        <span class="p">:</span> <span class="mi">80</span>
+<span class="ss">debug: </span><span class="o">--------------------------------------------------------</span>
+<span class="n">events</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">85</span>
+      <span class="kp">throw</span> <span class="n">er</span><span class="p">;</span> <span class="sr">//</span> <span class="no">Unhandled</span> <span class="s1">'error'</span> <span class="n">event</span>
+            <span class="o">^</span>
+<span class="no">Error</span><span class="p">:</span> <span class="n">listen</span> <span class="no">EACCES</span>
+    <span class="n">at</span> <span class="n">exports</span><span class="p">.</span><span class="nf">_errnoException</span> <span class="p">(</span><span class="n">util</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">746</span><span class="p">:</span><span class="mi">11</span><span class="p">)</span>
+    <span class="n">at</span> <span class="no">Server</span><span class="p">.</span><span class="nf">_listen2</span> <span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">1139</span><span class="p">:</span><span class="mi">19</span><span class="p">)</span>
+    <span class="n">at</span> <span class="n">listen</span> <span class="p">(</span><span class="n">net</span><span class="p">.</span><span class="nf">js</span><span class="p">:</span><span class="mi">1182</span><span class="p">:</span><span class="mi">10</span><span class="p">)</span></code></pre></figure>
+
+<p>The <code> development.js </code>  File! </p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
+ * Development environment settings
+ *
+ * This file can include shared settings for a development team,
+ * such as API keys or remote database passwords.  If you're using
+ * a version control solution for your Sails app, this file will
+ * be committed to your repository unless you add it to your .gitignore
+ * file.  If your repository will be publicly viewable, don't add
+ * any private information to this file!
+ *
+ */</span>
+
+<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
+
+  <span class="sr">/***************************************************************************
+   * Set the default database connection for models in the development       *
+   * environment (see config/</span><span class="n">connections</span><span class="p">.</span><span class="nf">js</span> <span class="n">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="p">.</span><span class="nf">js</span> <span class="p">)</span>           <span class="o">*</span>
+   <span class="o">***************************************************************************</span><span class="sr">/
+
+  /</span><span class="o">/</span> <span class="ss">models: </span><span class="p">{</span>
+  <span class="sr">//</span>   <span class="ss">connection: </span><span class="s1">'someMongodbServer'</span>
+  <span class="sr">//</span> <span class="p">},</span>
+  
+  <span class="sr">/***************************************************************************
+   * Set the port in the development environment to 80                        *
+   ***************************************************************************/</span>
+
+   <span class="sr">//</span> <span class="ss">port: </span><span class="mi">80</span><span class="p">,</span>
+<span class="p">};</span></code></pre></figure>
+
+<p><br /> </p>
+
+<p>The <code> development.js.bak </code>  File! </p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
+ * Development environment settings
+ *
+ * This file can include shared settings for a development team,
+ * such as API keys or remote database passwords.  If you're using
+ * a version control solution for your Sails app, this file will
+ * be committed to your repository unless you add it to your .gitignore
+ * file.  If your repository will be publicly viewable, don't add
+ * any private information to this file!
+ *
+ */</span>
+
+<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
+
+  <span class="sr">/***************************************************************************
+   * Set the default database connection for models in the development       *
+   * environment (see config/</span><span class="n">connections</span><span class="p">.</span><span class="nf">js</span> <span class="n">and</span> <span class="n">config</span><span class="o">/</span><span class="n">models</span><span class="p">.</span><span class="nf">js</span> <span class="p">)</span>           <span class="o">*</span>
+   <span class="o">***************************************************************************</span><span class="sr">/
+
+  /</span><span class="o">/</span> <span class="ss">models: </span><span class="p">{</span>
+  <span class="sr">//</span>   <span class="ss">connection: </span><span class="s1">'someMongodbServer'</span>
+  <span class="sr">//</span> <span class="p">},</span>
+  
+  <span class="sr">/***************************************************************************
+   * Set the port in the development environment to 80                        *
+   ***************************************************************************/</span>
+
+   <span class="ss">port: </span><span class="mi">80</span><span class="p">,</span>
+<span class="p">};</span></code></pre></figure>
+
+<p>The <code> local.js </code>  File! </p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="sr">/**
+
+Local environment settings *
+While you're developing your app, this config file should include
+any settings specifically for your development computer (db passwords, etc.)
+When you're ready to deploy your app in production, you can use this file
+for configuration options on the server where it will be deployed. * *
+PLEASE NOTE:
+This file is included in your .gitignore, so if you're using git
+as a version control solution for your Sails app, keep in mind that
+this file won't be committed to your repository! *
+Good news is, that means you can specify configuration for your local
+machine in this file without inadvertently committing personal information
+(like database passwords) to the repo. Plus, this prevents other members
+of your team from commiting their local configuration changes on top of yours. * *
+For more information, check out:
+http:/</span><span class="o">/</span><span class="n">sailsjs</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span><span class="c1">#documentation */</span>
+<span class="n">module</span><span class="p">.</span><span class="nf">exports</span> <span class="o">=</span> <span class="p">{</span>
+
+<span class="sr">//</span> <span class="no">The</span> <span class="n">port</span> <span class="n">setting</span> <span class="n">determines</span> <span class="n">which</span> <span class="no">TCP</span> <span class="n">port</span> <span class="n">your</span> <span class="n">app</span> <span class="n">will</span> <span class="n">be</span> <span class="n">deployed</span> <span class="n">on</span>
+<span class="sr">//</span> <span class="no">Ports</span> <span class="n">are</span> <span class="n">a</span> <span class="n">transport</span><span class="o">-</span><span class="n">layer</span> <span class="n">concept</span> <span class="n">designed</span> <span class="n">to</span> <span class="n">allow</span> <span class="n">many</span> <span class="n">different</span>
+<span class="sr">//</span> <span class="n">networking</span> <span class="n">applications</span> <span class="n">run</span> <span class="n">at</span> <span class="n">the</span> <span class="n">same</span> <span class="n">time</span> <span class="n">on</span> <span class="n">a</span> <span class="n">single</span> <span class="n">computer</span><span class="p">.</span>
+<span class="nf">/</span><span class="o">/</span> <span class="no">More</span> <span class="n">about</span> <span class="ss">ports: </span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="n">en</span><span class="p">.</span><span class="nf">wikipedia</span><span class="p">.</span><span class="nf">org</span><span class="o">/</span><span class="n">wiki</span><span class="o">/</span><span class="no">Port_</span><span class="p">(</span><span class="n">computer_networking</span><span class="p">)</span>
+<span class="sr">//</span> 
+<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="k">if</span> <span class="n">it</span><span class="s1">'s set, Sails uses the PORT environment variable.
+// Otherwise it falls back to port 1337.
+//
+// In production, you'</span><span class="n">ll</span> <span class="n">probably</span> <span class="n">want</span> <span class="n">to</span> <span class="n">change</span> <span class="n">this</span> <span class="n">setting</span> 
+<span class="sr">//</span> <span class="n">to</span> <span class="mi">80</span> <span class="p">(</span><span class="n">http</span><span class="ss">:/</span><span class="o">/</span><span class="p">)</span> <span class="n">or</span> <span class="mi">443</span> <span class="p">(</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="p">)</span> <span class="k">if</span> <span class="n">you</span> <span class="n">have</span> <span class="n">an</span> <span class="no">SSL</span> <span class="n">certificate</span>
+
+<span class="ss">port: </span><span class="n">process</span><span class="p">.</span><span class="nf">env</span><span class="o">.</span><span class="no">PORT</span> <span class="o">||</span> <span class="mi">80</span><span class="p">,</span>
+
+<span class="sr">//</span> <span class="no">The</span> <span class="n">runtime</span> <span class="s2">"environment"</span> <span class="n">of</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">is</span> <span class="n">either</span> <span class="s1">'development'</span> <span class="n">or</span> <span class="s1">'production'</span><span class="p">.</span>
+<span class="nf">/</span><span class="o">/</span>
+<span class="sr">//</span> <span class="no">In</span> <span class="n">development</span><span class="p">,</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">will</span> <span class="n">go</span> <span class="n">out</span> <span class="n">of</span> <span class="n">its</span> <span class="n">way</span> <span class="n">to</span> <span class="n">help</span> <span class="n">you</span>
+<span class="sr">//</span> <span class="p">(</span><span class="k">for</span> <span class="n">instance</span> <span class="n">you</span> <span class="n">will</span> <span class="n">receive</span> <span class="n">more</span> <span class="n">descriptive</span> <span class="n">error</span> <span class="n">and</span> <span class="n">debugging</span> <span class="n">output</span><span class="p">)</span>
+<span class="sr">//</span>
+<span class="sr">//</span> <span class="no">In</span> <span class="n">production</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">configures</span> <span class="n">itself</span> <span class="p">(</span><span class="n">and</span> <span class="n">its</span> <span class="n">dependencies</span><span class="p">)</span> <span class="n">to</span> <span class="n">optimize</span> <span class="n">performance</span><span class="p">.</span>
+<span class="nf">/</span><span class="o">/</span> <span class="no">You</span> <span class="n">should</span> <span class="n">always</span> <span class="n">put</span> <span class="n">your</span> <span class="n">app</span> <span class="k">in</span> <span class="n">production</span> <span class="n">mode</span> <span class="n">before</span> <span class="n">you</span> <span class="n">deploy</span> <span class="n">it</span> <span class="n">to</span> <span class="n">a</span> <span class="n">server</span><span class="o">-</span>
+<span class="sr">//</span> <span class="no">This</span> <span class="n">helps</span> <span class="k">ensure</span> <span class="n">that</span> <span class="n">your</span> <span class="no">Sails</span> <span class="n">app</span> <span class="n">remains</span> <span class="n">stable</span><span class="p">,</span> <span class="n">performant</span><span class="p">,</span> <span class="n">and</span> <span class="n">scalable</span><span class="p">.</span>
+<span class="nf">/</span><span class="o">/</span> 
+<span class="sr">//</span> <span class="no">By</span> <span class="n">default</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">sets</span> <span class="n">its</span> <span class="n">environment</span> <span class="n">using</span> <span class="n">the</span> <span class="no">NODE_ENV</span> <span class="n">environment</span> <span class="n">variable</span><span class="p">.</span>
+<span class="nf">/</span><span class="o">/</span> <span class="no">If</span> <span class="no">NODE_ENV</span> <span class="n">is</span> <span class="n">not</span> <span class="n">set</span><span class="p">,</span> <span class="no">Sails</span> <span class="n">will</span> <span class="n">run</span> <span class="k">in</span> <span class="n">the</span> <span class="s1">'development'</span> <span class="n">environment</span><span class="p">.</span>
+
+ <span class="nf">/</span><span class="o">/</span><span class="ss">environment: </span><span class="n">process</span><span class="p">.</span><span class="nf">env</span><span class="o">.</span><span class="no">NODE_ENV</span> <span class="o">||</span> <span class="s1">'development'</span>
+
+<span class="p">};</span></code></pre></figure>
+
+<p>Pingo The WebApp is running now on <code> localhost </code> </p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="no">Space</span><span class="o">-</span><span class="no">O</span><span class="o">-</span><span class="no">Mac</span><span class="o">-</span><span class="no">Pro</span><span class="ss">:xxxxxx</span> <span class="n">cybo</span><span class="err">$</span> <span class="n">sudo</span> <span class="n">sails</span> <span class="n">lift</span>
+<span class="no">Password</span><span class="p">:</span>
+
+<span class="ss">info: </span><span class="no">Starting</span> <span class="n">app</span><span class="p">.</span><span class="nf">.</span><span class="p">.</span>
+
+<span class="nf">info</span><span class="p">:</span> 
+<span class="ss">info:                </span><span class="p">.</span><span class="nf">-</span><span class="p">.</span><span class="nf">.</span><span class="o">-</span><span class="p">.</span>
+<span class="nf">info</span><span class="p">:</span> 
+<span class="ss">info:    </span><span class="no">Sails</span>              <span class="o">&lt;|</span>    <span class="p">.</span><span class="nf">-</span><span class="p">.</span><span class="nf">.</span><span class="o">-</span><span class="p">.</span>
+<span class="nf">info</span><span class="p">:</span>    <span class="n">v0</span><span class="o">.</span><span class="mi">11</span><span class="o">.</span><span class="mi">0</span>             <span class="o">|</span><span class="p">\</span>
+<span class="ss">info:                       </span><span class="sr">/|.\
+info:                      /</span> <span class="o">||</span> <span class="p">\</span>
+<span class="ss">info:                    </span><span class="p">,</span><span class="s1">'  |'</span>  <span class="p">\</span>
+<span class="ss">info:                 </span><span class="p">.</span><span class="nf">-</span><span class="s1">'.-==|/_--'</span>
+<span class="ss">info:                 </span><span class="sb">`--'-------' 
+info:    __---___--___---___--___---___--___
+info:  ____---___--___---___--___---___--___-__
+info: 
+info: Server lifted in `</span><span class="o">/</span><span class="no">Users</span><span class="o">/</span><span class="n">cybo</span><span class="o">/</span><span class="no">Downloads</span><span class="o">/</span><span class="n">xxxxxxx</span><span class="sb">`
+info: To see your app, visit http://localhost
+info: To shut down Sails, press &lt;CTRL&gt; + C at any time.
+
+debug: --------------------------------------------------------
+debug: :: Tue Oct 06 2015 22:24:03 GMT+0200 (CEST)
+
+debug: Environment : development
+debug: Port        : 80
+debug: --------------------------------------------------------</span></code></pre></figure>
+
+<p>PerfectWork: With Carbon based Lifeforms - Interloper!</p>
+
+<!--
+
+<iframe width="100%" height="515" src="https://www.youtube.com/embed/-9pgIVcB3rk" frameborder="0" allowfullscreen></iframe>
+
+
+ -->
+
+<!--
+
+<a href="/img/p-4.png">
+    <img src="/img/p-4.png" alt="Lucas Gatsas lucas gatsas" title="lucas gatsas Lucas Gatsas"  style="width:100%">
+</a>
+
+
+-->
+
+<p>Link: <a href="http://sailsjs.org/documentation/anatomy/my-app/config/local-js" target="_blank"> local.js</a> 
+Link: <a href="http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp" target="_blank"> superuser</a> 
+Link: <a href="https://github.com/balderdashy/sails/issues/1361" target="_blank"> sails issues</a> 
+Link: <a href="http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error" target="_blank"> Stack Overflow</a> </p>
+
+<blockquote>
+"i want, i want, i want , i want !!!!"
+</blockquote>
+
+
+</p>
+
+
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-3.jpg" alt="" />
+</p>
+-->
+
+<!--
+<blockquote>
+  <p>“ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
+  <cite>― Haruki Murakami</cite></p>
+</blockquote>
+--> 
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-1-1.jpg" alt="" />
+</p>
+--> 
+
+
+<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
+
+
+
+        <div>
+            <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for Sudo Sails Lift port80 on October 6, 2015&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
+        </div>
+
+            </div><!-- .post-content -->
+            <footer class="post-footer inner">
+                <div class="share-post">
+                    <span>Share</span>
+                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text=&url="><span class="screen-reader-text">Twitter</span></a>
+                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
+                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
+                </div>
+                <div class="author-box">
+
+  
+
+
+                    <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+
+
+
+  
+
+
+ 
+
+                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+
+                     
+                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                    <p class="author-links">
+
+                        <span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> Switzerland</span>
+
+                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a></span> 
+                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a></span> 
+                        
+                    </p>
+                </div>                  
+            </footer><!-- .post-footer -->
+        </article><!-- .post -->
+
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+
+      </div>
+    </div>
+
+    
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="inner-wide">
+      <div class="offsite-links">
+        <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
+        <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+        <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+        <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
+        <a href="http://blog.lucasgatsas.ch/feed.xml" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
+      </div><!-- .offsite-links -->
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+    </div><!-- .inner -->
+  </div><!-- .footer-top -->
+  <div class="site-info inner-wide">
+    <p>&copy;. 2014 - 2016 by <a href="index.html">   Lucas Gatsas <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>   
+  </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+
+
+
+<!-- jQuery -->
+
+
+
+
+
+  <script src="/assets/js/plugins-v=cba79c2df0.js"></script> 
+  <script src="/assets/js/custom-v=cba79c2df0.js "></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins-v=cba79c2df0.js"></script>
+  <script type="text/javascript" src="assets/js/custom-v=cba79c2df0.js"></script>
+
+
+
+
+
+
+            <div class="overlay"></div>
+  </div><!-- #page -->  
+
+
+
+  </body>
+
+</html>

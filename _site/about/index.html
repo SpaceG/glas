@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Lucas Gatsas</title>
+	<meta name="description" content="Jane Doe is a reporter at The Curious magazine, where she writes about technology / design companies and the people they impact." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="../../assets/favicon.ico">
+
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style-v=cba79c2df0.css" />
+
+
+
+	<!--[if lt IE 9]>
+	<script src="../../assets/js/html5-v=cba79c2df0.js"></script>
+	<![endif]-->
+
+
+<style>
+
+@media only screen and (min-width: 1400px){
+.grid-item, .home-template .grid-item:nth-child(3n+1), .cover.page-header-1 {
+    height: 500px;
+    height: 450px;
+    width: 100%;
+}
+}
+</style>
+</head>
+<body class="author-template author-jane-doe">
+	<div id="page" class="site">
+    
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--Lucas Gatsas--></a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+        
+
+<div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+<main class="site-main" role="main">
+	<section class="site-content">
+	
+		<header class="cover page-header-1">
+			<div class="cover-bg" style="background-image: url('../../content/images/2015/10/tag-bc.jpg')"></div>
+			<div class="cover-content">
+				<div class="inner">
+					<div class="post-count"></div>
+					<h1 class="page-title">Lucas Gatsas </h1>
+
+					<script type="text/javascript">
+                //###################################################################
+
+                var CDown = function() {
+                  this.state=0;// if initialized
+                  this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
+                  this.interval=null;// setInterval object
+                }
+
+                CDown.prototype = {
+                  init: function(){
+                    this.state=1;
+                    var self=this;
+                    this.interval=window.setInterval(function(){self.tick();}, 25);
+                  },
+                  add: function(date,id){
+                    this.counts.push({d:date,id:id});
+                    this.tick();
+                    if(this.state==0) this.init();
+                  },
+                  expire: function(idxs){
+                    for(var x in idxs) {
+                      this.display(this.counts[idxs[x]], "Now!");
+                      this.counts.splice(idxs[x], 1);
+                    }
+                  },
+                  format: function(r){
+                    var out="";
+                    out += r.s +("."+r.ms)+" "+((r.s==1)?"<br>sec":"<br>files downloading..")+", ";
+
+                    return out.substr(0,out.length-2);
+                  },
+                  math: function(work){
+                    var y=w=d=h=m=s=ms=0;
+
+                    ms=(""+((work%1000)+1000)).substr(1,3);
+                    work=Math.floor(work/1000);//kill the "milliseconds" so just secs
+
+                    y=Math.floor(work/31536000);//years (no leapyear support)
+                    w=Math.floor(work/604800);//weeks
+                    d=Math.floor(work/86400);//days
+                    h=Math.floor(work/3600);//hours
+                    m=Math.floor(work/60);//minutes
+                    s=Math.floor(work);//seconds
+
+                    return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
+                  },
+                  tick: function(){
+                    var now=(new Date()).getTime(),
+                      expired=[],cnt=0,amount=0;
+
+                    if(this.counts)
+                    for(var idx=0,n=this.counts.length; idx<n; ++idx){
+                      cnt=this.counts[idx];
+                      amount=cnt.d.getTime()-now;//calc milliseconds between dates
+
+                      // if time is already past
+                      if(amount<0){
+                        expired.push(idx);
+                      }
+                      // date is still good
+                      else{
+                        this.display(cnt, this.format(this.math(amount)));
+                      }
+                    }
+
+                    // deal with any expired
+                    if(expired.length>0) this.expire(expired);
+
+                    // if no active counts, stop updating
+                    if(this.counts.length==0) window.clearTimeout(this.interval);
+                    
+                  },
+                  display: function(cnt,msg){
+                    document.getElementById(cnt.id).innerHTML=msg;
+                  }
+                };
+
+                window.onload=function(){
+                  var cdown = new CDown();
+
+                  cdown.add(new Date(2017,1,3,23,14,27), "countbox1");
+                };
+                </script>
+                <div id="countbox1"><br>files downloading..</div>
+					<p><img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" /></p>
+					<p class="page-description">Lucas Gatsas is a Swiss based Web - Developer, Front End Engineer & UI/UX Designer from St. Gallen, Switzerland.</p>
+					<p class="author-links">
+						<span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> St. Gallen, Switzerland</span>
+						<span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">http://www.lucasgatsas.ch</a></span>
+					</p>
+				</div><!-- .inner -->
+			</div><!-- .cover-content -->
+		</header><!-- .cover -->
+
+		<div class="inner-wide">
+			<div class="post-grid">
+
+</div><!-- .post-grid -->
+
+
+		</div><!-- .inner-wide -->
+
+	</section><!-- .site-content -->
+</main><!-- .site-main -->
+
+		<div class="sidebar">
+	<div class="sidebar-scrollable">
+		<div class="widget-area">
+				<nav class="site-navigation" role="navigation">
+	<h2 class="screen-reader-text">Explore Website</h2>
+	<ul class="menu">
+		<li class="menu-item home" role="presentation"><a href="../../index.html">Home</a></li>
+		<li class="menu-item about" role="presentation"><a href="../../about/index.html">About</a></li>
+		<li class="menu-item style-guide" role="presentation"><a href="../../style-guide/index.html">Style Guide</a></li>
+		<li class="menu-item buy-curious-theme" role="presentation"><a href="http://themeforest.net/item/curious-blog-and-magazine-ghost-theme/13139486?ref=justgoodthemes">Buy Curious Theme</a></li>
+	</ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+			<aside class="widget widget-text">
+				<h2 class="widget-title">About Curious</h2>
+				<p>The Curious is a photography style magazine with a focus on beautiful and intelligent content for the modern reader. By invoking the lost spirit of high-quality photography magazines, together with the most current and engaging of subject matter, The Curious is setting a new standard for modern titles.</p>
+			</aside><!-- .widget -->
+			<aside class="widget widget-newsletter">
+				<h2 class="widget-title">Curious Newsletter</h2>
+				<p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<div id="mc_embed_signup_scroll">
+							<label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+							<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+						</div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</aside><!-- .widget -->
+			<aside class="widget widget-text">
+				<h2 class="widget-title">Contact</h2>
+				<p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+				<ul class="contacts">
+					<li><span class="icon icon-envelope" aria-hidden="true"></span> blogin [at] gmail.com</li>
+					<li><span class="icon icon-map-marker" aria-hidden="true"></span> 123 Some Street, Some City, AA 12345</li>
+					<li><span class="icon icon-phone" aria-hidden="true"></span> +123 112 23445</li>
+				</ul>
+			</aside><!-- .widget -->
+		</div><!-- .widget-area -->
+		<a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+	</div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+
+
+
+    
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="inner-wide">
+      <div class="offsite-links">
+        <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
+        <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+        <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+        <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
+        <a href="http://blog.lucasgatsas.ch/feed.xml" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
+      </div><!-- .offsite-links -->
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+    </div><!-- .inner -->
+  </div><!-- .footer-top -->
+  <div class="site-info inner-wide">
+    <p>&copy;. 2014 - 2016 by <a href="index.html">   Lucas Gatsas <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>   
+  </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+
+
+
+<!-- jQuery -->
+
+
+
+
+
+  <script src="/assets/js/plugins-v=cba79c2df0.js"></script> 
+  <script src="/assets/js/custom-v=cba79c2df0.js "></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins-v=cba79c2df0.js"></script>
+  <script type="text/javascript" src="assets/js/custom-v=cba79c2df0.js"></script>
+
+
+
+

@@ -1,0 +1,99 @@
+---
+layout: default
+cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
+---
+
+
+<main class="site-main" role="main">
+  <div class="site-content inner-wide">
+
+    <div class="cover hero">
+      <div class="cover-bg" style="background-image: url('img/1.jpg')"></div>
+      <div class="cover-content">
+        <div class="inner">
+          <div class="hero-wrap">
+            <h2 class="hero-title fade-in">Lucas Gatsas</h2>
+            <hr>
+            <p class="hero-text fade-in">
+
+             Hello, My Name is Lucas Gatsas, I'm a Front -End Engineer, SYS-Admin & UI/UX - Designer based in the City of St. Gallen, Switzerland. <br>
+            Blogging here about Code & Technology.</p>
+            <p class="subscribe"><a href="rss/" class="button light fade-in">Subscribe</a></p>
+          </div>          
+        </div><!-- .inner -->
+      </div><!-- .cover-content -->
+    </div><!-- .cover -->
+    
+    <div class="post-grid"> 
+
+
+
+
+
+
+
+
+ <!-- <article class="grid-item post tag-music tag-science"> -->
+        {% capture currentDate %}{{'now' | date: '%b %-d, %Y' }}{% endcapture %}
+
+
+      {% for post in site.posts  %}
+
+        {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
+
+        {% if blogDate >= currentDate %}
+
+                 {% if post.cover %}
+
+    <article class="post-inside post-inside grid-item post tag-music tag-science">
+         
+
+      <div class="post-bg" style="background-image:url({{post.cover}});"></div>
+
+                          {% endif %}
+
+
+      <header class="post-header">
+     <!--   <div class="tag-links">
+          <a href="{{ post.url | prepend: site.baseurl }}">Music</a><a href="{{ post.url | prepend: site.baseurl }}">Science</a>
+        </div> -->
+        <h2 class="post-title"><a href="{{ post.url | prepend: site.baseurl }}" rel="bookmark">{{ post.title }} <span></span></a></h2>
+
+            
+
+      
+        <div class="post-meta">
+          by <span class="post-author"><a href="{{ site.baseurl }}/about">{{ site.title }} </a></span> on <time class="published" datetime="2015-10-05">{{ post.date | date: "%b %-d, %Y" }}</time>
+        </div><!-- .post-meta -->
+      </header><!-- .post-header -->
+      <div class="read-more">
+        <a class="button light" href="{{ post.url | prepend: site.baseurl }}" title="Walking on Thin Ice">Read More</a>
+      </div>
+    </article>
+
+
+        {% endif %}
+
+      {% endfor %}
+
+
+
+
+
+
+
+
+
+</div><!-- .post-grid -->
+
+<nav class="pagination" role="navigation">
+  <span class="page-number">www.lucasgatsas.ch</span>
+<!--   <a class="older-posts square dark icon-chevron-right" href="page/2/"><span class="screen-reader-text">Older Posts</span></a> --> 
+</nav>
+
+    
+  </div><!-- .site-content -->
+</main><!-- .site-main -->
+
+
+
