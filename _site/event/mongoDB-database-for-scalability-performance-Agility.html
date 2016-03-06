@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="de-DE"
-xmlns:og="http://opengraphprotocol.org/schema/"
-xmlns:fb="http://www.facebook.com/2008/fbml">
+<html>
 
   <head>
 
@@ -211,7 +209,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                         </div>--> <!-- .tag-links -->
                         <h1 class="post-title">Mongo DB</h1>
                         <div class="post-meta">
-                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2015-07-07T00:00:00+02:00" itemprop="datePublished" >July 7, 2015</time> <span class="reading-time"> <span class="eta"></span></span>
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2015-07-07T00:00:00+02:00" itemprop="datePublished" >07 July 2015</time> <span class="reading-time"> <span class="eta"></span></span>
                         </div><!-- .post-meta -->
                         <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
                     </div><!-- .inner -->
@@ -235,7 +233,7 @@ Starting in version 3.0, MongoDB only supports OS X versions 10.7 (Lion) on Inte
 <p>You can install MongoDB with <strong>Homebrew</strong> or manually. This section describes both.</p>
 
 <p>1.<strong> Update Homebrew’s package database.</strong> 
-In a system shell, issue the following command: </p>
+In a system shell, issue the following command:</p>
 
 <p><code>brew update </code></p>
 
@@ -247,7 +245,7 @@ To install the MongoDB binaries, issue the following command in a system shell:<
 
 <p><code>brew install mongodb</code></p>
 
-<p><code>brew install mongodb --with-openssl</code> </p>
+<p><code>brew install mongodb --with-openssl</code></p>
 
 <p><strong> Build MongoDB from Source with TLS/SSL Support<strong> 
 To build MongoDB from the source files and include TLS/SSL support, issue the following from a system shell:</strong></strong></p>
@@ -255,19 +253,19 @@ To build MongoDB from the source files and include TLS/SSL support, issue the fo
 <p><strong> Install the Latest Development Release of MongoDB</strong> 
 To install the latest development release for use in testing and development, issue the following command in a system shell:</p>
 
-<p><code> brew install mongodb --devel</code> </p>
+<p><code> brew install mongodb --devel</code></p>
 
 <p><strong> Install MongoDB Manually </strong> 
 Only install MongoDB using this procedure if you cannot use homebrew.</p>
 
 <p>1.<strong> Download the binary files for the desired release of MongoDB.</strong> 
 Download the binaries from <code> https://www.mongodb.org/
-downloads. </code> </p>
+downloads. </code></p>
 
 <p>For example, to download the latest release through the shell, issue the following:</p>
 
 <p><strong> curl -O https://fastdl.mongodb.org/
-  osx/mongodb-osx-x86_64-3.0.4.tgz</strong> </p>
+  osx/mongodb-osx-x86_64-3.0.4.tgz</strong></p>
 
 <p>2.<strong>Extract the files from the downloaded archive.</strong> 
 For example, from a system shell, you can extract through the tar command:</p>
@@ -284,7 +282,7 @@ Copy the extracted folder to the location from which MongoDB will run.</p>
 <p>4.<strong>Ensure the location of the binaries is in the PATH variable.</strong>
 The MongoDB binaries are in the bin/ directory of the archive. To ensure that the binaries are in your PATH, you can modify your PATH.</p>
 
-<p>For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code> </p>
+<p>For example, you can add the following line to your shell’s rc file <code>(e.g. ~/.bashrc):</code></p>
 
 <p>export PATH=<mongodb-install-directory> <code>/bin:$PATH</code>
 Replace <mongodb-install-directory> with the path to the extracted MongoDB archive.</mongodb-install-directory></mongodb-install-directory></p>

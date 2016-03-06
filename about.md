@@ -1,7 +1,7 @@
 ---
 layout: about
 navigation_title: About
-title: About Evento
+title: About Lucas Gatsas
 permalink: /about/
 ---
 

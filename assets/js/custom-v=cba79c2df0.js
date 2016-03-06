@@ -128,7 +128,7 @@
 
 	function displayRecentPosts(posts) {
 		var count = 0,
-			posts_count = typeof latest_posts_count !== 'undefined' ? latest_posts_count : 5;
+			posts_count = typeof latest_posts_count !== 'undefined' ? latest_posts_count : 50;
 		posts.forEach(function(post) {
 			if ( count < posts_count ) {
 				$('.recent-posts').append($('<div class="recent-item"><a href="' + post.url + '">' + post.title + '</a><span>' + formatDate(post.date) + '</span></div>'));

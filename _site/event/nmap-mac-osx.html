@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="de-DE"
-xmlns:og="http://opengraphprotocol.org/schema/"
-xmlns:fb="http://www.facebook.com/2008/fbml">
+<html>
 
   <head>
 
@@ -211,7 +209,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                         </div>--> <!-- .tag-links -->
                         <h1 class="post-title">NMAP MAC OSX</h1>
                         <div class="post-meta">
-                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2016-01-13T00:00:00+01:00" itemprop="datePublished" >January 13, 2016</time> <span class="reading-time"> <span class="eta"></span></span>
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2016-01-13T00:00:00+01:00" itemprop="datePublished" >13 January 2016</time> <span class="reading-time"> <span class="eta"></span></span>
                         </div><!-- .post-meta -->
                         <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
                     </div><!-- .inner -->
@@ -226,9 +224,9 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
    <h2 class="section-heading">Nmap for Mac Os X - Linux</h2>
 <h2 class="section-heading">Nmap Security Scanner for Linux-MAC-UNIX </h2>
 
-<p><strong> Was ist Nmap ? </strong> </p>
+<p><strong> Was ist Nmap ? </strong></p>
 
-<pre><code>   Nmap ("Network Mapper") ist ein Open-Source-Werkzeug fA1/4r die
+<div class="highlighter-rouge"><pre class="highlight"><code>   Nmap ("Network Mapper") ist ein Open-Source-Werkzeug fA1/4r die
    Netzwerkanalyse und SicherheitsA1/4berprA1/4fung. Es wurde entworfen, um
    groAe Netzwerke schnell zu scannen, auch wenn es bei einzelnen Hosts auch
    gut funktioniert. Nmap benutzt rohe IP-Pakete auf neuartige Weise, um
@@ -243,11 +241,12 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
    Dienstaktualisierungen und die Aberwachung von Betriebszeiten von Hosts
    oder Diensten.
 </code></pre>
+</div>
 
-<p><strong> Install and Set Up </strong> </p>
+<p><strong> Install and Set Up </strong></p>
 
 <p>Download it here <a href="https://nmap.org/download.html#macosx">nmap-6.47.dmg</a> or Run it with Terminal: First installl <a href="http://www.bzip.org/">bzip.org</a>! Promt
-in your Temrinal follow the Commanlines: </p>
+in your Temrinal follow the Commanlines:</p>
 
 <p>To install using <a href="https://www.macports.org/">MacPorts</a>, run <code> sudo port install nmap </code>. Nmap will be installed as <code> /opt/local/bin/nmap </code>. To uninstall, run sudo port uninstall nmap.</p>
 
@@ -270,7 +269,7 @@ PORT STATE SERVICE
 
 </pre></pre></div>
 
-<p><code> nmap hostname </code> </p>
+<p><code> nmap hostname </code></p>
 
 <p>1.What computers did you find running on the local network?</p>
 
@@ -286,9 +285,9 @@ PORT STATE SERVICE
 
 <p>7.Find and remove computers which don’t meet the organization’s minimum level of security.</p>
 
-<p><strong> Scan &amp; List a Range of Local Network IP’s </strong> </p>
+<p><strong> Scan &amp; List a Range of Local Network IP’s </strong></p>
 
-<p>You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae: </p>
+<p>You will find some Information about other Machines on your Localhost Network. Your Lan has an IP range of example  <code> 192.169.0.1</code> to <code> 192.169.0.25 </code> change numbers as appropritae:</p>
 
 <p><code>nmap -sP 192.168.0.1-25</code></p>
 
@@ -304,9 +303,9 @@ nmap -O 192.168.0.1-5</code></p>
 <p><code>
 nmap --osscan-guess 192.168.0.2 </code></p>
 
-<p>Exmaple Diagram: </p>
+<p>Exmaple Diagram:</p>
 
-<pre><code>                          +---------+
+<div class="highlighter-rouge"><pre class="highlight"><code>                          +---------+
     +---------+           | Network |         +--------+
     | server1 |-----------+ swtich  +---------|server2 |
     +---------+           | (sw0)   |         +--------+
@@ -317,16 +316,17 @@ nmap --osscan-guess 192.168.0.2 </code></p>
                      | wks01 Linux/OSX    |
                      +--------------------+
 </code></pre>
+</div>
 
 <blockquote id="strict-alert-red">
 Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only <strong>your Network </strong> and <strong> Computers, Websites </strong> etc.  as follows:
 </blockquote>
 
 <p>At last i have to lol. because i found this crazy thing here : 
-<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a> </p>
+<a href="http://nmap.org/movies/#elysium">Nmap in Movies!</a></p>
 
 <p>Link: 
-<a href="http://nmap.org/download.html#macosx">nmap.org</a> </p>
+<a href="http://nmap.org/download.html#macosx">nmap.org</a></p>
 
 <blockquote>
 This is a SwissWatch! :)
@@ -412,7 +412,7 @@ This is a SwissWatch! :)
                     
                     
                     <li class="next">
-                        <a href="/event/bcrypt.html" data-toggle="tooltip" data-placement="top" title="bycrypt">Next Post &rarr;</a>
+                        <a href="/event/Implement-Passport.js-authentication-with-Sails.js.html" data-toggle="tooltip" data-placement="top" title="Implement Passportjs authentication with Sailsjs">Next Post &rarr;</a>
                     </li>
                     
                 </ul>

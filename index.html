@@ -32,14 +32,15 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
 
 
-
  <!-- <article class="grid-item post tag-music tag-science"> -->
-        {% capture currentDate %}{{'now' | date: '%b %-d, %Y' }}{% endcapture %}
+        {% capture currentDate %}{{'now' | date: '%d %B %Y' }}{% endcapture %}
 
 
       {% for post in site.posts  %}
 
-        {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
+
+
+        {% capture blogDate %}{{post.date | date: '%d %B %Y' }}{% endcapture %}
 
         {% if blogDate >= currentDate %}
 
@@ -63,7 +64,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
       
         <div class="post-meta">
-          by <span class="post-author"><a href="{{ site.baseurl }}/about">{{ site.title }} </a></span> on <time class="published" datetime="2015-10-05">{{ post.date | date: "%b %-d, %Y" }}</time>
+          by <span class="post-author"><a href="{{ site.baseurl }}/about">{{ site.title }} </a></span> on <time class="published" datetime="">{{ post.date | date: "%b %-d, %Y" }}</time>
         </div><!-- .post-meta -->
       </header><!-- .post-header -->
       <div class="read-more">
