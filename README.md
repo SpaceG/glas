@@ -8,7 +8,7 @@ Delete the cname file.
 
 
 <code>cd Desktop </code><br>
-<code>cd Glas </code><br>
+<code>cd glas </code><br>
 <code>$ jekyll serve </code>
 
 
