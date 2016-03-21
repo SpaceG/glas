@@ -7,8 +7,8 @@ Clone to Desktop
 Delete the cname file. 
 
 <code>
-cd Desktop
-cd Glas
+cd Desktop <br>
+cd Glas <br>
 $ jekyll serve 
 </code>
 
