@@ -33,14 +33,9 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
 
  <!-- <article class="grid-item post tag-music tag-science"> -->
-        {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
-
-        
-
+    {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
 
       {% for post in site.posts  %}
-
-
 
         {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
 
