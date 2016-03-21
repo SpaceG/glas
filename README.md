@@ -1,15 +1,15 @@
-# iceandfire
-Ice&amp;Fire - Jekyll Theme 
-
+# glas
+Glas - Rails on Ruby - Jekyll Theme 
 Preview: http://www.blog.lucasgatsas.ch 
 
-Have Fun!
-
-
-Download !
-Open Terminal
-
-Type - $jekyll serve 
-
+Clone to Desktop
 
 Delete the cname file. 
+
+<code>
+cd Desktop
+cd Glas
+$ jekyll serve 
+</code>
+
+
