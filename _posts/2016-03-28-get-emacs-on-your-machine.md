@@ -6,7 +6,6 @@ title:  "Get emacs on your Machine"
 cover: "img/5.jpg"
 date:   2015-03-26
 start_time: "12:00"
-end_time: "13:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

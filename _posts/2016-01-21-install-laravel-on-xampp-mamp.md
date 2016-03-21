@@ -6,7 +6,6 @@ title:  "Install Laravel Xampp Mamp"
 cover: "img/Aurora.jpg"
 date:   2013-07-02
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

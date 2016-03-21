@@ -6,7 +6,6 @@ title:  "Commandslines Mac OsX"
 cover: "img/CIJpn.png"
 date:   2011-01-13
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

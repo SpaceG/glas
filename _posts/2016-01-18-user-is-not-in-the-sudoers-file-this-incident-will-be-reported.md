@@ -6,7 +6,6 @@ title:  "sudoers file  Add Premission to any User"
 cover: "img/der-wanderer-ueber-dem-nebelmeer-_357909-45.jpg"
 date:   2013-06-11
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

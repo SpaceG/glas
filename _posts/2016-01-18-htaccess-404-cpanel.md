@@ -6,7 +6,6 @@ title:  "htaccess 404 cPanel Server"
 cover: "img/stork_v3.jpg"
 date:   2015-06-01
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

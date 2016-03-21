@@ -5,8 +5,6 @@ layout: post
 title:  "Gem Npm Packages"
 cover: "img/1.jpg"
 date:   2015-10-18
-start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

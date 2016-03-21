@@ -8,7 +8,7 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
   <div class="site-content inner-wide">
 
     <div class="cover hero">
-      <div class="cover-bg" style="background-image: url('img/1.jpg')"></div>
+      <div class="cover-bg" style="background-image: url('img/IMG_0344.JPG')"></div>
       <div class="cover-content">
         <div class="inner">
           <div class="hero-wrap">
@@ -33,14 +33,16 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
 
 
  <!-- <article class="grid-item post tag-music tag-science"> -->
-        {% capture currentDate %}{{'now' | date: '%d %B %Y' }}{% endcapture %}
+        {% capture currentDate %}{{'now' | date: '%s' }}{% endcapture %}
+
+        
 
 
       {% for post in site.posts  %}
 
 
 
-        {% capture blogDate %}{{post.date | date: '%d %B %Y' }}{% endcapture %}
+        {% capture blogDate %}{{post.date | date: '%b %-d, %Y' }}{% endcapture %}
 
         {% if blogDate >= currentDate %}
 
@@ -76,13 +78,6 @@ cover: 'http://www.abisolutions.org.uk/website/images/ConferencesHR.jpg'
         {% endif %}
 
       {% endfor %}
-
-
-
-
-
-
-
 
 
 </div><!-- .post-grid -->

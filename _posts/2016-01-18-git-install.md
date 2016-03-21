@@ -6,7 +6,6 @@ title:  "Git Install"
 cover: "img/FreeAgent_Eva-20.JPG"
 date:   2015-03-20
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

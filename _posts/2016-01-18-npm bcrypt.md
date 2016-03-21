@@ -6,7 +6,6 @@ title:  "bycrypt"
 cover: "img/Halle-E_G5__c_-Rupert-Steiner_web.jpg"
 date:   2016-02-29
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

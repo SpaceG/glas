@@ -6,7 +6,6 @@ title:  "Power Commandlines Os X"
 cover: "img/lucas-gatsas-06.png"
 date:   2010-09-14
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

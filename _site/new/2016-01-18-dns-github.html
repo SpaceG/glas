@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+	<!-- Hello World. 
+		My Name is Lucas Gatsas
+		
+		Theme: blog/lucasgatsas.ch
+		Theme: by Lucas Gatsas
+		copy: by Lucas Gatsas
+		Web: www.lucasgatsas.ch
+		Fr. 26. Feb. 2016 06:15:13
+
+	-->
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNS - Set UP</title>
+  <meta name="description" content="Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+">
+  <link rel="canonical" href="http://blog.lucasgatsas.ch/new/2016-01-18-dns-github">
+  <link rel="alternate" type="application/rss+xml" title="Lucas Gatsas" href="http://blog.lucasgatsas.ch/feed.xml">
+  <link rel="stylesheet" href="/assets/css/style-v=cba79c2df0.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style-v=cba79c2df0.css" />
+      <link rel="shortcut icon" href="http://www.lucasgatsas.ch/icon.png">
+    <link rel="icon" href="http://www.lucasgatsas.ch/icon.png" type="image/x-icon">
+    <!-- Facebook Meta Data -->
+<meta property="og:image" content="http://spaceg.github.io/img/Pi2ModB1GB_-comp.jpg"/>
+<meta property="og:locality" content="St. Gallen"/>
+<meta property="og:country-name" content="Switzerland"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="Lucas Gatsas, Front -End Engineer, SYS-Admin & UI/UX Designer from St. Gallen, Switzerland"/>
+<meta property="og:url" content="http://spaceg.github.io/"/>
+<meta property="og:site_name" content="www.lucasgatsas.ch"/>
+<meta name="robots" content="index, follow">
+<meta name="robots" content="all">
+</head>
+
+
+<body class="home-template">
+  <div id="page" class="site">
+
+
+    
+<header class="site-header">
+    <div class="inner-wide">
+        <h1 class="site-title"><a href="/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--Lucas Gatsas--></a></h1>
+        <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Explore Website</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            
+                <a class="page-link" href="/about/">About</a>
+            
+          
+        
+          
+        
+          
+        
+          
+        
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+        <a class="sidebar-toggle"><span class="screen-reader-text">Open Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .inner-wide -->
+</header><!-- .site-header -->
+        
+
+<div class="sidebar">
+    <div class="sidebar-scrollable">
+        <div class="widget-area">
+                <nav class="site-navigation" role="navigation">
+    <h2 class="screen-reader-text">Welcome</h2>
+    <ul class="menu">
+        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
+        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
+        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+    </ul><!-- .menu -->
+</nav><!-- .site-navigation -->
+
+            <aside class="widget widget-text">
+                <h2 class="widget-title">This is my Developer Blog.</h2>
+                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+            </aside><!-- .widget -->
+            <aside class="widget widget-newsletter">
+                <h2 class="widget-title">My  Newsletter</h2>
+                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <!-- Begin MailChimp Signup Form -->
+                <div id="mc_embed_signup">
+                    <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <label for="mce-EMAIL" class="screen-reader-text">Email Address</label>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </aside><!-- .widget -->
+            <aside class="widget widget-text">
+                <h2 class="widget-title">Contact</h2>
+                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <ul class="contacts">
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                </ul>
+            </aside><!-- .widget -->
+        </div><!-- .widget-area -->
+        <a class="sidebar-toggle"><span class="screen-reader-text">Close Sidebar</span><span class="icon" aria-hidden="true"></span></a>
+    </div><!-- .sidebar-scrollable -->
+</div><!-- .sidebar -->
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        
+
+
+<!--
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+   
+    <h2 class="post-date"><time datetime="2014-10-13T00:00:00+02:00" itemprop="datePublished">October 13, 2014</time></h2>
+    <h3 class="post-time">From 10:00 to 17:00</h3>
+  </header>
+
+
+
+ 
+</article> --> 
+        
+
+
+        <article class="post tag-music tag-science" itemscope itemtype="http://schema.org/BlogPosting">            
+            <header class="cover post-header">
+
+
+             
+                <div class="post-bg" style="background-image:url(/img/8557ecd4_vlcsnap-2010-10-07-21h28m24s95.png);"></div>
+
+                <div class="cover-content">
+                    <div class="inner">
+                     <!--   <div class="tag-links">
+                            <a href="../tag/music/index.html">Music</a><a href="../tag/science/index.html">Science</a>
+                        </div>--> <!-- .tag-links -->
+                        <h1 class="post-title">DNS - Set UP</h1>
+                        <div class="post-meta">
+                            by <span class="post-author"><a href="/about" itemscope itemtype="http://schema.org/Person">  Lucas Gatsas</a></span> on <time class="published" datetime="2015-10-05" datetime="2014-10-13T00:00:00+02:00" itemprop="datePublished" >13 October 2014</time> <span class="reading-time"> <span class="eta"></span></span>
+                        </div><!-- .post-meta -->
+                        <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
+                    </div><!-- .inner -->
+                </div><!-- .cover-content -->
+            </header><!-- .cover -->
+            <div class="post-content inner">
+                <p></p>
+
+<p>
+
+
+   <h2 class="section-heading">Setting up a custom domain with GitHub Pages</h2>
+<h2 class="section-heading">DNS for GitHub Pages</h2>
+
+<p>Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. -</p>
+
+<h2 class="section-heading">Sub Domains</h2>
+<p>A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+We strongly recommend that you use a custom subdomain for these reasons:</p>
+
+<p>It gives your GitHub Pages site the benefit of our Content Delivery Network.<a href="http://en.wikipedia.org/wiki/Content_delivery_network">Content Delivery Network. -Wikipedia</a>
+It will not be affected by changes in the underlying IP addresses of GitHub’s servers.
+Pages will load significantly faster because <a href="http://en.wikipedia.org/wiki/Denial-of-service_attack">Denial-of-service Attack</a> protection can be implemented more efficiently.</p>
+
+<h2 class="section-heading">Apex Domains</h2>
+<p>An apex domain is usually configured with an <code>A</code>, <code>ALIAS</code>, or <code>ANAME</code> record through your DNS provider and is often assigned to one or more IP addresses.</p>
+
+<p>I will set up my  Apex Domain @ Github, because i do host my Stuff and Website on Github. - There also some Points to set up one to your  Repositories. So far i have create a <a href="https://help.github.com/articles/user-organization-and-project-pages/">User, Organization, and Project Pages</a>. Which one can do everybody, if you have a Github account. You need also One to get Set Up your <a href="https://pages.github.com/">Github Pages</a> .</p>
+
+<p>So now we use a Apex Domain Name (www.yourdomain.com) or a Sub-Domian Name (www.hello.yourdomain.com). So we have get some Functions of the Cname.  <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/">About custom domains for GitHub Pages sites</a></p>
+
+<p>If you’re using a <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/">Custom Domain</a> to redirect your GitHub Pages site, you must create and commit a CNAME file to your GitHub Pages repository that contains the custom domain.
+<a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">Adding a CNAME file to your Repository</a></p>
+
+<p>ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn’t use them for sensitive transactions, like sending passwords or credit card numbers. -</p>
+
+<h2 class="section-heading">Submit a CNAME file to your GitHub Repo</h2>
+<h2 class="section-heading">Set Up the DNS </h2>
+
+<p>Add New file save ass CNAME</p>
+
+<p><code>yourdomain.com</code></p>
+
+<p>Login in your NameCheap Account got to  All Host Records. Then set up the DNS<br />
+and configuring (IP/ Adress/URL to <code> 192.30.252.153 </code> and the Record Type to <code>A</code> and TTL 1800)</p>
+
+<p>set the Subdomain @  IP Adress/URL to <code> username.github.io  </code> and the Record Type to <code> CNAME (Alias) </code></p>
+
+<p>in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress with the end <code>.154 </code></p>
+
+<p><code> 192.30.252.154 </code> and type Record Type A (Adress) and TTL 1800</p>
+
+<p><a href="#">
+    <img src="/img/lucasgatsas.ch-1.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Save a ll your Settings !</p>
+
+<!--
+<a href="#">
+    <img src="/img/googleanalstic.png" alt="Post Sample Image" style="width:100%">
+</a>
+-->
+
+<!--
+<strong> Waterfall View</strong>
+
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Time to First Byte,
+Content Download,
+ 3xx response,
+ 4xx+ response,
+Start Render,
+msFirstPaint,
+DOM Content Loaded,
+On Load,
+Document Complete,
+
+
+<a href="#">
+    <img src="/img/waterfall-view-001.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
+<strong> Connection View</strong>
+
+
+DNS Lookup,
+Initial Connection,
+SSL Negotiation,
+Start Render,
+DOM Content Loaded,
+On Load,
+Document Complete,
+
+
+<a href="#">
+    <img src="/img/connenction-view.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+
+
+
+<a href="#">
+    <img src="/img/content.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+
+-->
+
+<p>Do you can see the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a></p>
+
+<p>Update to the <a href="https://www.cloudflare.com">CloudFlare. </a></p>
+
+<p>First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record.</p>
+
+<p><a href="#">
+    <img src="/img/dns-cloudflare-2.png " style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Add the Nameserver to your Domainpoint!</p>
+
+<p><a href="#">
+    <img src="/img/namecheap-servers-to-cloudflare.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Set Up your <code> https:// </code></p>
+
+<p><a href="#">
+    <img src="/img/offline_over_https Kopie.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+If you Stuck, contact they. Awesome Supporters Outhere!</p>
+
+<p><a href="#">
+    <img src="/img/ssl-cloudflare.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Open your Terminal : See your Changes :</p>
+
+<p>Dig your domian : <code> $ dig yourdomian.com </code></p>
+
+<p>and <code> curl -I yourdomian.com </code></p>
+
+<p>After 24 Hours i checked out my Nameservers! Awesome to see the Changes!</p>
+
+<p><a href="#">
+    <img src="/img/dig-lucas-gatsas.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>Status: 
+<a href="#">
+    <img src="/img/ssl-cludflare-best.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<p>To automatically forward HTTP requests to <code>HTTPS </code>, you can create a Page Rule by:</p>
+
+<p>Open the Page Rules interface.
+Entering <code> http://*lucasgatsas.ch/* </code> as the URL pattern.</p>
+
+<p>Choose <code> "Always use https."</code></p>
+
+<p>Click <code> "Add rule." </code></p>
+
+<p><a href="#">
+    <img src="/img/page-rules-01.png" style="width:100%" alt="Lucas Gatsas" />
+</a></p>
+
+<!--
+
+<a href="#">
+    <img src="/img/ssl-cludflare.png" style="width:100%" alt="Lucas Gatsas">
+</a>
+
+-->
+
+<p>Link: 
+<a href="https://namecheap.com/">namecheap.com</a> 
+Link: 
+<a href="https://cloudflare.com">cloudflare.com</a> 
+Link: 
+<a href="https://github.com">github.com</a></p>
+
+<blockquote>
+This is a SwissWatch! :)
+
+	
+
+</blockquote>
+
+</p>
+
+
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-3.jpg" alt="" />
+</p>
+-->
+
+<!--
+<blockquote>
+  <p>“ice contains no future , just the past, sealed away. As if they're alive, everything in the world is sealed up inside, clear and distinct. Ice can preserve all kinds of things that way- cleanly, clearly. That's the essence of ice, the role it plays.” 
+  <cite>― Haruki Murakami</cite></p>
+</blockquote>
+--> 
+
+<!--
+<p class="full-width">  
+<img src="../content/images/2015/10/ice-1-1.jpg" alt="" />
+</p>
+--> 
+
+
+<blockquote class="alignright">“If you are going to walk on thin ice, you might as well dance”</blockquote>
+
+
+
+        <div>
+            <a href='mailto:lucasgatsas@gmail.com?subject=Register interest for DNS - Set UP on October 13, 2014&body=Hi! Im interested in your event. Can I come please?' class="button button-primary">Kontakt</a>
+        </div>
+
+            </div><!-- .post-content -->
+            <footer class="post-footer inner">
+                <div class="share-post">
+                    <span>Share</span>
+                    <a class="icon-twitter square" target="_blank" href="http://twitter.com/share?text=&url="><span class="screen-reader-text">Twitter</span></a>
+                    <a class="icon-facebook square" target="_blank" href="http://wwww.facebook.com/sharer.php?"><span class="screen-reader-text">Facebook</span></a>
+                    <a class="icon-google square" target="_blank" href="http://plus.google.com/share?url=http://curious.justgoodthemes.com/walking-on-thin-ice/"><span class="screen-reader-text">Google+</span></a>
+                </div>
+                <div class="author-box">
+
+  
+
+
+                    <img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" />
+
+
+
+  
+
+
+ 
+
+                    <h4 class="author-title">About <a href="../author/jane-doe/index.html">By Lucas Gatsas</a></h4>
+
+                     
+                    <p class="author-description">Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+</p>
+                    <p class="author-links">
+
+                        <span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> Switzerland</span>
+
+                        <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">http://lucasgatsas.ch</a></span> 
+                          <span class="author-website"><i class="icon-chain" aria-hidden="true"></i> <a href="http://www.lucasgatsas.ch" target="_blank">lucasgatsas@gmail.com</a></span> 
+                        
+                    </p>
+                </div>                  
+            </footer><!-- .post-footer -->
+        </article><!-- .post -->
+
+
+                <ul class="pager">
+                    
+                    
+                </ul>
+
+
+      </div>
+    </div>
+
+    
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="inner-wide">
+      <div class="offsite-links">
+        <a href="http://www.twitter.com/lucasgatsas" class="icon-twitter"><span class="screen-reader-text">Twitter</span></a>
+        <a href="https://www.facebook.com/profile.php?id=100010261894353" class="icon-facebook"><span class="screen-reader-text">Facebook</span></a> 
+        <a href="https://plus.google.com/101826267816845608605" class="icon-google"><span class="screen-reader-text">Google+</span></a>
+        <a href="https://github.com/spaceg" class="icon-github"><span class="screen-reader-text">GitHub</span></a>
+        <a href="https://medium.com/@lucasgatsas" class="icon-medium"><span class="screen-reader-text">Medium</span></a>
+        <a href="http://instagram.com/lucasgatsas" class="icon-instagram"><span class="screen-reader-text">Instagram</span></a>
+        <a href="https://www.youtube.com/watch?v=3Zz7gLsN7fk" class="icon-youtube"><span class="screen-reader-text">YouTube</span></a>
+        <a href="http://blog.lucasgatsas.ch/feed.xml" class="icon-feed"><span class="screen-reader-text">RSS</span></a>
+      </div><!-- .offsite-links -->
+      <a href="#" class="top-link square icon-chevron-up" title="Back to Top"><span class="screen-reader-text">Back to the top</span></a>
+    </div><!-- .inner -->
+  </div><!-- .footer-top -->
+  <div class="site-info inner-wide">
+    <p>&copy;. 2014 - 2016 by <a href="index.html">   Lucas Gatsas <!-- Lucas Gatsas, is a Web -Developer, Front -End Engineer & UI/UX Designer based in  St. Gallen, Switerland.
+ --> </a> <br>all rights reserved. <br /> <a target="_blank" href="http://www.lucasgatsas.ch"> </a>      This site is built with <a href="http://rubyonrails.org/" target="_blank"> Ruby on Rails </a>
+ </p>   
+  </div><!-- .site-info -->
+</footer><!-- .site-footer -->
+
+
+
+<!-- jQuery -->
+
+
+
+
+
+  <script src="/assets/js/plugins-v=cba79c2df0.js"></script> 
+  <script src="/assets/js/custom-v=cba79c2df0.js "></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins-v=cba79c2df0.js"></script>
+  <script type="text/javascript" src="assets/js/custom-v=cba79c2df0.js"></script>
+
+
+
+
+
+
+            <div class="overlay"></div>
+  </div><!-- #page -->  
+
+
+
+  </body>
+
+</html>

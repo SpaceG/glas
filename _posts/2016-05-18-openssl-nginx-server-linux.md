@@ -6,7 +6,6 @@ title:  "Open SSL on a Nginx Linux Server"
 cover: "img/clode.jpg"
 date:   2015-05-18
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

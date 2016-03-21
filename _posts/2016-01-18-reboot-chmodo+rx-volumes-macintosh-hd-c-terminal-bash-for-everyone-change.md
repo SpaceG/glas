@@ -6,7 +6,6 @@ title:  "reboot your Mac  - chmod o+rx"
 cover: "img/Lucas_Gatsas_0038.jpg"
 date:   2015-05-10
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

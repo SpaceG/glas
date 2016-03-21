@@ -38,7 +38,7 @@ layout: default
                         </div>--> <!-- .tag-links -->
                         <h1 class="post-title">{{ page.title }}</h1>
                         <div class="post-meta">
-                            by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> on <time class="published" datetime="2015-10-05" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >{{ page.date | date: "%d %B %Y" }}</time> <span class="reading-time"> <span class="eta"></span></span>
+                            by <span class="post-author"><a href="{{ site.baseurl }}/about" itemscope itemtype="http://schema.org/Person">  {{organiser.name}}</a></span> on <time class="published" datetime="2015-10-05" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" >{{ page.date | date: "%b %-d, %Y" }}</time> <span class="reading-time"> <span class="eta"></span></span>
                         </div><!-- .post-meta -->
                         <a href="#" class="scroll-down square light icon-chevron-down"><span class="screen-reader-text">Scroll Down</span></a>
                     </div><!-- .inner -->

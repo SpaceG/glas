@@ -6,7 +6,6 @@ title:  "Raspberry Pi with VNC SSH"
 cover: "img/Pi2ModB1GB_-comp.jpg"
 date:   2015-09-30
 start_time: "10:00"
-end_time: "10:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"

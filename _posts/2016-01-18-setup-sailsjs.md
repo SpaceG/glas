@@ -6,7 +6,6 @@ title:  "Set Up Sails"
 cover: "img/1-1.jpg"
 date:   2015-01-11
 start_time: "10:00"
-end_time: "17:00"
 
 #event organiser details
 organiser: "Lucas Gatsas"
