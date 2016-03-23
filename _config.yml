@@ -1,4 +1,9 @@
-# lucas gatsas Theme/Blog
+# lucas gatsas Theme/Blog - Jekyll Theme
+# the glas theme: https://github.com/SpaceG/glas
+# Author: LucasGatsas
+# Theme: glas
+# Source: https://github.com/spaceg/glas
+# Mail: space@lucasgatsas.ch
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -29,4 +34,3 @@ markdown: kramdown
 future: true
 
 permalink: /event/:title.html
-
