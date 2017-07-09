@@ -1,9 +1,6 @@
 
 
-<p>404 - Sorry this page does not exist!</p>
-
-
-<a href="http://lucasgatsas.ch"> Back To The Blog </a> 
+{% assign organiser = site.data.organisers.[page.organiser] %}
 
 <head>
     <!-- some other meta -->
@@ -11,5 +8,8 @@
     <!-- some other stuff like link or script -->
 </head>
 <body>
-    <!-- the body for default.html -->
+		    <!-- the body for default.html -->
+		<p>404 - Sorry this page does not exist!</p>
+		<a href="/"> Back To The Blog </a> 
+
 </body>

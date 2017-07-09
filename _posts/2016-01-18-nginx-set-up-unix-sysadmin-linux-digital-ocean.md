@@ -25,8 +25,3 @@ Now, I'm here and Studing some Steps how Set Up a nginx Server on [Digital Ocean
 
 <blockquote> The Work from a Sysadmin! :)  </blockquote>
 
-<blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-</blockquote>
-
-

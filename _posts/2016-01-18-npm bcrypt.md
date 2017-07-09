@@ -13,7 +13,7 @@ organiser: "Lucas Gatsas"
 
 ---
 <h2 class="section-heading"> bcrypt Issue on your Local Machine - node.bcrypt.js</h2>
-To Fix Bug Issue can be very hard, even do you have Time for it. It's like to Waste Time. get my App back to machine thanks with a Commandline. 
+To Fix Bug Issue can be very hard, even do you have Time for it. It's like to Waste Time. get my App back to machine thanks with a Commandline.
 
 
 <br>
@@ -57,7 +57,7 @@ Space-Odysseys-Mac-Pro:www cyberspace$
 </pre></pre></div>
 
 I was Stuck at this Point. My machine has a Total Crash with the Modules and bcrypts. There are Bindings which give me a Bug back after re-install <code>$ npm -v </code> !
-After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm install bcrypt </code> 
+After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm install bcrypt </code>
 
 <br>
 <center>
@@ -67,9 +67,8 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline <code> $ npm inst
 
 
 
-See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a> 
-Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
+See the Issue Detail here on Github <a href="https://github.com/ncb000gt/node.bcrypt.js/issues/332"> issue332</a>
+Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a>
 
 <blockquote>
-"bcrypt Packages "
 </blockquote>

@@ -16,7 +16,7 @@ organiser: "Lucas Gatsas"
 
 <h2 class="section-heading">Add a User to Sudoers in Mac OS X</h2>
 
-(1.) Launch Terminal : type : 
+(1.) Launch Terminal : type :
 
 <code>sudo visudo</code>
 
@@ -33,13 +33,13 @@ organiser: "Lucas Gatsas"
 
 
 
-(3.) Add Below the User Privilege specification 
+(3.) Add Below the User Privilege specification
 
 <code>
 youradminusername ALL=(ALL) ALL
 </code>
 
- See The Blue Marked Window in the Terminal : 
+ See The Blue Marked Window in the Terminal :
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/sudoerspic.png" style="width:100%" alt="Lucas Gatsas">
@@ -55,15 +55,12 @@ youradminusername ALL=(ALL) ALL
 
 Go to the Finder:  Do you can find the file in the phat <code>etc/sudoers</code>
 
-(1.) Open it with right Mouse Click and << Open with other >> 
+(1.) Open it with right Mouse Click and << Open with other >>
 
-(2.) the Finder Menu will Open 
+(2.) the Finder Menu will Open
 
 (3.) Open with enable  << All Applications >> with your Text Editor
 
 (4.) After changes Save the File. Enter ! :)
 
 
-<blockquote>
-    "Open Terminal and do crazy Things! :) "
-</blockquote>

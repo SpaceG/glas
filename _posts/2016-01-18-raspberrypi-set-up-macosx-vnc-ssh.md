@@ -14,30 +14,30 @@ organiser: "Lucas Gatsas"
 ---
 <h2 class="section-heading">Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall</h2>
 
-I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
-I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram. 
+I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already.
+I have done this Documentation after <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas" target="_blank">zwogden</a> asked me about it on Instagram.
 
 
 
 
 First of all, do you need a <a href="https://www.raspberrypi.org/ " target="_blank">Raspberry Pi</a>  Pi to get this Tutorial and set up your <strong> Raspberry PI </strong> to your Mac.
 
-Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don't worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi. 
+Then you have to Set Up your Raspberry Pi on a Second Display with a Mouse and Keyboard. So i have this done this Way. Put all Cables to your Raspberry Pi and Connect it to your Display. Then Set Up and Install it Step by Step from the Raspberry Pi Interactive Descriptions (SD CARD etc.). Do your will get it. Don't worry, Very Easy. So now you have all Set Ups and Running your Raspberry Pi.
 
 
 
 
-<strong> Now we go Connect the Raspberry Pi to your Mac Os </strong> 
+<strong> Now we go Connect the Raspberry Pi to your Mac Os </strong>
 
 All of first do you have to Download the VNC Viewer <a href="https://www.realvnc.com/download/viewer/" target="_blank">here</a> Download the newest Version of <strong> VNC Viewer for Mac OS X
-DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os). 
+DMG Universal 5.2.3 </strong> The Install it on your Machine (Mac Os).
 
 
 
-First Open your Terminal in Mac Osx. Then Type 
+First Open your Terminal in Mac Osx. Then Type
 
 
-(1.) <code> ping raspberrypi.local </code> 
+(1.) <code> ping raspberrypi.local </code>
 
 
 
@@ -75,9 +75,9 @@ round-trip min/avg/max/stddev = 0.544/0.625/1.202/0.134 ms
 
 
 
-After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste. 
+After Ping your Network, do you will get your current <strong> IP </strong> from the Mac. Not the IP from your Provider. Then go forward in the same Terminal Window, type your <strong> ssh pi@raspberrypi.local </strong> the Promp with your Enter Taste.
 
-(2.) <code> ssh pi@raspberrypi.local </code> 
+(2.) <code> ssh pi@raspberrypi.local </code>
 
 
 Now do you will get to the ssh RSA Key, if you have one.  
@@ -93,7 +93,7 @@ Are you sure you want to continue connecting (yes/no)?
 
 {% endhighlight %}
 
-Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time. 
+Then Say <code>Yes/No </code> i typed Yes then i will be forward to the Passwort of my Raspberry. (The Pasword you can set up, by installing your Raspberry PI First Time.
 
 
 
@@ -108,23 +108,23 @@ individual files in /usr/share/doc/*/copyright.
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
 Last login: Mon Sep 28 00:04:24 2015
-pi@raspberrypi ~ $ 
+pi@raspberrypi ~ $
 
 
 {% endhighlight %}
 
 
-Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+Now :) , you entery and connect your Raspberry PI via Terminal on your Machine.
 Right After you entry your RaspberryPi via Termina, you have now to type the Commanline <code> ls </code> to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.
 
-(3.) <code>sudo apt-get install tightvncserver </code> 
+(3.) <code>sudo apt-get install tightvncserver </code>
 
-Don't be worry this need a while, after that process type Commandline 
+Don't be worry this need a while, after that process type Commandline
 
 
-(4.) <code> tightvncserver </code> 
+(4.) <code> tightvncserver </code>
 
-you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer. 
+you will get this Information out : Type your Password from your PI. After he ask you about a view-only password. Press (also for me )  <code> No </code> you will get forward to the desktop of your RaspberryPi. This Number after <code> pi:1 </code> is very important for our Viewer <code> :1 </code> This we need it for our VNC Viewer.
 
 
 
@@ -133,7 +133,7 @@ you will get this Information out : Type your Password from your PI. After he as
 
 You will require a password to access your desktops.
 
-Password: 
+Password:
 Verify:   
 Would you like to enter a view-only password (y/n)? no
 
@@ -148,10 +148,10 @@ Log file is /home/pi/.vnc/raspberrypi:1.log
 {% endhighlight %}
 
 
-At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
-In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong> 
+At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up:
+In this Window type the scanned and pinged <code>IP</code> Adress also mine is here <strong> 10.0.0.3:</strong>
 
-Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine. 
+Type in that Window The Number <strong> 10.0.0.3:1 </strong> Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine.
 
 
 Cheers!
@@ -169,7 +169,7 @@ ps: Install Video will come up soon. Stay Tuned!
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://instagram.com/p/8PHK_lTgjl/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Connect RaspberryPi to your Router via ssh and VNC Viewer! 🎓👾🍇💥 #raspberrypi #router #comnandline #terminal  #ssh #vnc #linux #macosx #firewall check out my new post here www.lucasgatsas.ch ;)</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-09-30T01:21:57+00:00">29. Sep 2015 um 18:21 Uhr</time></p></div></blockquote>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 
-</center> 
+</center>
 
 
 <a href="{{ site.baseurl }}/img/p-4.png">
@@ -188,7 +188,7 @@ ps: Install Video will come up soon. Stay Tuned!
 
 
 
-My Full Terminal Work: 
+My Full Terminal Work:
 
 {% highlight ruby %}
 
@@ -226,7 +226,7 @@ The authenticity of host 'raspberrypi.local (10.0.0.4)' can't be established.
 RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
 Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added 'raspberrypi.local,10.0.0.4' (RSA) to the list of known hosts.
-pi@raspberrypi.local's password: 
+pi@raspberrypi.local's password:
 Linux raspberrypi 3.18.11+ #781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -271,7 +271,7 @@ pi@raspberrypi ~ $ tightvncserver
 
 You will require a password to access your desktops.
 
-Password: 
+Password:
 Verify:   
 Would you like to enter a view-only password (y/n)? no
 
@@ -281,16 +281,13 @@ Creating default startup script /home/pi/.vnc/xstartup
 Starting applications specified in /home/pi/.vnc/xstartup
 Log file is /home/pi/.vnc/raspberrypi:1.log
 
-pi@raspberrypi ~ $ 
+pi@raspberrypi ~ $
 
 {% endhighlight %}
 
 
 
 
-Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a> 
+Link: <a href="https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas"> Instagram Vid</a>
 
-<blockquote>
-"Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas"
-</blockquote>
 

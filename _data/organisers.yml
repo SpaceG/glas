@@ -1,5 +1,13 @@
 Lucas Gatsas:
-    name: Lucas Gatsas
-    email: "lucasgatsas@gmail.com"
-    photo: "http://www.lucasgatsas.ch/img/team1.jpg"
+    name: Glas
+    email: "your@mail.com"
+    photo: "http://127.0.0.1:8000/assets/img/avatar@2x.png"
     country: Switzerland 
+    web: spaceg.github.io
+    descsidebartitle: This is my Developer Blog New.
+    descsidebartext: you can modify this sidebar in the organisers.yml file.
+    sidebarnewsletter: you can modify this sidebar in the organisers.yml file.
+    descsidebartext2: Hello, Here some Text Already, you can modify this sidebar in the organisers.yml file! 
+    sidebaremail: "your@mail.com"
+    sidebarcountry: Switzerland
+

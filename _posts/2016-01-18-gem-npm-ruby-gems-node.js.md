@@ -84,7 +84,3 @@ Type “rake –help” for all available options.
 
 Link: <a href="https://rubygems.org/">rubygems.org</a>  Link:  <a href="https://www.ruby-lang.org/de/"> ruby-lang.org</a>
 
-<blockquote>
-“Grind and Polish your Gems!” 
-</blockquote>
-

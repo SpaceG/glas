@@ -121,11 +121,11 @@ padding-left: 5px;
 &nbsp; 	</tbody>
 &nbsp; </table>
 </figure>
-  
+
 
 <strong>Installing Command Line Tools in Mac OS X</strong>
 
-1. Launch the Terminal, found in 
+1. Launch the Terminal, found in
 
 <code>/Applications/Utilities/</code>
 
@@ -145,7 +145,7 @@ padding-left: 5px;
 </a>
 
 
-3. A popup window will show that asks. 
+3. A popup window will show that asks.
 
 <code> The xcode-select command requires the command line developer tools. Would you like to install the tools now?</code>  
 
@@ -158,7 +158,7 @@ choose to confirm this by clicking “Install”, then agree to the Terms of Ser
 </a>
 
 
-4. Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed. 
+4. Wait for the Command Line Tools package download to complete, it’ll be about 130MB and installs fairly quickly depending on your connection speed.
 
 
 
@@ -178,7 +178,7 @@ CommandLineTools/
 
 (note that is the root /Library, not user ~/Library)
 
-If you want to see the 61 new commands available to you, they’re all in 
+If you want to see the 61 new commands available to you, they’re all in
 
 
 /Library/Developer/
@@ -286,7 +286,3 @@ yacc</code>
 
 <small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
-
-<blockquote>
-	“sudo make me a sandwich :) ! ”
-</blockquote>

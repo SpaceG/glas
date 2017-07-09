@@ -38,7 +38,7 @@ Overwrite <code> (y/n)?  </code> press <code>yes</code>
 
 Enter: if you don't want a passphrase
 
-press Enter to get your Key - Gen ! 
+press Enter to get your Key - Gen !
 
 
 
@@ -59,11 +59,11 @@ add <code> ssh-add -l </code> to see your <code> .ssh/id_rsa  </code>
 </a>
 
 
-follow steps : 
+follow steps :
 
 <code> ls </code> show list :
 
-enter your rsa id like here <code> cat id_rsa </code> 
+enter your rsa id like here <code> cat id_rsa </code>
 
 This is The Private Key !
 
@@ -80,7 +80,7 @@ This is The Private Key !
 
 
 
-Now : Check out the Public Key : 
+Now : Check out the Public Key :
 
 Type following Commandline : <code>cat id_rsa.pub </code>
 
@@ -91,7 +91,7 @@ Type following Commandline : <code>cat id_rsa.pub </code>
 
 
 Next Step ! Login In your Root Server!
-Update Post soon. ! 
+Update Post soon. !
 
 
 
@@ -99,10 +99,10 @@ Update Post soon. !
 <br>
 
 
-	
 
 
-Diagramm of my SSH Sketches! 
+
+Diagramm of my SSH Sketches!
 
 
 
@@ -121,21 +121,8 @@ Diagramm of my SSH Sketches!
 </a>
 
 
-Sketches by Lucas Gatsas : Free to Use
-
-<!--
-<strong> Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model </strong>
-
-<a href="#">
-    <img src="{{ site.baseurl }}/img/SSH_public_private_key.gif" alt="Lucas Gatsas"  style="width:100%">
-</a>
--->
 
 
 
 
-
-<blockquote>
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-</blockquote>
 

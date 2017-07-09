@@ -1,11 +1,13 @@
 
+{% assign organiser = site.data.organisers.[page.organiser] %}
+
 <header class="site-header">
     <div class="inner-wide">
-        <h1 class="site-title"><a href="{{ site.baseurl }}/"><img src="http://www.lucasgatsas.ch/img/logo-dark.png " alt="logo"><!--{{ site.title }}--></a></h1>
+        <h1 class="site-title"><a href="{{ site.baseurl }}/" id="glas-logo-1">g</a><!--{{ site.title }}--></a></h1>
         <nav class="site-navigation" role="navigation">
-    <h2 class="screen-reader-text">Explore Website</h2>
+    <h2 class="screen-reader-text">hello</h2>
     <ul class="menu">
-        <li class="menu-item home current-menu-item" role="presentation"><a href="http://www.lucasgatsas.ch">Home</a></li>
+        <li class="menu-item home current-menu-item" role="presentation"><a href="/">Home</a></li>
          {% for my_page in site.pages %}
           {% if my_page.navigation_title %}
             {% if my_page.button %}
@@ -26,21 +28,18 @@
     <div class="sidebar-scrollable">
         <div class="widget-area">
                 <nav class="site-navigation" role="navigation">
-    <h2 class="screen-reader-text">Welcome</h2>
     <ul class="menu">
-        <li class="menu-item home current-menu-item" role="presentation"><a href="index.html">Home</a></li>
-        <li class="menu-item about" role="presentation"><a href="about/index.html">About</a></li>
-        <li class="menu-item buy-curious-theme" role="presentation"><a href="mailto:space@lucasgatsas.ch">Contact Me</a></li>
+ 
     </ul><!-- .menu -->
 </nav><!-- .site-navigation -->
 
             <aside class="widget widget-text">
-                <h2 class="widget-title">This is my Developer Blog.</h2>
-                <p>I will write here about my Development Skills and Learnings. So feel free to Contact me in anyway to give some good infos.</p>
+                <h2 class="widget-title">{{ organiser.descsidebartitle }}</h2>
+                <p>{{ organiser.descsidebartext }}</p>
             </aside><!-- .widget -->
             <aside class="widget widget-newsletter">
                 <h2 class="widget-title">My  Newsletter</h2>
-                <p>Enter your email address to subscribe to this blog and receive notifications of new posts by email.</p>
+                <p>{{ organiser.sidebarnewsletter }}</p>
                 <!-- Begin MailChimp Signup Form -->
                 <div id="mc_embed_signup">
                     <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -55,10 +54,10 @@
             </aside><!-- .widget -->
             <aside class="widget widget-text">
                 <h2 class="widget-title">Contact</h2>
-                <p>We accept collaborations/sponsored posts so please contact us to discuss. We would love to hear from you, even if it is to say hello!</p>
+                <p>{{ organiser.descsidebartext2 }}</p>
                 <ul class="contacts">
-                    <li><span class="icon icon-envelope" aria-hidden="true"></span> space at lucasgatsas.ch</li>
-                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> 9000, St. Gallen, CH - Switzerland</li>
+                    <li><span class="icon icon-envelope" aria-hidden="true"></span> {{ organiser.sidebaremail }}</li>
+                    <li><span class="icon icon-map-marker" aria-hidden="true"></span> {{ organiser.sidebarcountry }}</li>
                 </ul>
             </aside><!-- .widget -->
         </div><!-- .widget-area -->

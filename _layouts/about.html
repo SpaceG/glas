@@ -1,12 +1,17 @@
+---
+organiser: "Lucas Gatsas"
+
+---
+{% assign organiser = site.data.organisers.[page.organiser] %}
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 
 	<title>Lucas Gatsas</title>
-	<meta name="description" content="Jane Doe is a reporter at The Curious magazine, where she writes about technology / design companies and the people they impact." />
+	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="../../assets/favicon.ico">
 
 	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700,700italic%7CMontserrat:400,700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style-v=cba79c2df0.css" />
@@ -36,98 +41,16 @@
 	<section class="site-content">
 	
 		<header class="cover page-header-1">
-			<div class="cover-bg" style="background-image: url('../../content/images/2015/10/tag-bc.jpg')"></div>
+			<div class="cover-bg" style="background-image: url('http://bintel.net/wp-content/uploads/2014/09/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg?id=1080')"></div>
 			<div class="cover-content">
 				<div class="inner">
 					<div class="post-count"></div>
 					<h1 class="page-title">{{ site.title }} </h1>
 
-					<script type="text/javascript">
-                //###################################################################
-
-                var CDown = function() {
-                  this.state=0;// if initialized
-                  this.counts=[];// array holding countdown date objects and id to print to {d:new Date(2013,11,18,18,54,36), id:"countbox1"}
-                  this.interval=null;// setInterval object
-                }
-
-                CDown.prototype = {
-                  init: function(){
-                    this.state=1;
-                    var self=this;
-                    this.interval=window.setInterval(function(){self.tick();}, 25);
-                  },
-                  add: function(date,id){
-                    this.counts.push({d:date,id:id});
-                    this.tick();
-                    if(this.state==0) this.init();
-                  },
-                  expire: function(idxs){
-                    for(var x in idxs) {
-                      this.display(this.counts[idxs[x]], "Now!");
-                      this.counts.splice(idxs[x], 1);
-                    }
-                  },
-                  format: function(r){
-                    var out="";
-                    out += r.s +("."+r.ms)+" "+((r.s==1)?"<br>sec":"<br>files downloading..")+", ";
-
-                    return out.substr(0,out.length-2);
-                  },
-                  math: function(work){
-                    var y=w=d=h=m=s=ms=0;
-
-                    ms=(""+((work%1000)+1000)).substr(1,3);
-                    work=Math.floor(work/1000);//kill the "milliseconds" so just secs
-
-                    y=Math.floor(work/31536000);//years (no leapyear support)
-                    w=Math.floor(work/604800);//weeks
-                    d=Math.floor(work/86400);//days
-                    h=Math.floor(work/3600);//hours
-                    m=Math.floor(work/60);//minutes
-                    s=Math.floor(work);//seconds
-
-                    return {y:y,w:w,d:d,h:h,m:m,s:s,ms:ms};
-                  },
-                  tick: function(){
-                    var now=(new Date()).getTime(),
-                      expired=[],cnt=0,amount=0;
-
-                    if(this.counts)
-                    for(var idx=0,n=this.counts.length; idx<n; ++idx){
-                      cnt=this.counts[idx];
-                      amount=cnt.d.getTime()-now;//calc milliseconds between dates
-
-                      // if time is already past
-                      if(amount<0){
-                        expired.push(idx);
-                      }
-                      // date is still good
-                      else{
-                        this.display(cnt, this.format(this.math(amount)));
-                      }
-                    }
-
-                    // deal with any expired
-                    if(expired.length>0) this.expire(expired);
-
-                    // if no active counts, stop updating
-                    if(this.counts.length==0) window.clearTimeout(this.interval);
-                    
-                  },
-                  display: function(cnt,msg){
-                    document.getElementById(cnt.id).innerHTML=msg;
-                  }
-                };
-
-                window.onload=function(){
-                  var cdown = new CDown();
-
-                  cdown.add(new Date(2017,1,3,23,14,27), "countbox1");
-                };
-                </script>
-                <div id="countbox1"><br>files downloading..</div>
-					<p><img src="http://www.lucasgatsas.ch/img/team1.jpg" alt="Jane Doe" class="author-avatar" /></p>
+				
+					<p>    
+                            <img src="http://127.0.0.1:8000/assets/img/avatar@2x.png" alt="Jane Doe" class="author-avatar" />
+                        </p>
 					<p class="page-description">Lucas Gatsas is a Swiss based Web - Developer, Front End Engineer & UI/UX Designer from St. Gallen, Switzerland.</p>
 					<p class="author-links">
 						<span class="author-location"><i class="icon-map-marker" aria-hidden="true"></i> St. Gallen, Switzerland</span>

@@ -1,59 +1,621 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lucas Gatsas</title>
-    <description>Lucas Gatsas, is a Web -Developer, Front -End Engineer &amp; UI/UX Designer based in  St. Gallen, Switerland.
+    <title>Glas</title>
+    <description>your description.....
 </description>
-    <link>http://blog.lucasgatsas.ch/</link>
-    <atom:link href="http://blog.lucasgatsas.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 21 Mar 2016 00:34:45 +0100</pubDate>
-    <lastBuildDate>Mon, 21 Mar 2016 00:34:45 +0100</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:8000/</link>
+    <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 09 Jul 2017 12:13:07 +0200</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 12:13:07 +0200</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
     
       <item>
-        <title>Starthack Hackathon</title>
-        <description>&lt;h1&gt; The Start @ Hackathon &lt;br /&gt; St. Gallen &lt;/h1&gt;
+        <title>Javascript Basis</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Javascript Basis &lt;/h2&gt;
 
-&lt;p&gt;The Event START hack was Awesome! Alot of Peoples were there at the Event. Had a HD crash, so I had no LapTop. This was Crazy for me to get in Action. 
-I was in the team Cesar. We eventually publish our project on GitHub. We had written a Mortage Calculator.&lt;/p&gt;
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
 
-&lt;p&gt;&lt;strong&gt;“Namics Challenge Winner” Project at Start Hack Hackathon in Switzerland — &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/SpaceG/Clear&quot;&gt;Github - Clear &lt;/a&gt;&lt;/p&gt;
+function printTheCity(city) {
+	var preffix = &quot;i live in&quot;;
+	console.log(city);
 
-&lt;p&gt;Team Cesare:&lt;/p&gt;
+}
+	printTheCity(&quot;New York&quot;);
 
-&lt;p&gt;Cesare
-&lt;a href=&quot;http://cesare.io/&quot; target=&quot;_blank&quot;&gt;cesare.io&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/IMG_0344.JPG&quot;&gt;
-    &lt;img src=&quot;/img/IMG_0344.JPG&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+	&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/javascript-parts-I-basis.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/javascript-parts-I-basis.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hack Zuerich Switzerland</title>
+        <description>&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/f71716cc-0663-4813-878a-4850cc6ad7d7.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;And the Winner was Alica Sykes with here Sentiment Sweep Project.&lt;/p&gt;
+&lt;p&gt;Video Preview of the Hack Zuerich 2015!&lt;/p&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;415&quot; src=&quot;https://www.youtube.com/embed/i6JNtQgdk_4?list=UU_OLD4CaI0fsEMLLWyfTisw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 16 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/hack-zuerich-switzerland.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/hack-zuerich-switzerland.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Create Commandline Node.js</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Create Commandline in node.js for your Sails.js&lt;/h2&gt;
 
-&lt;center&gt;
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;de&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;How do you think the world is feeling via Twitter? Sentiment Sweep can let you know! Built at &lt;a href=&quot;https://twitter.com/START_Hack&quot;&gt;@START_Hack&lt;/a&gt; &lt;a href=&quot;https://t.co/4pVUuNDtpC&quot;&gt;pic.twitter.com/4pVUuNDtpC&lt;/a&gt;&lt;/p&gt;&amp;mdash; Major League Hacking (@MLHacks) &lt;a href=&quot;https://twitter.com/MLHacks/status/708986457751470080&quot;&gt;13. März 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/center&gt;
+&lt;p&gt;First: Make sure your App is running on Localhost &lt;code&gt;port:80&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Can’t wait for the Next Hackathon here at the STARThack in St. Gallen, Switzerland, next time with more Gadget and my own Tools.&lt;/p&gt;
+&lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;/img/10363637_10208373305708123_7837373092865267162_n.jpg&quot;&gt;
-    &lt;img src=&quot;/img/10363637_10208373305708123_7837373092865267162_n.jpg&quot; alt=&quot;Lucas Gatsas lucas gatsas&quot; title=&quot;lucas gatsas Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
+&lt;p&gt;Thrid: Create a&lt;code&gt;cli.js&lt;/code&gt; file and inpust the following Code below&lt;/p&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+// Make sure that no matter where we call the command from,
+// we lift the app that lives in the same directory as this script
+process.chdir(__dirname);
+// Get an instance of Sails
+var sails = require('sails');
+// Lift the Sails app in the current working directory
+       console.log(&quot;Start The GITLIST App&quot;);
+        console.log(&quot;To see your app. visit:&quot;);
+        console.log(clc.xterm(39).bgBlack.underline('http://127..0.0.1'));
+        console.log(&quot;To Clone the Repository and Open Source:&quot;);
+        console.log(clc.xterm(39).bgBlack.underline('see: http://www.github.com/spaceg/github.io'));
+        console.log(&quot;Bash The Universe by Lucas Gatsas.&quot;);
+        console.log(&quot;©.2016 by Gitlist OS&quot;);
+
+        console.log(&quot;press c to stop the app&quot;);
+
+
+sails.lift({log:{noShip: true}});
+
+/*  sails.lift(rc('sails'));*/
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is a Robost Code for the Commandline and lift your with your own commandline: 
+here are the links:&lt;/p&gt;
+
+&lt;p&gt;package.json: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt;package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;cli.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/cli.js&quot;&gt;cli.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;app.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/app.js&quot;&gt;app.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.gitgnore &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/.gitignore&quot;&gt;.gitignore&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.local.js &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/config/local.js&quot;&gt;.local.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;create a &lt;code&gt; .gitgnore &lt;/code&gt; file for your Branch. Set it to the Root of your Directory. 
+but the Following code Below in that file. Save it.&lt;/p&gt;
+&lt;pre&gt;
+*.swp
+*.swo
+*~
+*.log
+node_modules
+
+
+
+
+config/local.js
+&lt;/pre&gt;
+
+&lt;p&gt;After Include in your &lt;code&gt;package.json&lt;/code&gt; the following code from the Tilda for the &lt;code&gt;bin&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+ &quot;bin&quot;: {
+    &quot;gitlist&quot;: &quot;./cli.js&quot;
+  },
+&lt;/pre&gt;
+
+&lt;p&gt;The full package.json file:&lt;/p&gt;
+
+&lt;pre&gt;
+
+{
+  &quot;name&quot;: &quot;gitlist&quot;,
+  &quot;version&quot;: &quot;1.0.5&quot;,
+  &quot;description&quot;: &quot;Gitlist OS&quot;,
+  &quot;keywords&quot;: [],
+  &quot;bin&quot;: {
+    &quot;gitlist&quot;: &quot;./cli.js&quot;
+  },
+  &quot;dependencies&quot;: {
+    &quot;bcrypt&quot;: &quot;~0.8.0&quot;,
+    &quot;commander&quot;: &quot;^2.9.0&quot;,
+    &quot;ejs&quot;: &quot;~0.8.4&quot;,
+    &quot;grunt&quot;: &quot;0.4.2&quot;,
+    &quot;grunt-contrib-clean&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-coffee&quot;: &quot;~0.10.1&quot;,
+    &quot;grunt-contrib-concat&quot;: &quot;~0.3.0&quot;,
+    &quot;grunt-contrib-copy&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-cssmin&quot;: &quot;~0.9.0&quot;,
+    &quot;grunt-contrib-jst&quot;: &quot;~0.6.0&quot;,
+    &quot;grunt-contrib-less&quot;: &quot;0.11.1&quot;,
+    &quot;grunt-contrib-uglify&quot;: &quot;~0.4.0&quot;,
+    &quot;grunt-contrib-watch&quot;: &quot;~0.5.3&quot;,
+    &quot;grunt-sails-linker&quot;: &quot;~0.9.5&quot;,
+    &quot;grunt-sync&quot;: &quot;~0.0.4&quot;,
+    &quot;include-all&quot;: &quot;~0.1.3&quot;,
+    &quot;nodemailer&quot;: &quot;~1.4.0&quot;,
+    &quot;passport&quot;: &quot;~0.2.1&quot;,
+    &quot;passport-github&quot;: &quot;^0.1.5&quot;,
+    &quot;passport-local&quot;: &quot;~1.0.0&quot;,
+    &quot;passport-twitter&quot;: &quot;~1.0.2&quot;,
+    &quot;password-generator&quot;: &quot;^0.2.3&quot;,
+    &quot;progress&quot;: &quot;^1.1.8&quot;,
+    &quot;rc&quot;: &quot;~0.5.0&quot;,
+    &quot;sails&quot;: &quot;~0.11.0-rc10&quot;,
+    &quot;sails-disk&quot;: &quot;~0.10.0&quot;,
+    &quot;sails-hook-autoreload&quot;: &quot;^0.11.4&quot;,
+    &quot;sails-mongo&quot;: &quot;^0.12.0&quot;,
+    &quot;shortid&quot;: &quot;~2.1.3&quot;,
+    &quot;tilda&quot;: &quot;^4.2.1&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app.js&quot;,
+    &quot;debug&quot;: &quot;node debug app.js&quot;
+  },
+  &quot;main&quot;: &quot;app.js&quot;,
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;git://github.com/SpaceG/gitlist.io.git&quot;
+  },
+  &quot;author&quot;: &quot;lucasgatsas&quot;,
+  &quot;license&quot;: &quot;BSD-2-Clause&quot;,
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpaceG/gitlist.io/issues&quot;
+  },
+  &quot;homepage&quot;: &quot;https://github.com/SpaceG/gitlist.io#readme&quot;
+}
+
+
+&lt;/pre&gt;
+
+&lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
+&lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
+
+#!/usr/bin/env node
+// Make sure that no matter where we call the command from,
+// we lift the app that lives in the same directory as this script
+process.chdir(__dirname);
+
+        console.log(&quot;HELLOOOOOOOOO&quot;);
+        console.log(&quot;©.2016 by Gitlist OS&quot;);
+
+        console.log(&quot;press c to stop the app&quot;);
+
+// Get an instance of Sails
+var sails = require('sails');
+// Lift the Sails app in the current working directory
+sails.lift({log:{noShip: true}});
+
+&lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Thats it.&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt; package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;package.json: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/package.json&quot;&gt;package.json&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;cli.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/cli.js&quot;&gt;cli.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;app.js : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/app.js&quot;&gt;app.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.gitgnore &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/.gitignore&quot;&gt;.gitignore&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;.local.js &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/config/local.js&quot;&gt;.local.js&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Tools:&lt;/p&gt;
+
+&lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 11 May 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/create-commandline-for-your-app-sails.js.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/create-commandline-for-your-app-sails.js.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>$npm install gitlist</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Create npm packages&lt;/h2&gt;
+
+&lt;p&gt;We have created a package for our OS @npmjs.com
+Getting Started with Gitlist OS &lt;a href=&quot;https://www.npmjs.com/package/gitlist/tutorial&quot;&gt; $npm install gitlist &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;download the package via npm&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install gitlist &lt;/code&gt;&lt;/p&gt;
+
+&lt;h2&gt; To Create a Package &lt;/h2&gt;
+
+&lt;p&gt;Go to your Folder which the App is Created:&lt;/p&gt;
+
+&lt;p&gt;Open it with the Terminal &lt;code&gt; ls &lt;/code&gt;
+your App. Create your package.json file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $npm run build &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Going back to your Folder &lt;code&gt;cd&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;$ vi package.json&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Include your Node Tree like Name of the package, the Version etc.&lt;/p&gt;
+
+&lt;pre&gt;
+{
+  &quot;name&quot;: &quot;gitlist&quot;,
+  &quot;version&quot;: &quot;1.0.7&quot;,
+  &quot;description&quot;: &quot;Gitlist OS&quot;,
+  &quot;keywords&quot;: [],
+  &quot;dependencies&quot;: {
+    &quot;bcrypt&quot;: &quot;~0.8.0&quot;,
+    &quot;ejs&quot;: &quot;~0.8.4&quot;,
+    &quot;grunt&quot;: &quot;0.4.2&quot;,
+    &quot;grunt-contrib-clean&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-coffee&quot;: &quot;~0.10.1&quot;,
+    &quot;grunt-contrib-concat&quot;: &quot;~0.3.0&quot;,
+    &quot;grunt-contrib-copy&quot;: &quot;~0.5.0&quot;,
+    &quot;grunt-contrib-cssmin&quot;: &quot;~0.9.0&quot;,
+    &quot;grunt-contrib-jst&quot;: &quot;~0.6.0&quot;,
+    &quot;grunt-contrib-less&quot;: &quot;0.11.1&quot;,
+    &quot;grunt-contrib-uglify&quot;: &quot;~0.4.0&quot;,
+    &quot;grunt-contrib-watch&quot;: &quot;~0.5.3&quot;,
+    &quot;grunt-sails-linker&quot;: &quot;~0.9.5&quot;,
+    &quot;grunt-sync&quot;: &quot;~0.0.4&quot;,
+    &quot;include-all&quot;: &quot;~0.1.3&quot;,
+    &quot;nodemailer&quot;: &quot;~1.4.0&quot;,
+    &quot;passport&quot;: &quot;~0.2.1&quot;,
+    &quot;passport-github&quot;: &quot;^0.1.5&quot;,
+    &quot;passport-local&quot;: &quot;~1.0.0&quot;,
+    &quot;passport-twitter&quot;: &quot;~1.0.2&quot;,
+    &quot;password-generator&quot;: &quot;^0.2.3&quot;,
+    &quot;rc&quot;: &quot;~0.5.0&quot;,
+    &quot;sails&quot;: &quot;~0.11.0-rc10&quot;,
+    &quot;sails-disk&quot;: &quot;~0.10.0&quot;,
+    &quot;sails-hook-autoreload&quot;: &quot;^0.11.4&quot;,
+    &quot;sails-mongo&quot;: &quot;^0.12.0&quot;,
+    &quot;shortid&quot;: &quot;~2.1.3&quot;,
+    &quot;tilda&quot;: &quot;^4.2.1&quot;
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node app.js&quot;,
+    &quot;debug&quot;: &quot;node debug app.js&quot;
+  },
+  &quot;main&quot;: &quot;app.js&quot;,
+  &quot;repository&quot;: {
+    &quot;type&quot;: &quot;git&quot;,
+    &quot;url&quot;: &quot;git://github.com/SpaceG/gitlist.io.git&quot;
+  },
+  &quot;author&quot;: &quot;lucasgatsas&quot;,
+  &quot;license&quot;: &quot;BSD-2-Clause&quot;,
+  &quot;bugs&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SpaceG/gitlist.io/issues&quot;
+  },
+  &quot;homepage&quot;: &quot;https://github.com/SpaceG/gitlist.io#readme&quot;
+}
+
+&lt;/pre&gt;
+
+&lt;p&gt;after you want to publish your package: 
+going back to your Terminal&lt;/p&gt;
+
+&lt;p&gt;prompt the Terminal&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm adduser&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+Password: 
+Email: (this IS public) npm.demo.user@gmail.com
+
+....
+&lt;/pre&gt;
+
+&lt;p&gt;wait a Moment&lt;/p&gt;
+
+&lt;p&gt;prompt after this Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; npm config ls &lt;/code&gt;
+do you will see your informationa which one do you have submited to your &lt;code&gt;$ npm adduser &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;going to the Webiste of Npmjs.com like :&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/~spaceg&quot;&gt; https://www.npmjs.com/~spaceg &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Right now, your are fix to publishing your package!
+with the Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm publish&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;do you will see the Version Number of the App which do you have included to the package.json file !&lt;/p&gt;
+
+&lt;pre&gt;
+cyberspace$ npm publish
++ gitlist@1.0.6
+&lt;/pre&gt;
+
+&lt;p&gt;Now, do you can chec your npm package to see if it published and to see its possible to download…&lt;/p&gt;
+
+&lt;p&gt;press to see your package &amp;amp; to download. 
+&lt;code&gt;$ npm install yourpackage name &lt;/code&gt;
+mine also:
+&lt;code&gt; $npm install gitlist &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;you can test it with the commandline to see the Message  from the Console like : &lt;code&gt;node test.js&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;i have created a&lt;code&gt; index.js&lt;/code&gt; file in the root of the Folder of the App.&lt;/p&gt;
+
+&lt;p&gt;and put in this export Message :&lt;/p&gt;
+
+&lt;pre&gt;
+exports.printMsg = function() {
+
+	console.log(&quot;Thanks using npm install gitlist&quot;);
+}
+&lt;/pre&gt;
+
+&lt;p&gt;dyou can see the Version patch with the Commandline&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm version patch &lt;/code&gt;
+it give the Output of the Version Informations.&lt;/p&gt;
+
+&lt;p&gt;Thats it! Have fun with the Modern npm packages !&lt;/p&gt;
+
+&lt;p&gt;See the Current Install Video:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/mOZGPi0grTw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Current Work Flow  : gitlist V.1.0.2 - Testing App - Notify me of follow-up comments &amp;amp; posts by email.&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/ibCQfTGpriw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt;Gitlist OS Source &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
+
+&lt;p&gt;Clone The Master Branch to your Desktop: &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/&quot;&gt; Clone Gitlist Master  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
+ &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Big dedicated to my Friends Stellardrone:&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;425&quot; src=&quot;https://www.youtube.com/embed/YPRTIonMVQY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Sat, 07 May 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/npm-packages-npmjs.com.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/npm-packages-npmjs.com.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gitlist Nasa Collaboration</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist Nasa Collaboration&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/Cf2QfRbXIAEAic6.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://starthack.ch&quot;&gt; Starthack 2016&lt;/a&gt; 
-&lt;a href=&quot;https://www.facebook.com/starthackathon/?fref=ts&quot;&gt; Starthack 2016 - Facebook&lt;/a&gt; 
-&lt;a href=&quot;https://twitter.com/lucasgatsas&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On 28. April 2016 i will have a meeting with jason from the Nasa. We talking about the OpenSource, Future and Details about the Gitlist App and OpenSource Project.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/gitlist-new.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;New List with Arrays. :) !&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/IMG_3499.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing App.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/IMG_3458.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/IMG_3466.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;App  Count. Code of Lines  total :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;files: 6243 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;blank:   142507 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;comment:      245423 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;code:    870786 &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;&quot;&gt;
+    &lt;img src=&quot;/img/IMG_3508.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It’s faster, cleaner, more Userfriendly as the Old Version 1.0.1 . 
+More Features will next Step. We will write some Api. More to follow soon.&lt;/p&gt;
+
+&lt;p&gt;New small Team Up. I will list all Members. Specially one Person which i like it much to include it to the Team. Never seen such a good a Developer like her!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt; Gitlist On Github &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail and The Gitlist OpenSource Master Branch  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io&quot;&gt; Master Branch - Gitlist OS v.1.0.2&lt;/a&gt; 
+Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Gitlist OpenSource V.1.0.1</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist OpenSource Project &lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
+    &lt;img src=&quot;/img/Cf2QfRbXIAEAic6.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello World! - Gitlist is now OpenSource V.1.0.1 Available on Github 
+&lt;a href=&quot;http://www.github.com/spaceG/gitlist.io&quot;&gt; Gitlist On Github &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ git clone https://github.com/SpaceG/gitlist.io.git &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ sudo sails lift &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
+
+&lt;p&gt;Read the Full Documentation here on my Github : &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/blob/master/README.md&quot;&gt; Gitlist Documentation &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you find a Bug or Update the Source give a Note about a Issue :
+ &lt;a href=&quot;https://github.com/SpaceG/gitlist.io/issues &quot;&gt; Gitlist OpenSource Issues &lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-&quot;35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility. &quot;
+&quot;Gitlist is now OpenSource&quot;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Sun, 13 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/starthack-switzerland-1.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/starthack-switzerland-1.html</guid>
+        <pubDate>Wed, 13 Apr 2016 00:00:00 +0200</pubDate>
+        <link>http://localhost:8000/event/gitlist-opensource.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/gitlist-opensource.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Interpretierte und Kompilierte Sprachen</title>
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt; Interpretierte (Skript Sprachen)&lt;/h2&gt;
+
+&lt;h2&gt;Schlechte Performance &lt;/h2&gt;
+
+&lt;p&gt;Die Performance bei Skriptsprachebn ist generell etwas schlechter als bei den kompilierten Alternativen.&lt;/p&gt;
+
+&lt;h2&gt;Höherer Speicherverbrauch&lt;/h2&gt;
+
+&lt;p&gt;Speicherverbauch  ist ebenfalls meist höher als bei der Implementierung vergleichbar Logik in kompilierten Sprachen.&lt;/p&gt;
+
+&lt;h2&gt;Schnellere Entwicklung&lt;/h2&gt;
+&lt;p&gt;Die Entwicklung mit Skriptsprachen ist meist etwas weinger zeitaufwendig, da zum Beispiel Speicherverwaltung entfällt.&lt;/p&gt;
+
+&lt;h2&gt;Programmiersprachen&lt;/h2&gt;
+
+&lt;p&gt;Bekannte Skriptsprachen sind zum Beispiel PHP, Javascript, Python, Ruby sowie Perl.&lt;/p&gt;
+
+&lt;h2&gt;Speziallfall Java&lt;/h2&gt;
+
+&lt;p&gt;Code zur Lauftzeit Java ist ein Sonderfall. Hier gibt es einen Java - Compilier, der erzeugt jedoch Bytecode. Eine Art Zwischenschritt zwischen Interpreteur und Compiler.&lt;/p&gt;
+
+&lt;h2&gt;Sicherheit&lt;/h2&gt;
+
+&lt;p&gt;Generell bieten Skriptsprachen mehr Unterstützung im Bezug auf Sicherheit. C/C ++ lagert does voll auf den Entwickler aus.&lt;/p&gt;
+
+&lt;p&gt;Interpretierte Sprachen&lt;/p&gt;
+
+&lt;p&gt;Quelltext Editieren&lt;/p&gt;
+
+&lt;p&gt;In Interpreter ausführen&lt;/p&gt;
+
+&lt;p&gt;Software Testen&lt;/p&gt;
+
+&lt;h2 class=&quot;section-heading&quot;&gt; Kompilierte &lt;/h2&gt;
+
+&lt;h3 class=&quot;section-heading&quot;&gt; Mark Up Sprachen&lt;/h3&gt;
+
+&lt;h2&gt;Auszeichnung von Elementen&lt;/h2&gt;
+
+&lt;p&gt;Markup -Sprachebn ebschrieben den Inhalt, legen aber nicht automatisch auvh das Format fest.&lt;/p&gt;
+
+&lt;h2&gt;HTML / XML&lt;/h2&gt;
+
+&lt;p&gt;Beispiele für Markup -Sprachen sind HTML und XML. Hier werden Inhalte in einer Baumstruktur verschachelt.&lt;/p&gt;
+
+&lt;h2&gt;Keine Echten Programmiersprachen&lt;/h2&gt;
+
+&lt;p&gt;Eine Markup ist keine Programmiersprache. Hier der dynamische Aspekt.&lt;/p&gt;
+
+&lt;h2&gt;Keine Logik&lt;/h2&gt;
+
+&lt;p&gt;Auszeichnungssprachen haben keine Logik, Keine Bedingungen oder Schleifen. U.a. daher Javascript.&lt;/p&gt;
+
+&lt;h2&gt;Beschreibungssprache&lt;/h2&gt;
+
+&lt;p&gt;HTML und XML beschreiben Inhalte, legen jedach nur fest um welche Art esd sich handelt. Aussehen wird woanders difiniert.&lt;/p&gt;
+
+&lt;h2&gt;Stylesheets&lt;/h2&gt;
+
+&lt;p&gt;Aussehen wird durch Stylesheets festgelegt. Ausserdem gitbz es bei HTML definierte Darstellung, je nach Browser ggf. abweichend.&lt;/p&gt;
+
+&lt;h2&gt;How to get Fit with all?&lt;/h2&gt;
+
+&lt;p&gt;98,9% Bücher lesen.&lt;/p&gt;
+
+&lt;p&gt;87.3 % Eigne Beispiele umsetzen&lt;/p&gt;
+
+&lt;p&gt;82.1 % Tutorial&lt;/p&gt;
+
+&lt;p&gt;110&amp;amp; Eigne Projekte&lt;/p&gt;
+
+&lt;p&gt;72.1 % Fremde Open Source Projekte Ansehen &amp;amp; Studieren&lt;/p&gt;
+
+&lt;p&gt;Github &amp;amp; Google  - nach Open Sources Suchen - reicht über ein ganzes Menschenleben.&lt;/p&gt;
+
+&lt;p&gt;67.4 % Feedback&lt;/p&gt;
+
+&lt;p&gt;120 % Praxis&lt;/p&gt;
+
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
+Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 23 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://localhost:8000/event/peformance-interpretierte-kompilierte.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/peformance-interpretierte-kompilierte.html</guid>
         
         
       </item>
@@ -73,14 +635,10 @@ Our Partners will provide a big number of sophisticated challenges, which the ha
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;http://starthack.ch&quot;&gt; Starthack 2016&lt;/a&gt; 
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility. &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 11 Mar 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/starthack-switzerland.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/starthack-switzerland.html</guid>
+        <link>http://localhost:8000/event/starthack-switzerland.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/starthack-switzerland.html</guid>
         
         
       </item>
@@ -137,334 +695,15 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned=&quot;&quot; data-instgrm-version=&quot;4&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:8px;&quot;&gt; &lt;div style=&quot; background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;&quot;&gt; &lt;div style=&quot; background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;&quot;&gt;&lt;/div&gt;&lt;/div&gt; &lt;p style=&quot; margin:8px 0 0 0; padding:0 4px;&quot;&gt; &lt;a href=&quot;https://instagram.com/p/7KAoZ6Tgqe/&quot; style=&quot; color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;&quot; target=&quot;_top&quot;&gt;Bug fixing! #commandline #terminal #node&lt;/a&gt;&lt;/p&gt; &lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;Ein von Lucas Gatsas (@lucasgatsas) gepostetes Video am &lt;time style=&quot; font-family:Arial,sans-serif; font-size:14px; line-height:17px;&quot; datetime=&quot;2015-09-03T05:17:12+00:00&quot;&gt;2. Sep 2015 um 22:17 Uhr&lt;/time&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;//platform.instagram.com/en_US/embeds.js&quot;&gt;&lt;/script&gt;&lt;/center&gt;
 
-&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
+&lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt;
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-&quot;bcrypt Packages &quot;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 29 Feb 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/npm-bcrypt.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/npm-bcrypt.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Implement Passportjs authentication with Sailsjs</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;sailsjs, passportjs, nodejss&lt;/h2&gt;
-
-&lt;p&gt;Step 1: dependencies
-Add these dependencies to the yourproject/package.json file:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
-  &lt;span class=&quot;token string&quot;&gt;&quot;dependencies&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;bcrypt&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;~0.8.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;passport&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;~0.2.1&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&quot;passport-local&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;~1.0.0&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;
-   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt; 
-&lt;/code&gt;
-&lt;/pre&gt;
-&lt;p&gt;Open the terminal, go to your project folder and run:&lt;/p&gt;
-
-&lt;p&gt;[sudo] npm install&lt;/p&gt;
-
-&lt;p&gt;Step 2: create user model
-To create a user model run the following command:&lt;/p&gt;
-
-&lt;p&gt;sails generate api user&lt;/p&gt;
-
-&lt;p&gt;This will automatically create a model and a controller. You can find the model at yourproject/api/models/User.js. Let’s make that file look like this:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; bcrypt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;bcrypt&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    attributes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;email&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            required&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            unique&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;true&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        password&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            type&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;string&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            minLength&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            required&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;true&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        toJSON&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; obj &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toObject&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;delete&lt;/span&gt; obj&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; obj&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    beforeCreate&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; cb&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;genSalt&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; salt&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;hash&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; salt&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; hash&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                    console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                    &lt;span class=&quot;token function&quot;&gt;cb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                    user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hash&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                    &lt;span class=&quot;token function&quot;&gt;cb&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Step 3: create AuthController
-Run this command from your terminal: 
-sails generate controller auth&lt;/p&gt;
-
-&lt;p&gt;Then go to yourproject/api/controllers/AuthController.js and alter it in this way:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; passport &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;passport&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-    _config&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        actions&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        shortcuts&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-        rest&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;false&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-    login&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-        passport&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;authenticate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;local&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; info&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                    message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; info&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-                    user&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user
-                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-            req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;logIn&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-                &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;send&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-                    message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; info&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-                    user&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user
-                &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-    logout&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;logout&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;redirect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Step 4: create login and signup views
-Create this file yourproject/views/signup.ejs:&lt;/p&gt;
-
-&lt;pre class=&quot; language-markup&quot;&gt;&lt;code class=&quot; language-markup&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;Signup&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;POST&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/user&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;And then this yourproject/views/login.ejs:&lt;/p&gt;
-
-&lt;pre class=&quot; language-markup&quot;&gt;&lt;code class=&quot; language-markup&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;Login&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;h1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;form&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;method&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;POST&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;/login&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-  &lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;input&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;token attr-name&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;submit&lt;span class=&quot;token punctuation&quot;&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token tag&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;/&lt;/span&gt;form&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;These forms look the same, besides the action.&lt;/p&gt;
-
-&lt;p&gt;Step 5: configuring the routes
-Let’s set up our routes in yourproject/config/routes.js like this:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;routes &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token string&quot;&gt;&#39;/&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    view&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;homepage&#39;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-  &lt;span class=&quot;token string&quot;&gt;&#39;get /login&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-       view&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;login&#39;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-  &lt;span class=&quot;token string&quot;&gt;&#39;post /login&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;AuthController.login&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-  &lt;span class=&quot;token string&quot;&gt;&#39;/logout&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;AuthController.logout&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-  &lt;span class=&quot;token string&quot;&gt;&#39;get /signup&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    view&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;signup&#39;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;If you notice we are leveraging HTTP verbs, we have two login actions but different routes.&lt;/p&gt;
-
-&lt;p&gt;Step 6: configuring Express Middleware
-Since we are using Passport we have to customize our middleware in yourproject/config/http.js:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;http &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-   middleware&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-    passportInit    &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;passport&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    passportSession &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;passport&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;session&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-     order&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;startRequestTimer&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;cookieParser&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;session&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;passportInit&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;     
-            &lt;span class=&quot;token string&quot;&gt;&#39;passportSession&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; 
-            &lt;span class=&quot;token string&quot;&gt;&#39;myRequestLogger&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;bodyParser&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;handleBodyParserError&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;compress&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;methodOverride&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;poweredBy&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;router&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;www&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;favicon&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;404&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;token string&quot;&gt;&#39;500&#39;&lt;/span&gt;
-          &lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Into the order array we added passportInit and passportSession after the session element. The name of this array is quite self-explanatory, the elements must be ordered this way.&lt;/p&gt;
-
-&lt;p&gt;Step 7: define Passport local strategy for authentication
-Into yourproject/config/ folder let’s create a new file called passport.js:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; passport &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;passport&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-LocalStrategy &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;passport-local&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Strategy&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-bcrypt &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;bcrypt&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-passport&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;serializeUser&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; done&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-passport&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;deserializeUser&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;id&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; done&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findOne&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; id &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-passport&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;use&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;LocalStrategy&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    usernameField&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;email&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-    passwordField&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;password&#39;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; done&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-    User&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;findOne&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; email &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Incorrect email.&#39;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-
-      bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;compare&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;err&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-          &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-              message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Invalid Password&#39;&lt;/span&gt;
-            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-          &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; returnUser &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            email&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;email&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            createdAt&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;createdAt&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-            id&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;id
-          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-          &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;done&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; returnUser&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-            message&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Logged In Successfully&#39;&lt;/span&gt;
-          &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Step 8: add a new policy
-Let’s create a new policy isAuthenticated.js into the yourproject/api/policies/ folder:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; next&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-   &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;req&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;isAuthenticated&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;next&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;redirect&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&#39;/login&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Briefly, we are telling Sails what to do if a user is not authenticated, then we can bind this policy to any of the controllers in the app.&lt;/p&gt;
-
-&lt;p&gt;Step 9: bind the policy to a controller
-Let’s create a controller and a model just for testing what we have done. I am going to call this api post.&lt;/p&gt;
-
-&lt;p&gt;sails generate api post&lt;/p&gt;
-
-&lt;p&gt;Then let’s bind the policy to the PostController by updating yourproject/config/policies.js:&lt;/p&gt;
-
-&lt;pre class=&quot; language-javascript&quot;&gt;&lt;code class=&quot; language-javascript&quot;&gt;module&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;exports&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;policies &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-
-   &lt;span class=&quot;token string&quot;&gt;&#39;*&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-  &lt;span class=&quot;token string&quot;&gt;&#39;PostController&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;token string&quot;&gt;&#39;*&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;isAuthenticated&#39;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
-
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;
-&lt;/pre&gt;
-
-&lt;p&gt;Now the ‘GET /post’ route (and all the other routes automatically generated for this controller ) is available only to authenticated users.&lt;/p&gt;
-
-&lt;p&gt;Step 10: run a test
-Lift your application 
-sails lift 
-And then go and play with these routes:&lt;/p&gt;
-
-&lt;p&gt;http://localhost:1337/post - the very first time it should redirect you to the login page&lt;/p&gt;
-
-&lt;p&gt;go to http://localhost:1337/signup for signing up&lt;/p&gt;
-
-&lt;p&gt;go to http://localhost:1337/login for logging in&lt;/p&gt;
-
-&lt;p&gt;now you should be able to access this page http://localhost:1337/post, even though it’s going to show you just an empty array (there aren’t any posts yet)&lt;/p&gt;
-
-&lt;p&gt;go to http://localhost:1337/logout for logging out&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/iliketomatoes/passport_with_sails&quot;&gt;→ Get the repository on Github&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I would very much appreciate your comments, especially if you find an error or you need a further explanation.
-References:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://sailsjs.org/#/documentation/concepts&quot;&gt;→ Sails.js&lt;/a&gt; 
-&lt;a href=&quot;http://passportjs.org/&quot;&gt;→ Passport.js&lt;/a&gt; 
-&lt;a href=&quot;hhttps://github.com/balderdashy/waterline&quot;&gt;→ Waterline&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;When in doubt, use brute force.
-
-        — Ken Thompson
-
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 26 Jan 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/Implement-Passport.js-authentication-with-Sails.js.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/Implement-Passport.js-authentication-with-Sails.js.html</guid>
+        <link>http://localhost:8000/event/npm-bcrypt.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/npm-bcrypt.html</guid>
         
         
       </item>
@@ -572,19 +811,16 @@ nmap --osscan-guess 192.168.0.2 &lt;/code&gt;&lt;/p&gt;
 Port scanning may be illegal in some jurisdictions and Countrys. So be Aware! Scan Only &lt;strong&gt;your Network &lt;/strong&gt; and &lt;strong&gt; Computers, Websites &lt;/strong&gt; etc.  as follows:
 &lt;/blockquote&gt;
 
-&lt;p&gt;At last i have to lol. because i found this crazy thing here : 
+&lt;p&gt;At last i have to lol. because i found this crazy thing here :
 &lt;a href=&quot;http://nmap.org/movies/#elysium&quot;&gt;Nmap in Movies!&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Link: 
+&lt;p&gt;Link:
 &lt;a href=&quot;http://nmap.org/download.html#macosx&quot;&gt;nmap.org&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-This is a SwissWatch! :)
-&lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 13 Jan 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/nmap-mac-osx.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/nmap-mac-osx.html</guid>
+        <link>http://localhost:8000/event/nmap-mac-osx.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/nmap-mac-osx.html</guid>
         
         
       </item>
@@ -602,8 +838,8 @@ This is a SwissWatch! :)
 &lt;p&gt;If you want to know more come along to my event!&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Jan 2016 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/angular-2.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/angular-2.html</guid>
+        <link>http://localhost:8000/event/angular-2.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/angular-2.html</guid>
         
         
       </item>
@@ -622,13 +858,13 @@ RubyGems is the official packaging system for &lt;a href=&quot;https://www.ruby-
 
 &lt;p&gt;RubyGems be accessed via the command line acc.&lt;/p&gt;
 
-&lt;stromg&gt; Example : 
+&lt;stromg&gt; Example :&amp;lt;/strong&amp;gt; 
 
 &lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
 &lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
 
-require &#39;json&#39;        # aktuelle Version
-gem &#39;rake&#39;, &#39;= 10.1.0&#39; # mit Versionsangabe
+require 'json'        # aktuelle Version
+gem 'rake', '= 10.1.0' # mit Versionsangabe
 
 
 &lt;/pre&gt;&lt;/pre&gt;&lt;/div&gt; 
@@ -642,7 +878,7 @@ Download and install rake with the following.
 
 &lt;strong&gt; Example : &lt;/strong&gt; 
 
-First, you must write a “Rakefile” file which contains the build rules. Here&#39;s a simple example:
+First, you must write a “Rakefile” file which contains the build rules. Here's a simple example:
 
 &lt;div style=&quot;overflow:auto; height=200; width=100%;&quot;&gt;
 &lt;pre style=&quot;color:black;background:white;&quot;&gt;&lt;pre&gt;
@@ -681,15 +917,11 @@ Type “rake –help” for all available options.
 
 Link: &lt;a href=&quot;https://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;  Link:  &lt;a href=&quot;https://www.ruby-lang.org/de/&quot;&gt; ruby-lang.org&lt;/a&gt;
 
-&lt;blockquote&gt;
-“Grind and Polish your Gems!” 
-&lt;/blockquote&gt;
-
 &lt;/stromg&gt;
 </description>
         <pubDate>Sun, 18 Oct 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/gem-npm-ruby-gems-node.js.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/gem-npm-ruby-gems-node.js.html</guid>
+        <link>http://localhost:8000/event/gem-npm-ruby-gems-node.js.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/gem-npm-ruby-gems-node.js.html</guid>
         
         
       </item>
@@ -701,17 +933,17 @@ Link: &lt;a href=&quot;https://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;  Li
 &lt;h2 class=&quot;section-heading&quot;&gt;Run Your Web App via port 80 - Sails.js&lt;/h2&gt;
 
 &lt;p&gt;The Error was to sails lift the App via only &lt;code&gt; sails lift &lt;/code&gt;&lt;br /&gt;
-Get many Times this error back, tried everything to lift the Web App. but Error. 
-To fix this Issue, do you can change some files inside your App. After Run your 
-App with &lt;code&gt; $ sudo sails lift &lt;/code&gt;. 
+Get many Times this error back, tried everything to lift the Web App. but Error.
+To fix this Issue, do you can change some files inside your App. After Run your
+App with &lt;code&gt; $ sudo sails lift &lt;/code&gt;.
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I have included a &lt;code&gt; local.js &lt;/code&gt; file to the App. 
+&lt;p&gt;I have included a &lt;code&gt; local.js &lt;/code&gt; file to the App.
 Here is my Code to Run the WebApp via &lt;code&gt; port 80 &lt;/code&gt;  without &lt;code&gt; 1337 &lt;/code&gt;.
-The very Important thing is to take your port with this small code &lt;code&gt;  port: process.env.PORT || 80, &lt;/code&gt; 
+The very Important thing is to take your port with this small code &lt;code&gt;  port: process.env.PORT || 80, &lt;/code&gt;
 &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Now a was go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document! 
+&lt;p&gt;Now a was go ahead with the &lt;code&gt; local.js &lt;/code&gt; like in the description in the sails.js document!
 first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file. and saved this.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;info: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;To&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;see&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;localhost&lt;/span&gt;
@@ -724,7 +956,7 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
 &lt;span class=&quot;ss&quot;&gt;debug: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Port&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;debug: &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;--------------------------------------------------------&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;events&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;85&lt;/span&gt;
-      &lt;span class=&quot;kp&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;er&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Unhandled&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;error&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;
+      &lt;span class=&quot;kp&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;er&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Unhandled&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'error'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;event&lt;/span&gt;
             &lt;span class=&quot;o&quot;&gt;^&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;listen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EACCES&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exports&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;_errnoException&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;746&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -737,10 +969,10 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
  * Development environment settings
  *
  * This file can include shared settings for a development team,
- * such as API keys or remote database passwords.  If you&#39;re using
+ * such as API keys or remote database passwords.  If you're using
  * a version control solution for your Sails app, this file will
  * be committed to your repository unless you add it to your .gitignore
- * file.  If your repository will be publicly viewable, don&#39;t add
+ * file.  If your repository will be publicly viewable, don't add
  * any private information to this file!
  *
  */&lt;/span&gt;
@@ -753,9 +985,9 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;o&quot;&gt;***************************************************************************&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/
 
   /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;models: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;connection: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;someMongodbServer&#39;&lt;/span&gt;
+  &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;connection: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'someMongodbServer'&lt;/span&gt;
   &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  
+
   &lt;span class=&quot;sr&quot;&gt;/***************************************************************************
    * Set the port in the development environment to 80                        *
    ***************************************************************************/&lt;/span&gt;
@@ -771,10 +1003,10 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
  * Development environment settings
  *
  * This file can include shared settings for a development team,
- * such as API keys or remote database passwords.  If you&#39;re using
+ * such as API keys or remote database passwords.  If you're using
  * a version control solution for your Sails app, this file will
  * be committed to your repository unless you add it to your .gitignore
- * file.  If your repository will be publicly viewable, don&#39;t add
+ * file.  If your repository will be publicly viewable, don't add
  * any private information to this file!
  *
  */&lt;/span&gt;
@@ -787,9 +1019,9 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
    &lt;span class=&quot;o&quot;&gt;***************************************************************************&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/
 
   /&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;models: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;connection: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;someMongodbServer&#39;&lt;/span&gt;
+  &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;   &lt;span class=&quot;ss&quot;&gt;connection: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'someMongodbServer'&lt;/span&gt;
   &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  
+
   &lt;span class=&quot;sr&quot;&gt;/***************************************************************************
    * Set the port in the development environment to 80                        *
    ***************************************************************************/&lt;/span&gt;
@@ -802,14 +1034,14 @@ first i have inculded this in the &lt;code&gt; development.js &lt;/code&gt; file
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;sr&quot;&gt;/**
 
 Local environment settings *
-While you&#39;re developing your app, this config file should include
+While you're developing your app, this config file should include
 any settings specifically for your development computer (db passwords, etc.)
-When you&#39;re ready to deploy your app in production, you can use this file
+When you're ready to deploy your app in production, you can use this file
 for configuration options on the server where it will be deployed. * *
 PLEASE NOTE:
-This file is included in your .gitignore, so if you&#39;re using git
+This file is included in your .gitignore, so if you're using git
 as a version control solution for your Sails app, keep in mind that
-this file won&#39;t be committed to your repository! *
+this file won't be committed to your repository! *
 Good news is, that means you can specify configuration for your local
 machine in this file without inadvertently committing personal information
 (like database passwords) to the repo. Plus, this prevents other members
@@ -822,16 +1054,16 @@ http:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Ports&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;transport&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;layer&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;concept&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;designed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;allow&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;many&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;different&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;networking&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applications&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;same&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;time&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;on&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;single&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;computer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;More&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;ports: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;en&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;wikipedia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wiki&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Port_&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;computer_networking&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; 
-&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;By&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;s set, Sails uses the PORT environment variable.
+&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;By&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'s set, Sails uses the PORT environment variable.
 // Otherwise it falls back to port 1337.
 //
-// In production, you&#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;probably&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;setting&lt;/span&gt; 
+// In production, you'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;probably&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;change&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;setting&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;http&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;443&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;have&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;an&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SSL&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;certificate&lt;/span&gt;
 
 &lt;span class=&quot;ss&quot;&gt;port: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;PORT&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;80&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
 
-&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;runtime&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;environment&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;either&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;development&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;production&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;runtime&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;environment&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;either&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'development'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'production'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;development&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;go&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;out&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;its&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;way&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;help&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;receive&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;more&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;descriptive&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;debugging&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -839,11 +1071,11 @@ http:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;In&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;production&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;configures&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itself&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;its&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dependencies&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;optimize&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;performance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;should&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;always&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;put&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;production&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mode&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;before&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;deploy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;it&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;server&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;This&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;helps&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;ensure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;that&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;remains&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;performant&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;scalable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; 
+&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
 &lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;By&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;its&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NODE_ENV&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;variable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;If&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NODE_ENV&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;development&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;If&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NODE_ENV&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;set&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'development'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 
- &lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;environment: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;NODE_ENV&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;development&#39;&lt;/span&gt;
+ &lt;span class=&quot;nf&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;environment: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;NODE_ENV&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'development'&lt;/span&gt;
 
 &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -854,19 +1086,19 @@ http:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=
 
 &lt;span class=&quot;ss&quot;&gt;info: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Starting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 
-&lt;span class=&quot;nf&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;nf&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;info:                &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;nf&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;info:    &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Sails&lt;/span&gt;              &lt;span class=&quot;o&quot;&gt;&amp;lt;|&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;nf&quot;&gt;info&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;v0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;             &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;info:                       &lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/|.\
 info:                      /&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;info:                    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;  |&#39;&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;info:                 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;.-==|/_--&#39;&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;info:                 &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`--&#39;-------&#39; 
+&lt;span class=&quot;ss&quot;&gt;info:                    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'  |'&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;info:                 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.-==|/_--'&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;info:                 &lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`--'-------'
 info:    __---___--___---___--___---___--___
 info:  ____---___--___---___--___---___--___-__
-info: 
+info:
 info: Server lifted in `&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Users&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xxxxxxx&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`
 info: To see your app, visit http://localhost
 info: To shut down Sails, press &amp;lt;CTRL&amp;gt; + C at any time.
@@ -896,19 +1128,15 @@ debug: --------------------------------------------------------&lt;/span&gt;&lt;
 
 --&gt;
 
-&lt;p&gt;Link: &lt;a href=&quot;http://sailsjs.org/documentation/anatomy/my-app/config/local-js&quot; target=&quot;_blank&quot;&gt; local.js&lt;/a&gt; 
-Link: &lt;a href=&quot;http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp&quot; target=&quot;_blank&quot;&gt; superuser&lt;/a&gt; 
-Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; sails issues&lt;/a&gt; 
+&lt;p&gt;Link: &lt;a href=&quot;http://sailsjs.org/documentation/anatomy/my-app/config/local-js&quot; target=&quot;_blank&quot;&gt; local.js&lt;/a&gt;
+Link: &lt;a href=&quot;http://superuser.com/questions/363353/http-localhost8080-is-not-working-on-running-apacher-server-through-xampp&quot; target=&quot;_blank&quot;&gt; superuser&lt;/a&gt;
+Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; sails issues&lt;/a&gt;
 Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku-deploying-error&quot; target=&quot;_blank&quot;&gt; Stack Overflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&quot;i want, i want, i want , i want !!!!&quot;
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Tue, 06 Oct 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html</guid>
+        <link>http://localhost:8000/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/sails.js-sudo-sails-lfit-via-port-80-local.js.html</guid>
         
         
       </item>
@@ -917,7 +1145,7 @@ Link: &lt;a href=&quot;http://stackoverflow.com/questions/32472139/nodejs-heroku
         <title>Raspberry Pi with VNC SSH</title>
         <description>&lt;h2 class=&quot;section-heading&quot;&gt;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall&lt;/h2&gt;
 
-&lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already. 
+&lt;p&gt;I Tried to connect the Raspberry Pi to one of my Routers. After some Trying it have worked already.
 I have done this Documentation after &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot; target=&quot;_blank&quot;&gt;zwogden&lt;/a&gt; asked me about it on Instagram.&lt;/p&gt;
 
 &lt;p&gt;First of all, do you need a &lt;a href=&quot;https://www.raspberrypi.org/ &quot; target=&quot;_blank&quot;&gt;Raspberry Pi&lt;/a&gt;  Pi to get this Tutorial and set up your &lt;strong&gt; Raspberry PI &lt;/strong&gt; to your Mac.&lt;/p&gt;
@@ -968,7 +1196,7 @@ DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os).&lt;
 &lt;p&gt;Now do you will get to the ssh RSA Key, if you have one.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cybo&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;raspberrypi.local (10.0.0.3)&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;established&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'raspberrypi.local (10.0.0.3)'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;established&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;RSA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;key&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fingerprint&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:b7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:bb:bc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;78&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;97&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:da&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:d8:e7:e7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:e4:a6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sure&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;want&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;continue&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;connecting&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;yes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -983,9 +1211,9 @@ DMG Universal 5.2.3 &lt;/strong&gt; The Install it on your Machine (Mac Os).&lt;
 Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;comes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ABSOLUTELY&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;NO&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;WARRANTY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;extent&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;permitted&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applicable&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;law&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Last&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;login: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mon&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Sep&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;28&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;00&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;04&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine. 
+&lt;p&gt;Now :) , you entery and connect your Raspberry PI via Terminal on your Machine.
 Right After you entry your RaspberryPi via Termina, you have now to type the Commanline &lt;code&gt; ls &lt;/code&gt; to see what is on your Raspberry Pi. As, we can see everything is fit to start the VNC Viewer (Server) promp this Commandline.&lt;/p&gt;
 
 &lt;p&gt;(3.) &lt;code&gt;sudo apt-get install tightvncserver &lt;/code&gt;&lt;/p&gt;
@@ -998,17 +1226,17 @@ Right After you entry your RaspberryPi via Termina, you have now to type the Com
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;access&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktops&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 
-&lt;span class=&quot;no&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;no&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Verify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   
 &lt;span class=&quot;no&quot;&gt;Would&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;view&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt;
 
-&lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;X&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'X'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
 
 &lt;span class=&quot;no&quot;&gt;Creating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;startup&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xstartup&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Starting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applications&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;specified&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xstartup&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Log&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;log&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up: 
+&lt;p&gt;At last we have to set up the VNC Viewer. Start it by Dopple Click then a Window will show up:
 In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress also mine is here &lt;strong&gt; 10.0.0.3:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Type in that Window The Number &lt;strong&gt; 10.0.0.3:1 &lt;/strong&gt; Then Press Connect in the Interface. Pingo Here is it, you run now Linux RaspberryPi over Mac Os X Machine.&lt;/p&gt;
@@ -1067,11 +1295,11 @@ In this Window type the scanned and pinged &lt;code&gt;IP&lt;/code&gt; Adress al
 &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;transmitted&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;21&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packets&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;received&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;packet&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;loss&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;round&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;trip&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;avg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stddev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;544&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;625&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;202&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;134&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ms&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Space&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;O&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Mac&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Pro&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cyberspace&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;
-&lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;raspberrypi.local (10.0.0.4)&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;t be established.
+&lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;authenticity&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;host&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'raspberrypi.local (10.0.0.4)'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'t be established.
 RSA key fingerprint is 7d:b7:30:bb:bc:78:97:da:3e:d8:e7:e7:7f:e4:a6:04.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added &#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39; (RSA) to the list of known hosts.
-pi@raspberrypi.local&#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password: 
+Warning: Permanently added '&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;local&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;' (RSA) to the list of known hosts.
+pi@raspberrypi.local'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;password:
 &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;18&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;11&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;#781 PREEMPT Tue Apr 21 18:02:18 BST 2015 armv6l&lt;/span&gt;
 
 &lt;span class=&quot;no&quot;&gt;The&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;programs&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;included&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Debian&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;GNU&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;system&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;free&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;software&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -1116,28 +1344,24 @@ Debian GNU/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Linux&lt;/span&gt; &lt;
 
 &lt;span class=&quot;no&quot;&gt;You&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;will&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;access&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktops&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;
 
-&lt;span class=&quot;no&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;no&quot;&gt;Password&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Verify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;   
 &lt;span class=&quot;no&quot;&gt;Would&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;like&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;view&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;only&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;password&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;n&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)?&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;no&lt;/span&gt;
 
-&lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;X&#39;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;New&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'X'&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;desktop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;
 
 &lt;span class=&quot;no&quot;&gt;Creating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;startup&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xstartup&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Starting&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;applications&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;specified&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;xstartup&lt;/span&gt;
 &lt;span class=&quot;no&quot;&gt;Log&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;file&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/home/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vnc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;raspberrypi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;log&lt;/span&gt;
 
-&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;n&quot;&gt;pi&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@raspberrypi&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Link: &lt;a href=&quot;https://instagram.com/p/8FvYS6zgnO/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Run Raspberry Pi over Mac Os X with ssh and vpn connect to Router Firewall by Lucas Gatsas&quot;
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Wed, 30 Sep 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/raspberrypi-set-up-macosx-vnc-ssh.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/raspberrypi-set-up-macosx-vnc-ssh.html</guid>
+        <link>http://localhost:8000/event/raspberrypi-set-up-macosx-vnc-ssh.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/raspberrypi-set-up-macosx-vnc-ssh.html</guid>
         
         
       </item>
@@ -1197,13 +1421,10 @@ because the Page have only a frame in the index.html file and the rest based on 
 
  --&gt;
 
-&lt;blockquote&gt;Every large system that works started as small system that worked.
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 23 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/angular.js-framework.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/angular.js-framework.html</guid>
+        <link>http://localhost:8000/event/angular.js-framework.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/angular.js-framework.html</guid>
         
         
       </item>
@@ -1286,14 +1507,12 @@ Scale up or scale out horizontally, from a single server to thousands of nodes. 
 MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
 
 
- &lt;strong&gt;Fastest-Growing Community &lt;/strong&gt;
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
-&lt;/blockquote&gt;
 
+&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 07 Jul 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/mongoDB-database-for-scalability-performance-Agility.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/mongoDB-database-for-scalability-performance-Agility.html</guid>
+        <link>http://localhost:8000/event/mongoDB-database-for-scalability-performance-Agility.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/mongoDB-database-for-scalability-performance-Agility.html</guid>
         
         
       </item>
@@ -1339,13 +1558,10 @@ Join the world’s fastest-growing database community. MongoDB stands behind its
         &lt;/tbody&gt;
       &lt;/table&gt;
 
-&lt;blockquote&gt;
-    &quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 04 Jun 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/npm.js.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/npm.js.html</guid>
+        <link>http://localhost:8000/event/npm.js.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/npm.js.html</guid>
         
         
       </item>
@@ -1444,8 +1660,8 @@ for any domain .htaccess takes effect on:
 &lt;/pre&gt;&lt;/pre&gt;
 </description>
         <pubDate>Mon, 01 Jun 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/htaccess-404-cpanel.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/htaccess-404-cpanel.html</guid>
+        <link>http://localhost:8000/event/htaccess-404-cpanel.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/htaccess-404-cpanel.html</guid>
         
         
       </item>
@@ -1500,14 +1716,11 @@ for any domain .htaccess takes effect on:
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/openssl/openssl&quot;&gt;OpenSSL&lt;/a&gt; Link: &lt;a href=&quot;http://www.openssl.org/source/&quot;&gt;OpenSSL Website&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-“Zeit für etwas zu haben ist das Talent Dinge nach ihrer Wichtigkeit ordnen zu können” 
-&lt;/blockquote&gt;
 
 </description>
         <pubDate>Mon, 18 May 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/openssl-nginx-server-linux.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/openssl-nginx-server-linux.html</guid>
+        <link>http://localhost:8000/event/openssl-nginx-server-linux.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/openssl-nginx-server-linux.html</guid>
         
         
       </item>
@@ -1519,13 +1732,13 @@ for any domain .htaccess takes effect on:
 
 &lt;p&gt;&lt;strong&gt; Recovery Mode &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything. 
+&lt;p&gt;This Morning i got a {….} Shok. You know, i do crazy things with my Terminal and Try and Hacking everything.
 So my History now.. i tried hack my HD! After a Error, i put the rights to the &lt;code&gt;(:denied)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Spoken Words: - I don’t had rights anymore everywhere! After a New Start my Machine, the same thing again. I gotta Crazy soon after any Times to reboot my Machine!&lt;/p&gt;
 
 &lt;p&gt;i Tried out to reboot the Machine on &lt;code&gt; &quot;C&quot; &lt;/code&gt;! Nothing Works! After booted in to the &lt;code&gt;C&lt;/code&gt;
-&lt;code&gt;cmd + r &lt;/code&gt;! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# &lt;code&gt; chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt; and prompt (Enter) it. &lt;code&gt; sudo shutdown -r now &lt;/code&gt; ! New Started and waited for a while 
+&lt;code&gt;cmd + r &lt;/code&gt;! Booted the Mac over Recovery Mode and choose in the Menu the Terminal App and Typed on -bash:~ 3.2# &lt;code&gt; chmod o+rx &quot;/Volumes/YOURHD&quot;&lt;/code&gt; and prompt (Enter) it. &lt;code&gt; sudo shutdown -r now &lt;/code&gt; ! New Started and waited for a while
 and BANG unbelievable! The whole Machine is back now with all my Users! :) ! What a Thing! Thanks to Me :) ! I’m really proud of it. Hacking your Machine and learn to Rule! ;)&lt;/p&gt;
 
 &lt;p&gt;First Reboot your Machine from &lt;code&gt; cmd + r  &lt;/code&gt; and then wait!
@@ -1539,10 +1752,10 @@ And New Start your Mac!&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt; Single-User Mode &lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine. 
+&lt;p&gt;Newstart your Machine and Press &lt;code&gt;cmd + s&lt;/code&gt; ! Your machine will run over Text-Mode - Pure Terminal on your Machine.
 There do you can entry your Commandlines ! you boot directly to a root shell. getting multi-user operating System!&lt;/p&gt;
 
-&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type 
+&lt;p&gt;Unix/ Will Open! This is your root single-user Mode if you want to reboot press Type
 &lt;code&gt;reboot&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;First i have typed : &lt;code&gt; mount -uw/ &lt;/code&gt;
@@ -1560,14 +1773,10 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;p&gt;I don’t need anymore a Apple Supporter! :D&lt;/p&gt;
 
-&lt;blockquote&gt;
-“Wer vermag seine Zeit klar zu durchschauen? Wer sieht, wohin sie treibt, fühlt, woher der Wind weht? Selbst die Hellsten haben nur Ahnungen und Mutmaßungen. Das Genie schlägt die rechte Richtung ein, ohne sich dessen klar bewußt zu sein, von der ihm innewohnenden, rätselhaften Kraft getrieben. - Jakob Boßhart  ” 
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Sun, 10 May 2015 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html</guid>
+        <link>http://localhost:8000/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/reboot-chmodo+rx-volumes-macintosh-hd-c-terminal-bash-for-everyone-change.html</guid>
         
         
       </item>
@@ -1598,13 +1807,10 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;p&gt;Update Post soon!&lt;/p&gt;
 
-&lt;blockquote&gt;
-	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Thu, 26 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/get-emacs-on-your-machine.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/get-emacs-on-your-machine.html</guid>
+        <link>http://localhost:8000/event/get-emacs-on-your-machine.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/get-emacs-on-your-machine.html</guid>
         
         
       </item>
@@ -1621,14 +1827,10 @@ Then &lt;code&gt;reboot&lt;/code&gt; your Machine! ;)&lt;/p&gt;
 
 &lt;blockquote&gt; The Work from a Sysadmin! :)  &lt;/blockquote&gt;
 
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Sat, 21 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</guid>
+        <link>http://localhost:8000/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/nginx-set-up-unix-sysadmin-linux-digital-ocean.html</guid>
         
         
       </item>
@@ -2336,13 +2538,10 @@ Merge just &lt;strong&gt;one specific commit&lt;/strong&gt; from another branch 
 
 &lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-	&quot;Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 20 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/git-install.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/git-install.html</guid>
+        <link>http://localhost:8000/event/git-install.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/git-install.html</guid>
         
         
       </item>
@@ -2410,15 +2609,10 @@ To see if NPM is installed, type &lt;code&gt; npm -v &lt;/code&gt; in Terminal. 
 
 &lt;p&gt;&lt;a href=&quot;https://nodejs.org/download/&quot;&gt;Download node.js&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-
-
-&quot;Node.js is an open source, cross-platform runtime environment for server-side and networking applications.&quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/node.js.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/node.js.html</guid>
+        <link>http://localhost:8000/event/node.js.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/node.js.html</guid>
         
         
       </item>
@@ -2565,27 +2759,21 @@ If you are running the nscd Name Service Cache Daemon and wish to flush your DNS
 &lt;p&gt;Open up a command terminal (either as root or run step 2 with sudo).
 Run the command &lt;code&gt;/etc/init.d/nscd restart&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Link: 
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Transport_layer_protocols&quot;&gt;Transport Layer Protocols&lt;/a&gt; 
-Link: 
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Application_layer_protocols&quot;&gt;Application Layer Protocols&lt;/a&gt; 
-Link: 
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Link_protocols&quot;&gt;Link Protocols&lt;/a&gt; 
-Link: 
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Internet_layer_protocols&quot;&gt;internet Layer Protocols&lt;/a&gt; 
+&lt;p&gt;Link:
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Transport_layer_protocols&quot;&gt;Transport Layer Protocols&lt;/a&gt;
+Link:
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Application_layer_protocols&quot;&gt;Application Layer Protocols&lt;/a&gt;
+Link:
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Link_protocols&quot;&gt;Link Protocols&lt;/a&gt;
+Link:
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Internet_layer_protocols&quot;&gt;internet Layer Protocols&lt;/a&gt;
 Link:
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;Domian Name Systems&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-This is a SwissWatch! :)
-
-	
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/dns-cname.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/dns-cname.html</guid>
+        <link>http://localhost:8000/event/dns-cname.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/dns-cname.html</guid>
         
         
       </item>
@@ -2645,13 +2833,10 @@ After 4 Hours i have sloved the Bug. ! Thanks this commandline &lt;code&gt; $ np
 &lt;p&gt;See the Issue Detail here on Github &lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js/issues/332&quot;&gt; issue332&lt;/a&gt; 
 Link: &lt;a href=&quot;https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas&quot;&gt; Instagram Vid&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;bcrypt Packages &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/bcrypt.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/bcrypt.html</guid>
+        <link>http://localhost:8000/event/bcrypt.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/bcrypt.html</guid>
         
         
       </item>
@@ -2728,24 +2913,10 @@ Update Post soon. !&lt;/p&gt;
     &lt;img src=&quot;/img/dia_01_ssh_tube_bylucas-gatsas.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Sketches by Lucas Gatsas : Free to Use&lt;/p&gt;
-
-&lt;!--
-&lt;strong&gt; Diagram of the SSH private-public key pair transactions, as defined within the SSH defined architecture model &lt;/strong&gt;
-
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/SSH_public_private_key.gif&quot; alt=&quot;Lucas Gatsas&quot;  style=&quot;width:100%&quot;&gt;
-&lt;/a&gt;
---&gt;
-
-&lt;blockquote&gt;
-“Best startups generally come from somebody needing to scratch an itch.” -Michael Arrington, TechCrunch 
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Thu, 29 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/ssh-key-on-mac-osx.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/ssh-key-on-mac-osx.html</guid>
+        <link>http://localhost:8000/event/ssh-key-on-mac-osx.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/ssh-key-on-mac-osx.html</guid>
         
         
       </item>
@@ -2772,14 +2943,10 @@ Update Post soon. !&lt;/p&gt;
 &lt;p&gt;Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/1361&quot; target=&quot;_blank&quot;&gt; Github Issues 1361&lt;/a&gt; 
 Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; target=&quot;_blank&quot;&gt; Github Issues 3292&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-&quot;Port Running on Linux Ubuntu Servers&quot;
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Sun, 18 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/iptables-to-run-your-app-via-port-80-ubuntu.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/iptables-to-run-your-app-via-port-80-ubuntu.html</guid>
+        <link>http://localhost:8000/event/iptables-to-run-your-app-via-port-80-ubuntu.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/iptables-to-run-your-app-via-port-80-ubuntu.html</guid>
         
         
       </item>
@@ -2822,33 +2989,16 @@ Link: &lt;a href=&quot;https://github.com/balderdashy/sails/issues/3292&quot; ta
 &lt;p&gt;http://localhost:1337/&lt;/p&gt;
 
 &lt;p&gt;info: To see your app, visit http://localhost:1337
-info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p&gt;
+info: To shut down Sails, press &lt;CTRL&gt; + C at any time.&lt;/CTRL&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/Screenshot-2014-09-09-07.23.05.png&quot; alt=&quot;Lucas Gatsas&quot; style=&quot;width:100%&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/gitlist.io.png&quot; alt=&quot;Post Sample Image&quot;&gt;
-&lt;/a&gt; --&gt;
-
-&lt;!--
-&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/687474703a2f2f692e696d6775722e636f6d2f52497675392e706e67.png&quot; alt=&quot;Post Sample Image&quot; style=&quot;height: 500px;&quot;&gt; 
-&lt;/a&gt; 
---&gt;
-
-&lt;blockquote&gt;Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven&#39;t found it yet, keep looking. Don&#39;t settle. As with all matters of the heart, you&#39;ll know when you find it.
-
-- Steve Jobs
-
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Sun, 11 Jan 2015 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/setup-sailsjs.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/setup-sailsjs.html</guid>
+        <link>http://localhost:8000/event/setup-sailsjs.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/setup-sailsjs.html</guid>
         
         
       </item>
@@ -2861,7 +3011,7 @@ info: To shut down Sails, press &lt;ctrl&gt; + C at any time.&lt;/ctrl&gt;&lt;/p
 &lt;p&gt;Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. -&lt;/p&gt;
 
 &lt;h2 class=&quot;section-heading&quot;&gt;Sub Domains&lt;/h2&gt;
-&lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+&lt;p&gt;A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered).
 We strongly recommend that you use a custom subdomain for these reasons:&lt;/p&gt;
 
 &lt;p&gt;It gives your GitHub Pages site the benefit of our Content Delivery Network.&lt;a href=&quot;http://en.wikipedia.org/wiki/Content_delivery_network&quot;&gt;Content Delivery Network. -Wikipedia&lt;/a&gt;
@@ -2980,7 +3130,7 @@ Document Complete,
     &lt;img src=&quot;/img/offline_over_https Kopie.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
+&lt;p&gt;Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment.
 If you Stuck, contact they. Awesome Supporters Outhere!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;#&quot;&gt;
@@ -2999,7 +3149,7 @@ If you Stuck, contact they. Awesome Supporters Outhere!&lt;/p&gt;
     &lt;img src=&quot;/img/dig-lucas-gatsas.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Status: 
+&lt;p&gt;Status:
 &lt;a href=&quot;#&quot;&gt;
     &lt;img src=&quot;/img/ssl-cludflare-best.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
@@ -3025,23 +3175,17 @@ Entering &lt;code&gt; http://*lucasgatsas.ch/* &lt;/code&gt; as the URL pattern.
 
 --&gt;
 
-&lt;p&gt;Link: 
-&lt;a href=&quot;https://namecheap.com/&quot;&gt;namecheap.com&lt;/a&gt; 
-Link: 
-&lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt; 
-Link: 
+&lt;p&gt;Link:
+&lt;a href=&quot;https://namecheap.com/&quot;&gt;namecheap.com&lt;/a&gt;
+Link:
+&lt;a href=&quot;https://cloudflare.com&quot;&gt;cloudflare.com&lt;/a&gt;
+Link:
 &lt;a href=&quot;https://github.com&quot;&gt;github.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-This is a SwissWatch! :)
-
-	
-
-&lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/dns-github.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/dns-github.html</guid>
+        <link>http://localhost:8000/event/dns-github.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/dns-github.html</guid>
         
         
       </item>
@@ -3316,8 +3460,8 @@ ServerName spaceg.github.io
 
 </description>
         <pubDate>Tue, 02 Jul 2013 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/install-laravel-on-xampp-mamp.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/install-laravel-on-xampp-mamp.html</guid>
+        <link>http://localhost:8000/event/install-laravel-on-xampp-mamp.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/install-laravel-on-xampp-mamp.html</guid>
         
         
       </item>
@@ -3366,13 +3510,10 @@ youradminusername ALL=(ALL) ALL
 
 &lt;p&gt;(4.) After changes Save the File. Enter ! :)&lt;/p&gt;
 
-&lt;blockquote&gt;
-    &quot;Open Terminal and do crazy Things! :) &quot;
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 11 Jun 2013 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html</guid>
+        <link>http://localhost:8000/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/user-is-not-in-the-sudoers-file-this-incident-will-be-reported.html</guid>
         
         
       </item>
@@ -3428,7 +3569,7 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
             killAll SystemUIServer&lt;/code&gt;
            &lt;/td&gt;
             &lt;td id=&quot;fadeout-1&quot;&gt;Ändert den Speicherordner für Screenshots auf Euren Benutzerordner.&lt;/td&gt;
-          
+          &amp;lt;/tr&amp;gt;
            &lt;tr&gt;
             &lt;td&gt;&lt;code&gt;$ dscacheutil -flushcache&lt;/code&gt;&lt;/td&gt;
             &lt;td id=&quot;fadeout-1&quot;&gt;Startet Quick Look neu &amp;amp; läd ggf. neue Plugins.&lt;/td&gt;
@@ -3457,7 +3598,7 @@ um unter Mac OS Ping zu stoppen CTRL+C drücken&lt;/td&gt;
           &lt;/tr&gt;
               &lt;tr&gt;
             &lt;td&gt;&lt;code&gt;$  ps -ax&lt;/code&gt;&lt;/td&gt;
-            &lt;td id=&quot;fadeout-1&quot;&gt;Job control While Activity Monitor is useful, it&#39;s not quite as useful as working with the shell.
+            &lt;td id=&quot;fadeout-1&quot;&gt;Job control While Activity Monitor is useful, it's not quite as useful as working with the shell.
 To get a list of every running process on your computer, type this:&lt;/td&gt;
           &lt;/tr&gt;
               &lt;tr&gt;
@@ -3467,21 +3608,17 @@ To get a list of every running process on your computer, type this:&lt;/td&gt;
         &lt;/tbody&gt;
       &lt;/table&gt;
 
-&lt;blockquote&gt;
-    &quot;Learn &amp;amp; Understand how Machine Works!&quot;
-&lt;/blockquote&gt;
-
 </description>
         <pubDate>Thu, 13 Jan 2011 00:00:00 +0100</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/terminal-osx.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/terminal-osx.html</guid>
+        <link>http://localhost:8000/event/terminal-osx.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/terminal-osx.html</guid>
         
         
       </item>
     
       <item>
         <title>Power Commandlines Os X</title>
-        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Real Men Don&#39;t Use Menus. I Want To Know How To Use Power Commands.&lt;/strong&gt; &lt;/h2&gt;
+        <description>&lt;h2 class=&quot;section-heading&quot;&gt;&lt;strong&gt;Real Men Don't Use Menus. I Want To Know How To Use Power Commands.&lt;/strong&gt; &lt;/h2&gt;
 &lt;h2 class=&quot;section-heading&quot;&gt;OS X Thema: Terminal/UNIX&lt;/h2&gt;
 
 &lt;style&gt;
@@ -3742,13 +3879,10 @@ yacc&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;small&gt;Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo&lt;/small&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-	“sudo make me a sandwich :) ! ”
-&lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 14 Sep 2010 00:00:00 +0200</pubDate>
-        <link>http://blog.lucasgatsas.ch/event/want-to-know-power-commandsline.html</link>
-        <guid isPermaLink="true">http://blog.lucasgatsas.ch/event/want-to-know-power-commandsline.html</guid>
+        <link>http://localhost:8000/event/want-to-know-power-commandsline.html</link>
+        <guid isPermaLink="true">http://localhost:8000/event/want-to-know-power-commandsline.html</guid>
         
         
       </item>

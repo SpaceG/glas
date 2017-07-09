@@ -121,7 +121,4 @@ Scale up or scale out horizontally, from a single server to thousands of nodes. 
 MongoDB’s document data model makes it easy for you to store data of any structure and dynamically modify the schema.
 
 
- <strong>Fastest-Growing Community </strong>
-Join the world’s fastest-growing database community. MongoDB stands behind its software to ensure your success, providing software and services to make life easier.” 
-</blockquote>
 

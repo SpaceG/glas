@@ -800,7 +800,3 @@ Merge just <strong>one specific commit</strong> from another branch to your curr
 
 <small>Image : Building Of The Trojan Horse Giovanni Domenico Tiepolo</small>
 
-
-<blockquote>
-	"Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
-</blockquote>

@@ -18,10 +18,10 @@ organiser: "Lucas Gatsas"
 
 
 
-Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. - 
+Get Ready with Sub-domain and Apex Domain @  Github. I will get a new Blog Name in the next Days or Weeks. However, i think i will do that right now, when i have more Time to do it. I have always a very nice New name in Mind. I Think it will be .io Domian Name. Maybe i will use a custome Blog Name (Apex-Domian) or a (Sub-Domian). We will see it. -
 
 <h2 class="section-heading">Sub Domains</h2>
-A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered). 
+A subdomain is configured with a CNAME record through your DNS provider (There where your  domain is Registered).
 We strongly recommend that you use a custom subdomain for these reasons:
 
 
@@ -47,7 +47,7 @@ If you're using a [Custom Domain](https://help.github.com/articles/about-custom-
 
 
 
-ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn't use them for sensitive transactions, like sending passwords or credit card numbers. - 
+ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages are served over HTTP, not HTTPS. You shouldn't use them for sensitive transactions, like sending passwords or credit card numbers. -
 
 
 
@@ -58,7 +58,7 @@ ps: I give everysite a SSL Certificate to be mostly Safe - Both types of Pages a
 <h2 class="section-heading">Set Up the DNS </h2>
 
 
-Add New file save ass CNAME 
+Add New file save ass CNAME
 
 <code>yourdomain.com</code>
 
@@ -80,7 +80,7 @@ in the Sub-Domian Settings add an @ in the first - field. and add the IP Adress 
 </a>
 
 
-Save a ll your Settings ! 
+Save a ll your Settings !
 
 <!--
 <a href="#">
@@ -138,14 +138,14 @@ Document Complete,
 
 -->
 
-Do you can see the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a> 
+Do you can see the Web Page Test <a href="https://www.webpagetest.org/result/150430_1T_ER/">here</a>
 
 
 
-Update to the <a href="https://www.cloudflare.com">CloudFlare. </a> 
+Update to the <a href="https://www.cloudflare.com">CloudFlare. </a>
 
 
-First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record. 
+First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </code> Record.
 
 
 <a href="#">
@@ -155,7 +155,7 @@ First Sigin in your CLoudFlare Setting up the <code>CNAME</code> and <code> A </
 
 
 
-Add the Nameserver to your Domainpoint! 
+Add the Nameserver to your Domainpoint!
 
 
 <a href="#">
@@ -172,8 +172,8 @@ Set Up your <code> https:// </code>
 </a>
 
 
-Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment. 
-If you Stuck, contact they. Awesome Supporters Outhere! 
+Set your ssl to Flexible inside your Interface @ Cloudflare. Wait for a Moment.
+If you Stuck, contact they. Awesome Supporters Outhere!
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssl-cloudflare.png" style="width:100%" alt="Lucas Gatsas">
@@ -182,15 +182,15 @@ If you Stuck, contact they. Awesome Supporters Outhere!
 
 
 
-Open your Terminal : See your Changes : 
+Open your Terminal : See your Changes :
 
 
-Dig your domian : <code> $ dig yourdomian.com </code> 
+Dig your domian : <code> $ dig yourdomian.com </code>
 
-and <code> curl -I yourdomian.com </code> 
+and <code> curl -I yourdomian.com </code>
 
 
-After 24 Hours i checked out my Nameservers! Awesome to see the Changes! 
+After 24 Hours i checked out my Nameservers! Awesome to see the Changes!
 
 
 
@@ -201,7 +201,7 @@ After 24 Hours i checked out my Nameservers! Awesome to see the Changes!
 
 
 
-Status: 
+Status:
 <a href="#">
     <img src="{{ site.baseurl }}/img/ssl-cludflare-best.png" style="width:100%" alt="Lucas Gatsas">
 </a>
@@ -229,18 +229,11 @@ Click <code> "Add rule." </code>
 
 -->
 
-Link: 
-<a href="https://namecheap.com/">namecheap.com</a> 
-Link: 
-<a href="https://cloudflare.com">cloudflare.com</a> 
-Link: 
-<a href="https://github.com">github.com</a> 
+Link:
+<a href="https://namecheap.com/">namecheap.com</a>
+Link:
+<a href="https://cloudflare.com">cloudflare.com</a>
+Link:
+<a href="https://github.com">github.com</a>
 
 
-
-<blockquote>
-This is a SwissWatch! :)
-
-	
-
-</blockquote>

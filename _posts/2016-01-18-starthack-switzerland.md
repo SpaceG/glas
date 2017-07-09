@@ -29,7 +29,3 @@ Our Partners will provide a big number of sophisticated challenges, which the ha
 See the Issue Detail here on Github <a href="http://starthack.ch"> Starthack 2016</a> 
 Link: <a href="https://instagram.com/p/7KANPazgqD/?taken-by=lucasgatsas"> Instagram Vid</a> 
 
-<blockquote>
-"35 hours of coding
-START Hack is a 35-hour coding and prototyping marathon focused on FinTech, Internet of Things, and Mobility. "
-</blockquote>
