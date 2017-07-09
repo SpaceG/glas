@@ -2,17 +2,35 @@
 Glas - Rails on Ruby - Jekyll Theme 
 Preview: http://www.spaceg.github.io
 
+
+GLAS  - DOM Structure
 ### Structure ###
 <pre>
 .  
 |-- .gitignore  
 |-- README  
-|-- _config.yml  
+|-- _config.yml 
+|-- _includes 
+|   |-- footer.html  
+|   |-- head.html 
+|   `-- header.html   
 |-- _layouts  
-|   |-- layout.html  
+|   |-- about.html  
+|   |-- archive.html 
+|   |-- default.html 
+|   |-- page.html  
 |   `-- post.html  
 |-- _posts  
-|   `-- 1985-10-26-Test-Post.md  
+|   |-- 2016-01-18-gem-npm-ruby-gems-node.js.md 
+|   `-- 2016-01-18-create-commandlines-for-your-app.md
+|-- _sass
+|-- _assets  
+|   |-- css  
+|   |-- fonts
+|   |-- img
+|   |-- js 
+|   `-- post.html  
+|-- _feed.xml      
 `-- index.html  
 </pre>
 
