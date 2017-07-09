@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 12:22:45 +0200</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 12:22:45 +0200</lastBuildDate>
+    <pubDate>Sun, 09 Jul 2017 12:41:13 +0200</pubDate>
+    <lastBuildDate>Sun, 09 Jul 2017 12:41:13 +0200</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -197,46 +197,12 @@ sails.lift({log:{noShip: true}});
         <description>&lt;h2 class=&quot;section-heading&quot;&gt; Gitlist Nasa Collaboration&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/Cf2QfRbXIAEAic6.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
+    &lt;img src=&quot;/img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
 &lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;On 28. April 2016 i will have a meeting with jason from the Nasa. We talking about the OpenSource, Future and Details about the Gitlist App and OpenSource Project.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/gitlist-new.png&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;New List with Arrays. :) !&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3499.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Testing App.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3458.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Testing and preview of the New UI/UX and Gitlist OpenSource V.1.0.2&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3466.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;App  Count. Code of Lines  total :&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;files: 6243 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;blank:   142507 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;comment:      245423 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;code:    870786 &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;
-    &lt;img src=&quot;/img/IMG_3508.jpg&quot; style=&quot;width:100%&quot; alt=&quot;Lucas Gatsas&quot; /&gt;
-&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;New UI/UX Up. Time: 34 Hours Work on The New Version 1.0.2 - It’s faster, cleaner, more Userfriendly as the Old Version 1.0.1 . 
 More Features will next Step. We will write some Api. More to follow soon.&lt;/p&gt;
@@ -252,11 +218,6 @@ More Features will next Step. We will write some Api. More to follow soon.&lt;/p
 &lt;p&gt;&lt;code&gt; $ npm install &lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;first remove the &lt;code&gt; node_module &lt;/code&gt;  folder, then install npm packages &lt;code&gt; $npm install&lt;/code&gt;  then after, &lt;code&gt; $ sudo sails lift &lt;/code&gt; , do you will see, it give a error back, becuase do you haven’t install MongoDB packages.. install Mongo DB : via commandline in the same dictory which you launch the full app : run &lt;code&gt; npm install sails-mongo --save  &lt;/code&gt; then it will intsall all MongoDB Packages : then run again &lt;code&gt; $ sudo sails lift &lt;/code&gt;  .&lt;/p&gt;
-
-&lt;p&gt;See the Issue Detail and The Gitlist OpenSource Master Branch  &lt;a href=&quot;https://github.com/SpaceG/gitlist.io&quot;&gt; Master Branch - Gitlist OS v.1.0.2&lt;/a&gt; 
-Link: &lt;a href=&quot;http://www.gitlist.io&quot;&gt; Gitlist.io&lt;/a&gt;&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>

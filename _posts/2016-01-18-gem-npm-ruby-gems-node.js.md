@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Gem Npm Packages"
-cover: "img/1.jpg"
+cover: "img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg"
 date:   2015-10-18
 
 #event organiser details

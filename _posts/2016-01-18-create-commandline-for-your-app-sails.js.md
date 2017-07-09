@@ -3,7 +3,7 @@ layout: post
 
 #event information
 title:  "Create Commandline Node.js"
-cover: "img/gitlist-new.png"
+cover: "img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg"
 date:   2016-05-11
 
 #event organiser details

@@ -2499,3 +2499,11 @@ a#glas-logo-1 {
     font-weight:normal;
         text-transform: none;
 }
+a.button.light1 {
+    border-color: #000;
+    color: #000;
+}
+a.button.light1:hover {
+    border-color: #000;
+    color: #fff;
+}
