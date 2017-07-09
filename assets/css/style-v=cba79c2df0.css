@@ -1,4 +1,14 @@
 /**
+
+	<!-- 
+		Theme: Glas
+		Theme: by Lucas Gatsas
+		Web: spaceg.github.io
+		Fr. 26. Feb. 2016 06:15:13
+    Update 
+    So. 9.July . 2017 08:55:44
+
+	-->
  * Table of Contents
  * ----------------------------------------------------------------------------
  * 0. Icons
@@ -25,6 +35,9 @@
  * Font Awesome by Dave Gandy | http://fontawesome.io
  * ----------------------------------------------------------------------------
  */
+
+/* Google Font Open Sans | customize here : https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700,800; */ 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 
 @font-face {
 	font-family: 'fontawesome';
@@ -356,14 +369,14 @@ table {
  */
 
 html {
-	font-family: 'Droid Serif', serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 button,
 input,
 select,
 textarea {
-	font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -373,7 +386,7 @@ body {
 }
 
 a {
-	border-bottom: 1px solid #111;
+	border-bottom: 0px solid #111;
 	color: #111;
 	text-decoration: none;
 	-webkit-transition: all .3s;
@@ -392,7 +405,7 @@ h4,
 h5,
 h6 {
 	color: #ADADAD;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	line-height: 1.2;
 	margin: 0 0 30px;
@@ -775,10 +788,11 @@ pre .storage {
 	border: 2px solid #ccc;
 	color: #666;
 	display: inline-block;
-	font: bold 12px/1.5 'Montserrat', sans-serif;
+	font: bold 12px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	padding: 8px 15px;
 	text-transform: uppercase;
+	    border-radius: 90px;
 }
 
 .square {
@@ -979,7 +993,7 @@ pre .storage {
 }
 
 .site-navigation .menu-item {
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -998,7 +1012,7 @@ pre .storage {
 }
 
 .site-header .menu-item a:hover {
-	background-color: #ffea00;
+	background-color: #fff;
 }
 
 .sidebar .site-navigation .screen-reader-text {
@@ -1159,7 +1173,7 @@ pre .storage {
 }
 
 .tag-links {
-	font: bold 10px/1.5 'Montserrat', sans-serif;
+	font: bold 10px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	text-transform: uppercase;
@@ -1189,7 +1203,7 @@ pre .storage {
 
 .post-meta {
 	color: #ccc;
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
@@ -1228,7 +1242,7 @@ pre .storage {
 }
 
 .share-post {
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	color: #ccc;
 	letter-spacing: 1px;
 	margin-bottom: 60px;
@@ -1245,7 +1259,7 @@ pre .storage {
 }
 
 .author-box {
-	border: 3px solid #111;
+	border: 0px solid #111;
 	margin-bottom: 60px;
 	min-height: 85px;
 	padding: 30px;
@@ -1288,7 +1302,7 @@ pre .storage {
 
 .author-box .author-links {
 	color: #111;
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -1384,6 +1398,7 @@ pre .storage {
 .cover.hero {
 	height: 600px;
 	margin-bottom: 30px;
+	height: 200px;
 }
 
 .cover.page-header {
@@ -1483,7 +1498,7 @@ pre .storage {
 .post-count,
 .page-header .author-links {
 	color: #ccc;
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
 	text-transform: uppercase;
@@ -1550,7 +1565,7 @@ pre .storage {
 
 .pagination {
 	color: #111;
-	font: 12px/1.5 'Montserrat', sans-serif;
+	font: 12px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	margin-bottom: 90px;
 	margin-top: 30px;
@@ -1581,7 +1596,7 @@ pre .storage {
 
 .post-navigation {
 	background-color: #111;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	overflow: hidden;
 }
 
@@ -1715,7 +1730,7 @@ pre .storage {
 }
 
 .widget-recent-posts {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .widget-recent-posts .recent-item {
@@ -1810,11 +1825,11 @@ pre .storage {
  */
 
 .site-footer {
-	background-color: #000;
+	background-color: #fff;
 }
 
 .footer-top {
-	border-bottom: 1px solid #000;
+	border-bottom: 0px solid #000;
 	padding-bottom: 60px;
 	padding-top: 60px;
 }
@@ -1824,11 +1839,13 @@ pre .storage {
 }
 
 .offsite-links {
-	padding-right: 90px;
+	padding-right: 0px;
+	margin: 0 auto;
+    display: table;
 }
 
 .offsite-links a {
-	background-color: #060606;
+	background-color: #fff;
 	color: #ccc;
 	float: left;
 	font-size: 14px;
@@ -1840,7 +1857,7 @@ pre .storage {
 }
 
 .offsite-links a:hover {
-	background-color: #000;
+	background-color: #fff;
 	color: #111;
 }
 
@@ -1861,7 +1878,8 @@ pre .storage {
 
 .site-info {
 	color: #666;
-	font: 10px/1.5 'Montserrat', sans-serif;
+
+	font: 10px/1.5 'Open Sans', sans-serif;
 	letter-spacing: 1px;
 	padding-bottom: 30px;
 	padding-top: 40px;
@@ -1871,7 +1889,8 @@ pre .storage {
 
 .site-info a {
 	border-color: transparent;
-	color: #fff;
+	color: #000;
+	font-weight:800;
 }
 
 .site-info a:hover {
@@ -2467,10 +2486,16 @@ li.next {
 a.page-link {
     font-family: Helvetica;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
 }div#countbox1{
 
 	  font-family: Helvetica;
     text-transform: uppercase;
     font-size: 15px;
+}
+a#glas-logo-1 {
+    font-size: 35px;
+    font-family: Times;
+    font-weight:normal;
+        text-transform: none;
 }

@@ -8,8 +8,7 @@
 
 	$(document).ready(function(){
 
-		// Responsive video embeds
-		$('.post-content').fitVids();
+	
 
 		// Scroll to content
 		$('.cover .scroll-down').on('click', function(e) {
@@ -49,19 +48,8 @@
 				});
 				$(this).off('click').addClass('comments-loaded');
 			});
-		}		
-
-		// Display Instagram feed
-		if ( typeof instagram_username !== 'undefined' && typeof instagram_clientid !== 'undefined' ) {
-			if ( $('.instagram-feed').length ) {
-				$('.instagram-feed').instagramLite({
-					clientID: instagram_clientid,
-					username: instagram_username,
-					limit: 6,
-					urls: true
-				});
-			}
 		}
+
 
 		// Display recent posts and tagcloud
 		if ( $('.recent-posts').length || $('.tagcloud').length ) {
@@ -74,37 +62,10 @@
 		if ( $('.cover .scroll-down').is(':hidden') )
 			$('.post-header .cover-bg').css({ 'top' : 0 });
 		else
-			$('.post-header .cover-bg').css({ 'top' : $('.site-header').outerHeight() });		
+			$('.post-header .cover-bg').css({ 'top' : $('.site-header').outerHeight() });
 	}
 
-	/* Inspired by Ghost Related plugin (https://github.com/danecando/jquery.ghostrelated) */
-	function parseRss(pageNum, prevId, feeds) {
-		var page = pageNum || 1,
-			prevId = prevId || '',
-			feeds = feeds || [];
-		$.ajax({
-			url: '/rss/' + page + '/',
-			type: 'GET',
-			success: function(data){
-				var curId = $(data).find('item > guid').text();
-				if (curId != prevId) {
-					feeds.push(data);
-					parseRss(page+1, curId, feeds);
-				} else {
-					var posts = getPosts(feeds);
-					displayRecentPosts(posts);
-					displayTagCloud(posts);
-				}
-			},
-			complete: function(xhr) {
-				if (xhr.status == 404) {
-					var posts = getPosts(feeds);
-					displayRecentPosts(posts);
-					displayTagCloud(posts);
-				}
-			}
-		});
-	}
+
 
 	function getPosts(feeds) {
 		var posts = [],
@@ -126,16 +87,6 @@
 		return posts;
 	}
 
-	function displayRecentPosts(posts) {
-		var count = 0,
-			posts_count = typeof latest_posts_count !== 'undefined' ? latest_posts_count : 50;
-		posts.forEach(function(post) {
-			if ( count < posts_count ) {
-				$('.recent-posts').append($('<div class="recent-item"><a href="' + post.url + '">' + post.title + '</a><span>' + formatDate(post.date) + '</span></div>'));
-			}
-			count++;
-		});
-	}
 
 	function formatDate(postDate) {
 		var months = Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'),
