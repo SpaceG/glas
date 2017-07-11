@@ -7,9 +7,9 @@ GLAS  - DOM Structure
 ### Structure ###
 <pre>
 .  
-|-- .gitignore  
-|-- README  
-|-- _config.yml 
+|-- .sass-cache  
+|-- _data  
+|   |-- organisers.yml
 |-- _includes 
 |   |-- footer.html  
 |   |-- head.html 
@@ -30,7 +30,8 @@ GLAS  - DOM Structure
 |   |-- img
 |   |-- js 
 |   `-- post.html  
-|-- _feed.xml      
+|-- _config.yml 
+|-- _feed.yml       
 `-- index.html  
 </pre>
 
