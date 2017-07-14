@@ -35,6 +35,8 @@ GLAS  - DOM Structure
 `-- index.html  
 </pre>
 
+![Alt text](https://raw.githubusercontent.com/SpaceG/glas/master/img/glas_github.png "glas")
+
 
 Clone to Desktop
 <code>git clone https://github.com/SpaceG/glas.git  </code>
