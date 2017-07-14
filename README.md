@@ -2,6 +2,8 @@
 Glas - Rails on Ruby - Jekyll Theme 
 Preview: http://www.spaceg.github.io
 
+![Alt text](https://raw.githubusercontent.com/SpaceG/glas/master/img/glas_github.png "glas")
+
 
 GLAS  - DOM Structure
 ### Structure ###
@@ -35,7 +37,6 @@ GLAS  - DOM Structure
 `-- index.html  
 </pre>
 
-![Alt text](https://raw.githubusercontent.com/SpaceG/glas/master/img/glas_github.png "glas")
 
 
 Clone to Desktop
