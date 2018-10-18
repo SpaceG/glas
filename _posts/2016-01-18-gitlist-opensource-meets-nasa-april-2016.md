@@ -15,7 +15,7 @@ organiser: "Lucas Gatsas"
 <h2 class="section-heading"> Gitlist Nasa Collaboration</h2>
 
 <a href="">
-    <img src="{{ site.baseurl }}/img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg" style="width:100%" alt="Lucas Gatsas">
+    <img src="{{ site.baseurl }}/img/blur-background-1680x1050-spectrum-electromagnetic-4k-901-1.jpg" style="width:100%" alt="image">
 </a>
 
 

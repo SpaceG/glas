@@ -36,7 +36,7 @@ var sails = require('sails');
         console.log(clc.xterm(39).bgBlack.underline('http://127..0.0.1'));
         console.log("To Clone the Repository and Open Source:");
         console.log(clc.xterm(39).bgBlack.underline('see: http://www.github.com/spaceg/github.io'));
-        console.log("Bash The Universe by Lucas Gatsas.");
+        console.log("Bash The Universe by Hello World");
         console.log("©.2016 by Gitlist OS");
 
         console.log("press c to stop the app");
