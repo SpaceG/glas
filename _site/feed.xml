@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:8000/</link>
     <atom:link href="http://localhost:8000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jul 2017 21:03:14 +0200</pubDate>
-    <lastBuildDate>Sun, 09 Jul 2017 21:03:14 +0200</lastBuildDate>
-    <generator>Jekyll v3.4.0</generator>
+    <pubDate>Mon, 04 Dec 2017 01:49:07 -0300</pubDate>
+    <lastBuildDate>Mon, 04 Dec 2017 01:49:07 -0300</lastBuildDate>
+    <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>Create Commandline Node.js</title>
@@ -185,7 +185,7 @@ sails.lift({log:{noShip: true}});
 &lt;p&gt;Seconds: Clone Tilda : &lt;a href=&quot;https://www.npmjs.com/package/tilda&quot;&gt;Tilda&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 11 May 2016 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 11 May 2016 00:00:00 -0300</pubDate>
         <link>http://localhost:8000/event/create-commandline-for-your-app-sails.js.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/create-commandline-for-your-app-sails.js.html</guid>
         
@@ -220,7 +220,7 @@ More Features will next Step. We will write some Api. More to follow soon.&lt;/p
 &lt;p&gt;&lt;code&gt; $ npm install sails-mongo --save  &lt;/code&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Sun, 17 Apr 2016 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 17 Apr 2016 00:00:00 -0300</pubDate>
         <link>http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/gitlist-opensource-meets-nasa-april-2016.html</guid>
         
@@ -302,7 +302,7 @@ Link: &lt;a href=&quot;https://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;  Li
 
 &lt;/stromg&gt;
 </description>
-        <pubDate>Sun, 18 Oct 2015 00:00:00 +0200</pubDate>
+        <pubDate>Sun, 18 Oct 2015 00:00:00 -0300</pubDate>
         <link>http://localhost:8000/event/gem-npm-ruby-gems-node.js.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/gem-npm-ruby-gems-node.js.html</guid>
         
@@ -463,7 +463,7 @@ Link:
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Domain_Name_System&quot;&gt;Domian Name Systems&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 03 Mar 2015 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 03 Mar 2015 00:00:00 -0300</pubDate>
         <link>http://localhost:8000/event/dns-cname.html</link>
         <guid isPermaLink="true">http://localhost:8000/event/dns-cname.html</guid>
         

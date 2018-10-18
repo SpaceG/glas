@@ -2,6 +2,43 @@
 Glas - Rails on Ruby - Jekyll Theme 
 Preview: http://www.spaceg.github.io
 
+![Alt text](https://raw.githubusercontent.com/SpaceG/glas/master/img/glas_github.png "glas")
+
+
+GLAS  - DOM Structure
+### Structure ###
+<pre>
+.  
+|-- .sass-cache  
+|-- _data  
+|   |-- organisers.yml
+|-- _includes 
+|   |-- footer.html  
+|   |-- head.html 
+|   `-- header.html   
+|-- _layouts  
+|   |-- about.html  
+|   |-- archive.html 
+|   |-- default.html 
+|   |-- page.html  
+|   `-- post.html  
+|-- _posts  
+|   |-- 2016-01-18-gem-npm-ruby-gems-node.js.md 
+|   `-- 2016-01-18-create-commandlines-for-your-app.md
+|-- _sass
+|-- _assets  
+|   |-- css  
+|   |-- fonts
+|   |-- img
+|   |-- js 
+|   `-- post.html  
+|-- _config.yml 
+|-- _feed.yml       
+`-- index.html  
+</pre>
+
+
+
 Clone to Desktop
 <code>git clone https://github.com/SpaceG/glas.git  </code>
 Delete the cname file. 
@@ -14,7 +51,7 @@ if you have any question, take a issue.
 <code>cd glas </code><br>
 <code>$ jekyll serve </code>
 
-watch your localhost <code> 127.0.0.1:8000 </code> 
+watch your localhost <code><strong>127.0.0.1:8000 </strong> </code> 
 
 The MIT License (MIT)
 
