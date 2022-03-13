@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 #FOR MOE INFOS, CHECK OUT THE   - organisers.yml file 
 # Site settings
-title: Glas 
+title: Jnayun
 #What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
 event_label: Events
 
@@ -14,13 +14,13 @@ description: > # "
   your description.....
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://spaceg.github.io" # the base hostname & protocol for your site
+url: "http://Jnayun.github.io" # the base hostname & protocol for your site
 
 #These settings might be able to go?
 author: Lucas Gatsas @ spacedig.ch 
-twitter_username: yourtwitter
-github_username:  yourgithub
-company_name: yourname
+twitter_username: yet
+github_username:  nayun jung
+company_name: yet
 
 # Build settings
 markdown: kramdown
