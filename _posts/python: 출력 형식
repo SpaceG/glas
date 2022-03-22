@@ -1,0 +1,29 @@
+### **_python: 출력 형식_**
+
+1. 변수
+```
+a = 1
+b = 2.0
+print("%d", % a)
+print("%d, %.2f" %(a, b))
+```
+
+- 변수 종류
+정수 %d, 실수 %f, 문자 %c, 문자열 %s
+
+
+2. 문자열: f
+```
+a = 1
+b = 5
+print(f"{a}, {b}")
+print(f"{a:.4f}, {b}")
+```
+
+3. 함수: format
+```
+a = 1
+b = 5
+print("{a}".format(a))
+print("{0:.4f}, {1}".format(a, b))
+```
